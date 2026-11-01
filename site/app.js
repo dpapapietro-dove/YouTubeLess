@@ -15,10 +15,10 @@
   var player = null, apiReady = null, current = null;
   var facts = [];            // loaded from facts.json (built from facts.txt)
   var started = false;       // has the real video been started yet?
-  var adSeen = false;        // did an ad play (or did he tap Skip) before the video?
-  var loadStart = 0;         // when we asked YouTube for the video
-  var viewFact = '';         // the fact chosen for this view
-  var AD_GUESS_MS = 6000;    // ready later than this after loading means an ad played first
+  var viewFact = '';         // the fact chosen for this view (with its [answer|wrong|wrong] quiz)
+  var quizDone = false;      // has he answered this view's Fun Fact question?
+  var videoReady = false;    // YouTube is ready to play the real video (any ad is over)
+  var quizTimer = null;
   var fallbackTimer = null;
   var wantSound = true;      // the Sound button; ads are always silenced regardless
   var ticker = null, idleTimer = null, seeking = false;
@@ -281,13 +281,14 @@
     nowTitle.textContent = current.title;
     document.title = current.title;
     started = false;
-    adSeen = false;
-    loadStart = Date.now();
+    quizDone = false;
+    videoReady = false;
     viewFact = nextFact();
-    showWaiting(false);
+    clearTimeout(quizTimer);
+    quizRead(false);
     clearTimeout(fallbackTimer);
-    // If YouTube never reports the video as ready, offer the button anyway after a while
-    fallbackTimer = setTimeout(function () { if (!started) showWaiting(true); }, 45000);
+    // If YouTube never reports the video as ready, offer a button once the quiz is done
+    fallbackTimer = setInterval(function () { if (!started && quizDone) { clearInterval(fallbackTimer); showContinue(); } }, 45000);
     seek.value = 0;
     timeNow.textContent = '0:00';
     timeTotal.textContent = '0:00';
@@ -295,7 +296,6 @@
 
     loadApi().then(function () {
       if (!current || current.id !== id) return;
-      loadStart = Date.now();
       if (!player) player = makePlayer(id);
       else if (player.loadVideoById) { player.mute(); player.loadVideoById(id); }
     }).catch(function () {
@@ -343,23 +343,76 @@
   }
   function gcd(a, b) { while (b) { var t = a % b; a = b; b = t; } return a; }
 
-  // The fact screen shown while an ad plays. The button appears only once the video is ready.
-  // During an ad, open a see-through corner so he can tap YouTube's Skip button.
+  // ---------- Fun Fact quiz ----------
+  // While the video loads (and any ad plays, muted and covered) he reads a fact. Then one
+  // word disappears and he must tap the right one of three. Only then does the Skip corner
+  // open (during an ad) or the video start (no ad, or the ad already ended). A wrong answer
+  // shows the fact again. Facts mark the quiz word like [right|wrong|wrong].
+  var QUIZ_RE = /\[([^\]|]+)\|([^\]|]+)\|([^\]]+)\]/;
+  function plainFact(f) { return f.replace(QUIZ_RE, '$1'); }
   function setAdWindow(on) { stage.classList.toggle('ad-window', on); }
+  function readMs(f) { return Math.min(14000, Math.max(5000, plainFact(f).split(/\s+/).length * 450)); }
 
-  function showWaiting(ready) {
-    setAdWindow(!ready);
+  function showFactCover() {
     if (!viewFact) viewFact = nextFact();   // facts may have loaded after the video opened
-    var fact = viewFact;
-    $('fact-text').textContent = fact;
-    $('fact').hidden = !fact;
-    coverText.textContent = ready ? '' : 'Your video is coming up…';
-    coverText.className = 'small';
-    coverPlay.textContent = '▶ Continue to video';
-    coverPlay.hidden = !ready;
-    coverBack.hidden = false;
+    $('fact').hidden = !viewFact;
+    coverPlay.hidden = true;
+    coverBack.hidden = true;   // the Home button is in the top bar; keeps the Skip corner clear
     cover.hidden = false;
     stage.classList.remove('idle');
+  }
+
+  // Step 1: the whole fact, for long enough to read it.
+  function quizRead(again) {
+    clearTimeout(quizTimer);
+    setAdWindow(false);
+    showFactCover();
+    $('quiz-choices').hidden = true;
+    $('fact-text').textContent = plainFact(viewFact);
+    coverText.className = 'small';
+    if (!QUIZ_RE.test(viewFact)) { coverText.textContent = ''; quizRight(); return; }
+    coverText.textContent = again ? 'Not quite! Read it again…' : 'Read it! A question is coming…';
+    quizTimer = setTimeout(quizAsk, readMs(viewFact));
+  }
+
+  // Step 2: the fact with a blank, and three words to pick from.
+  function quizAsk() {
+    var m = QUIZ_RE.exec(viewFact);
+    var blank = viewFact.replace(QUIZ_RE, '_____');
+    $('fact-text').textContent = blank;
+    coverText.textContent = 'Which word goes in the blank?';
+    var box = $('quiz-choices');
+    box.innerHTML = '';
+    shuffle([m[1], m[2], m[3]]).forEach(function (word) {
+      var b = el('button', 'big-btn quiz-btn', word);
+      b.addEventListener('click', function () {
+        if (word === m[1]) quizRight();
+        else { b.classList.add('wrong'); box.style.pointerEvents = 'none';
+          setTimeout(function () { box.style.pointerEvents = ''; quizRead(true); }, 700); }
+      });
+      box.appendChild(b);
+    });
+    box.hidden = false;
+  }
+
+  function quizRight() {
+    clearTimeout(quizTimer);
+    quizDone = true;
+    $('quiz-choices').hidden = true;
+    $('fact-text').textContent = plainFact(viewFact);
+    if (videoReady) { continueToVideo(); return; }
+    // An ad is probably still playing: now he may tap YouTube's Skip.
+    coverText.textContent = QUIZ_RE.test(viewFact) ? '✓ Yes! Now tap Skip when it shows up.' : 'Your video is coming up…';
+    setAdWindow(true);
+  }
+
+  // Shown only if YouTube never says it's ready (45 s after the quiz is done).
+  function showContinue() {
+    setAdWindow(false);
+    showFactCover();
+    coverText.textContent = '';
+    coverPlay.textContent = '▶ Continue to video';
+    coverPlay.hidden = false;
   }
 
   function beginWatching() {
@@ -382,6 +435,7 @@
     coverText.className = '';
     coverText.textContent = text;
     coverPlay.hidden = !canPlay;
+    coverBack.hidden = false;
     cover.hidden = false;
     stage.classList.remove('idle');
   }
@@ -393,14 +447,12 @@
       // YouTube only reports PLAYING for the real video, never during an ad.
       // After an ad (skipped or finished) the video just starts: one tap is enough.
       // With no ad, hold it on the fact screen until he presses Continue.
-      if (!started && (adSeen || Date.now() - loadStart > AD_GUESS_MS)) {
-        beginWatching();
-        clearTimeout(fallbackTimer);
-      }
+      // An ad never reports PLAYING, so this is the real video. It waits for the quiz.
+      if (!started && quizDone) { beginWatching(); clearInterval(fallbackTimer); }
       if (!started) {
+        videoReady = true;
         player.pauseVideo();
         player.mute();
-        showWaiting(true);
         return;
       }
       if (wantSound) player.unMute();
@@ -421,10 +473,10 @@
     } else if (e.data === S.UNSTARTED) {
       // an ad (or the video loading): keep it silent and hidden
       player.mute();
-      if (!started) showWaiting(false);
+      if (!started) return;   // the quiz screen stays up
       else { showCover('Your video will be right back…', false); setAdWindow(true); }
     } else if (e.data === S.CUED) {
-      if (!started) showWaiting(true);
+      if (!started) { videoReady = true; if (quizDone) showContinue(); }
       else { coverPlay.textContent = '▶ Play'; showCover(current ? current.title : '', true); }
     }
   }
@@ -497,16 +549,6 @@
   });
   document.addEventListener('contextmenu', function (e) { e.preventDefault(); });
   document.addEventListener('dragstart', function (e) { e.preventDefault(); });
-
-  // A tap inside the Skip corner moves focus into YouTube's player, which blurs our page.
-  window.addEventListener('blur', function () {
-    setTimeout(function () {
-      if (stage.classList.contains('ad-window') && document.activeElement &&
-          document.activeElement.tagName === 'IFRAME') {
-        adSeen = true;
-      }
-    }, 0);
-  });
 
   window.addEventListener('popstate', function () {
     var m = /#v=([A-Za-z0-9_-]{11})/.exec(location.hash);

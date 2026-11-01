@@ -18,12 +18,15 @@ Dev never edits code; Claude makes every change. Dev may edit `videos.txt` on gi
 - A transparent `#shield` div covers the iframe so nothing inside YouTube's player is clickable.
 - Pause and end states show our own `#cover`, hiding YouTube's "more videos" and end screens.
 - Ads: YouTube never reports PLAYING during an ad, so the player starts muted behind a cover showing a
-  STEM fact (`facts.txt` -> `site/facts.json`; a NEW fact every view, via a localStorage counter stepping by a
-  prime coprime to the count). While waiting, `#stage.ad-window` clip-paths a hole in the bottom-right
-  30%x28% of #cover/#shield so he can tap YouTube's Skip. Dev's rule: Skip OR Continue, never both.
-  So on the first PLAYING: if an ad was seen (window blur into the iframe while the corner is open, or
-  ready more than AD_GUESS_MS=6s after load) the video starts by itself; otherwise it is paused and
-  "Continue to video" is shown. 45 s fallback shows the button anyway. Mid-roll ads are muted and covered.
+  "Fun Fact!" quiz (`facts.txt` -> `site/facts.json`; a NEW fact every view, via a localStorage counter stepping
+  by a prime coprime to the count). Each fact marks one word as `[right|wrong|wrong]`. He reads the whole fact
+  (5-14 s), then picks the blanked word from 3 buttons; wrong = read again. Dev's rule: Skip OR Continue, never
+  both, and he must answer to get past the cover. So: right answer + video already PLAYING (no ad, or ad ended)
+  = video starts; right answer during an ad = `#stage.ad-window` clip-paths a hole in the bottom-right 30%x28%
+  of #cover/#shield so he can tap YouTube's Skip, and the next PLAYING starts the video. PLAYING before the
+  answer is paused and waits. 45 s after a right answer with no PLAYING, a Continue button appears.
+  In ad-window the cover keeps clear of the bottom 28cqh (#stage is a size container) and hides "All videos",
+  so nothing overlaps the Skip hint. Mid-roll ads are muted and covered (no quiz).
 - Full screen is applied to our `#stage` (not the iframe) so the shield stays in place.
 - `openVideo` refuses any id not in the allowlist, including ids in the URL hash.
 - Chromebook: Family Link "approved sites only" with the Pages domain and youtube-nocookie.com.
