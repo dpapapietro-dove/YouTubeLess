@@ -13,7 +13,7 @@ If a link is wrong, or the video can't be played outside YouTube, it is left out
 the **Actions** tab: open the latest "Publish site" run and look under the summary.
 
 ## Daily facts
-While an ad plays, a "Did you know?" fact is shown (one per day). They live in [`facts.txt`](facts.txt),
+While an ad plays, a "Fun Fact!" is shown (a new one every video). They live in [`facts.txt`](facts.txt),
 one per line. Add or change them the same way as videos, or ask Claude for a fresh batch.
 
 ## On the Chromebook
