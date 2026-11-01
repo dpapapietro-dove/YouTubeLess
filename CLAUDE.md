@@ -29,7 +29,8 @@ Dev never edits code; Claude makes every change. Dev may edit `videos.txt` on gi
   so nothing overlaps the Skip hint. Mid-roll ads are muted and covered (no quiz).
 - Full screen is applied to our `#stage` (not the iframe) so the shield stays in place.
 - `openVideo` refuses any id not in the allowlist, including ids in the URL hash.
-- Chromebook: Family Link "approved sites only" with the Pages domain and youtube-nocookie.com.
+- Chromebook: Family Link "approved sites only" with the Pages domain, youtube-nocookie.com AND www.youtube-nocookie.com
+  (Family Link filters the player iframe too; missing www = white player). Never approve youtube.com.
 
 ## Home screen
 - No group tabs. Home shows 10 videos (SHOW_COUNT) from one queue mixed round-robin across groups

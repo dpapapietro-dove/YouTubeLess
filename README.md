@@ -19,4 +19,4 @@ one per line. Add or change them the same way as videos, or ask Claude for a fre
 ## On the Chromebook
 Use a Family Link supervised account and set Chrome to **Only allow approved sites**, then approve:
 - this site's address (`<your-github-name>.github.io`)
-- `youtube-nocookie.com` (the video player)
+- `youtube-nocookie.com` and `www.youtube-nocookie.com` (the video player; without the www one, videos show white and never start)
