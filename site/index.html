@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <title>My Videos</title>
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+  <!-- Picker: the grid of allowed videos -->
+  <main id="picker">
+    <header class="top">
+      <h1 id="site-name">My Videos</h1>
+      <nav id="tabs" aria-label="Video groups"></nav>
+    </header>
+    <section id="grid" aria-live="polite"></section>
+    <p id="empty" hidden>No videos yet. Ask a grown-up to add some!</p>
+  </main>
+
+  <!-- Player: a locked-down YouTube player -->
+  <section id="player-view" hidden>
+    <div id="stage">
+      <div id="yt-host"><div id="yt"></div></div>
+      <!-- Covers the YouTube player so nothing inside it can be clicked (no links out) -->
+      <div id="shield" aria-hidden="true"></div>
+      <div id="cover" class="cover" hidden>
+        <img id="cover-img" alt="">
+        <div class="cover-body">
+          <p id="cover-text"></p>
+          <div class="cover-buttons">
+            <button id="cover-play" class="big-btn">▶ Play</button>
+            <button id="cover-back" class="big-btn alt">🏠 All videos</button>
+          </div>
+        </div>
+      </div>
+      <div id="controls">
+        <button id="btn-back" class="ctl" title="All videos" aria-label="All videos">🏠</button>
+        <button id="btn-play" class="ctl" title="Play / pause" aria-label="Play or pause">⏸</button>
+        <span id="time-now" class="time">0:00</span>
+        <input id="seek" type="range" min="0" max="1000" value="0" aria-label="Video position">
+        <span id="time-total" class="time">0:00</span>
+        <button id="btn-mute" class="ctl" title="Sound on / off" aria-label="Sound on or off">🔊</button>
+        <button id="btn-full" class="ctl" title="Full screen" aria-label="Full screen">⛶</button>
+      </div>
+    </div>
+    <h2 id="now-title"></h2>
+  </section>
+
+  <script src="app.js"></script>
+</body>
+</html>

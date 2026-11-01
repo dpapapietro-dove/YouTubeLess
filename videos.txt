@@ -1,0 +1,36 @@
+# ============================================================
+#  YouTubeLess - the list of videos your child is allowed to watch
+#  (edit on github.com: open this file and click the pencil icon)
+# ============================================================
+#
+#  HOW TO ADD A VIDEO
+#    1. Find the video on YouTube and copy the link from the address bar
+#       (or from Share > Copy link).
+#    2. Paste it on its own line below, under any group heading.
+#    3. Click "Commit changes". About a minute later the site updates
+#       (refresh the page on the Chromebook to see it).
+#  Or just tell Claude which videos to add and it will do this for you.
+#
+#  The video's name is filled in automatically. To use your own name,
+#  put a | after the link and type the name:
+#    https://www.youtube.com/watch?v=XqZsoesa55w | Baby Shark
+#
+#  GROUPS: a line in [square brackets] starts a new group. Each group
+#  becomes a button at the top of the page. Make as many as you like.
+#
+#  TO REMOVE A VIDEO: delete its line, or put a # at the start of it.
+#
+#  Lines starting with # (like these) are notes and are ignored.
+# ============================================================
+
+Site name: My Videos
+
+[Songs]
+https://www.youtube.com/watch?v=XqZsoesa55w | Baby Shark Dance
+https://www.youtube.com/watch?v=e_04ZrNroTo | Wheels on the Bus
+
+[Science]
+# Paste science videos here
+
+[Stories]
+# Paste story videos here
