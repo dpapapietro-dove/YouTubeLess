@@ -84,6 +84,15 @@ for (const raw of readFileSync(new URL('facts.txt', root), 'utf8').split(/\r?\n/
 writeFileSync(new URL('site/facts.json', root), JSON.stringify(facts));
 console.log(`Published ${facts.length} facts.`);
 
+// Stamp app.js/app.css links with this build's version, so a browser never mixes
+// a cached old app.js with a new index.html (that showed "Could not load the video list").
+if (process.env.GITHUB_SHA) {
+  const ver = process.env.GITHUB_SHA.slice(0, 12);
+  const indexUrl = new URL('site/index.html', root);
+  writeFileSync(indexUrl, readFileSync(indexUrl, 'utf8')
+    .replace(/(href|src)="(app\.(?:css|js))(\?v=[^"]*)?"/g, `$1="$2?v=${ver}"`));
+}
+
 const count = out.categories.reduce((a, g) => a + g.videos.length, 0);
 console.log(`Published ${count} videos in ${out.categories.length} groups.`);
 for (const w of warnings) console.log(`::warning title=videos.txt::${w}`);

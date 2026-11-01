@@ -198,10 +198,10 @@
 
   function renderGrid() {
     grid.innerHTML = '';
-    var must = lineup.must;
-    $('must-note').hidden = !must;
+    var must = lineup.must, note = $('must-note');
     grid.classList.toggle('single', !!must);
-    if (must) $('must-note').textContent = 'Time for some ' + must.group + '! Watch this whole video, then you can pick from everything again.';
+    if (note) note.hidden = !must;
+    if (note && must) note.textContent = 'Time for some ' + must.group + '! Watch this whole video, then you can pick from everything again.';
     var list = (must ? [must.id] : lineup.shown).map(function (id) { return allowed[id]; });
     empty.hidden = list.length > 0;
     if (!list.length) empty.textContent = 'No videos yet. Ask a grown-up to add some!';
