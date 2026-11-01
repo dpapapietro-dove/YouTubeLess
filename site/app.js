@@ -5,7 +5,7 @@
   var $ = function (id) { return document.getElementById(id); };
   var picker = $('picker'), grid = $('grid'), tabs = $('tabs'), empty = $('empty');
   var playerView = $('player-view'), stage = $('stage'), shield = $('shield');
-  var cover = $('cover'), coverImg = $('cover-img'), coverText = $('cover-text');
+  var cover = $('cover'), coverText = $('cover-text');
   var coverPlay = $('cover-play'), coverBack = $('cover-back');
   var btnBack = $('btn-back'), btnPlay = $('btn-play'), btnMute = $('btn-mute'), btnFull = $('btn-full');
   var seek = $('seek'), timeNow = $('time-now'), timeTotal = $('time-total'), nowTitle = $('now-title');
@@ -14,6 +14,7 @@
   var allowed = {};          // id -> video, the only ids we will ever play
   var activeTab = 0;         // 0 = All
   var player = null, apiReady = null, current = null;
+  var facts = [];            // loaded from facts.json (built from facts.txt)
   var started = false;       // has he pressed "Continue to video" for this video yet?
   var fallbackTimer = null;
   var wantSound = true;      // the Sound button; ads are always silenced regardless
@@ -143,9 +144,6 @@
     playerView.hidden = false;
     nowTitle.textContent = current.title;
     document.title = current.title;
-    coverImg.style.visibility = '';
-    coverImg.onerror = function () { coverImg.style.visibility = 'hidden'; };
-    coverImg.src = thumb(id);
     started = false;
     showWaiting(false);
     clearTimeout(fallbackTimer);
@@ -181,13 +179,25 @@
   }
 
   // ---------- daily fact ----------
+  function loadFacts() {
+    return fetch('facts.json', { cache: 'no-store' })
+      .then(function (r) { return r.json(); })
+      .then(function (f) { if (Array.isArray(f)) facts = f; })
+      .catch(function () {});
+  }
+
+  // One fact per day. Stepping by a large prime mixes the topics while still
+  // visiting every fact once before any repeats.
   function todaysFact() {
-    var facts = window.STEM_FACTS || [];
-    if (!facts.length) return '';
+    var n = facts.length;
+    if (!n) return '';
     var d = new Date();
     var day = Math.floor((d.getTime() - d.getTimezoneOffset() * 60000) / 86400000);
-    return facts[day % facts.length];
+    var step = 7919;
+    while (gcd(step, n) !== 1) step++;
+    return facts[(day * step) % n];
   }
+  function gcd(a, b) { while (b) { var t = a % b; a = b; b = t; } return a; }
 
   // The fact screen shown while an ad plays. The button appears only once the video is ready.
   function showWaiting(ready) {
@@ -301,6 +311,7 @@
   btnPlay.addEventListener('click', togglePlay);
   coverPlay.addEventListener('click', togglePlay);
   btnBack.addEventListener('click', function () { closeVideo(false); });
+  $('home-btn').addEventListener('click', function () { closeVideo(false); });
   coverBack.addEventListener('click', function () { closeVideo(false); });
   btnFull.addEventListener('click', toggleFull);
   btnMute.addEventListener('click', function () {
@@ -329,6 +340,7 @@
     else if (!playerView.hidden) closeVideo(true);
   });
 
+  loadFacts();
   load().then(function () {
     var m = /#v=([A-Za-z0-9_-]{11})/.exec(location.hash);
     if (m && allowed[m[1]]) openVideo(m[1], false);

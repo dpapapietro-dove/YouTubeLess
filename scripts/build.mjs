@@ -61,6 +61,20 @@ for (let i = 0; i < lines.length; i++) {
 const out = { siteName, categories: groups.filter(g => g.videos.length) };
 writeFileSync(new URL('site/videos.json', root), JSON.stringify(out, null, 2));
 
+// facts.txt -> site/facts.json (one fact per line; # lines and blank lines are skipped)
+const factSeen = new Set();
+const facts = [];
+for (const raw of readFileSync(new URL('facts.txt', root), 'utf8').split(/\r?\n/)) {
+  const f = raw.trim();
+  if (!f || f.startsWith('#')) continue;
+  const key = f.toLowerCase();
+  if (factSeen.has(key)) continue;
+  factSeen.add(key);
+  facts.push(f);
+}
+writeFileSync(new URL('site/facts.json', root), JSON.stringify(facts));
+console.log(`Published ${facts.length} facts.`);
+
 const count = out.categories.reduce((a, g) => a + g.videos.length, 0);
 console.log(`Published ${count} videos in ${out.categories.length} groups.`);
 for (const w of warnings) console.log(`::warning title=videos.txt::${w}`);

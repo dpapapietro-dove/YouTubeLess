@@ -1,0 +1,2044 @@
+# ============================================================
+#  Daily "Did you know?" facts, shown while ads play.
+#  One fact per line. Lines starting with # are ignored.
+#  Add, change, or delete lines freely; the site updates on the next publish.
+#  Keep each fact short enough to read in about 10 seconds.
+# ============================================================
+
+# ---------- Space ----------
+Light from the Sun takes about 8 minutes to reach Earth.
+A day on Venus is longer than a year on Venus.
+Jupiter is so big that all the other planets could fit inside it.
+Saturn is less dense than water. In a giant bathtub, it would float!
+The Moon moves about 4 centimeters farther from Earth every year.
+Mars looks red because its dirt is full of rust (iron oxide).
+Neptune's winds are the fastest in the solar system.
+A teaspoon of a neutron star would weigh about as much as a mountain.
+Footprints on the Moon can last millions of years because there's no wind.
+Venus is the hottest planet, even though Mercury is closer to the Sun.
+One day on Mars is just 37 minutes longer than a day on Earth.
+The Sun is a star, and it's made mostly of hydrogen.
+A year on Mercury is only 88 Earth days long.
+The tallest volcano in the solar system, Olympus Mons, is on Mars.
+The Sun is so big that about 1.3 million Earths could fit inside it.
+Uranus spins on its side, like a rolling ball.
+Venus spins backwards compared to most other planets.
+The Moon has no air, so there is no sound there.
+Astronauts grow a little taller in space because their spines stretch out.
+The International Space Station circles Earth about 16 times every day.
+Jupiter's Great Red Spot is a storm bigger than Earth.
+The Great Red Spot storm has been raging for over 150 years.
+Saturn's rings are made of chunks of ice and rock.
+Some pieces of Saturn's rings are as small as dust; some are as big as houses.
+Jupiter has the shortest day of any planet: about 10 hours.
+Neptune takes about 165 Earth years to go around the Sun once.
+Pluto is smaller than Earth's Moon.
+Pluto was called a planet until 2006. Now it's called a dwarf planet.
+A comet's tail always points away from the Sun.
+Comets are like dirty snowballs made of ice, dust, and rock.
+Shooting stars aren't stars. They're tiny space rocks burning up in our air.
+Most shooting stars are no bigger than a grain of sand.
+The Milky Way is the name of our galaxy.
+Our galaxy has more than 100 billion stars.
+The nearest star to us, after the Sun, is Proxima Centauri.
+Light from Proxima Centauri takes over 4 years to reach us.
+When you look at stars, you are seeing light that left them long ago.
+A light-year is how far light travels in one year: almost 10 trillion kilometers.
+The Sun is about halfway through its life.
+Red stars are cooler than blue stars.
+The Sun's surface is about 5,500 degrees Celsius.
+The Moon is about 384,000 kilometers away from Earth.
+Twelve people have walked on the Moon.
+Neil Armstrong was the first person to walk on the Moon, in 1969.
+Yuri Gagarin was the first person to travel into space, in 1961.
+The first animal to orbit Earth was a dog named Laika.
+The Moon always shows the same face to Earth.
+The Moon has no light of its own. It reflects sunlight.
+A solar eclipse happens when the Moon blocks the Sun.
+A lunar eclipse happens when Earth's shadow falls on the Moon.
+During a lunar eclipse, the Moon can turn reddish.
+Mars has two small moons named Phobos and Deimos.
+Jupiter has more than 90 known moons.
+Saturn has over 140 known moons.
+Saturn's moon Titan has lakes made of liquid methane.
+Jupiter's moon Europa may have a giant ocean under its icy surface.
+Jupiter's moon Io has hundreds of active volcanoes.
+Ganymede, a moon of Jupiter, is bigger than the planet Mercury.
+Mercury has almost no air, so its nights get very cold.
+There are mountains of ice on Pluto.
+Pluto has a heart-shaped plain of ice.
+The asteroid belt sits between Mars and Jupiter.
+Ceres is the biggest object in the asteroid belt.
+Earth is the only planet not named after a god.
+Earth travels around the Sun at about 30 kilometers every second.
+It takes Earth about 365 and a quarter days to go around the Sun.
+That extra quarter day is why we have leap years.
+Earth is tilted, and that tilt gives us seasons.
+In space, a candle flame is round instead of pointy.
+Astronauts on the space station see about 16 sunrises every day.
+Astronauts exercise about 2 hours a day to keep their muscles strong.
+Space suits have their own air supply and cooling system.
+On the Moon, you would weigh about one-sixth of what you weigh on Earth.
+On Jupiter, you would weigh more than twice as much as on Earth.
+The Hubble Space Telescope has been taking pictures since 1990.
+The James Webb Space Telescope sees in infrared light, a kind of light our eyes can't see.
+Voyager 1 is the farthest spacecraft from Earth.
+Voyager 1 was launched in 1977 and is still sending messages.
+Rovers on Mars are robots that drive around and study rocks.
+NASA's Perseverance rover carried a small helicopter to Mars, named Ingenuity.
+Ingenuity was the first aircraft to fly on another planet.
+Black holes pull so hard that not even light can escape.
+There is a giant black hole at the center of our galaxy.
+Stars are born in huge clouds of gas and dust called nebulae.
+The Sun turns hydrogen into helium, and that makes light and heat.
+Sunspots are cooler, darker patches on the Sun.
+Auroras happen when particles from the Sun hit our air near the poles.
+The northern lights are also called the aurora borealis.
+Space is very quiet because there's no air to carry sound.
+The Sun makes up almost all of the mass in our solar system.
+A galaxy is a huge group of stars, gas, and dust held together by gravity.
+The Andromeda galaxy is the closest big galaxy to ours.
+The Andromeda galaxy can be seen without a telescope on a dark night.
+There may be more stars in the universe than grains of sand on all of Earth's beaches.
+The Big Dipper is part of a star pattern called Ursa Major, the Great Bear.
+The North Star is called Polaris.
+Polaris stays almost still in the sky while other stars seem to circle it.
+Mars has the biggest canyon in the solar system, called Valles Marineris.
+Valles Marineris would stretch across the whole United States.
+Mars has dust storms that can cover the whole planet.
+Mars has ice caps at its north and south poles.
+Venus has clouds made of sulfuric acid.
+Venus is the brightest planet in our night sky.
+Venus is sometimes called the Morning Star or Evening Star.
+Mercury is the smallest planet in our solar system.
+Uranus and Neptune are called ice giants.
+Jupiter and Saturn are called gas giants.
+Neptune was found using math before anyone saw it in a telescope.
+Uranus was the first planet discovered with a telescope.
+Earth's atmosphere protects us from most space rocks.
+Meteorites are space rocks that land on Earth.
+Some meteorites come from Mars or the Moon.
+A day on Earth was once only about 22 hours long, hundreds of millions of years ago.
+Earth's day is slowly getting longer because the Moon's pull slows our spin.
+The Moon causes most of the ocean's tides.
+The Sun also pulls on the oceans and helps make tides.
+Gravity is the force that keeps the planets going around the Sun.
+Without gravity, the Moon would fly off into space.
+Rockets work by pushing gas out the back, which pushes the rocket forward.
+Rockets need to reach about 28,000 kilometers per hour to stay in orbit.
+Satellites help us with weather forecasts, maps, and phone calls.
+GPS works by listening to signals from satellites in space.
+There are thousands of working satellites circling Earth.
+Space junk is old rockets and broken satellites circling Earth.
+The first satellite was Sputnik, launched in 1957.
+The Moon was probably made when a planet-sized object crashed into the young Earth.
+The Moon's dark patches are old lava flows called maria, which means seas.
+The Moon has moonquakes.
+There is frozen water in dark craters at the Moon's poles.
+Saturn's moon Enceladus shoots jets of water into space.
+Triton, Neptune's biggest moon, orbits backwards.
+Some planets outside our solar system orbit two suns.
+Planets around other stars are called exoplanets.
+Scientists have found more than 5,000 exoplanets.
+Some stars are hundreds of times bigger than the Sun.
+Our Sun is a medium-sized yellow star.
+When the Sun gets old, it will swell up into a red giant.
+A white dwarf is the hot, glowing leftover core of a star like our Sun.
+A supernova is the giant explosion of a big star.
+Many elements in your body were made inside stars.
+The gold on Earth was made in huge explosions in space.
+The universe is about 13.8 billion years old.
+Earth is about 4.5 billion years old.
+The Sun is about 150 million kilometers from Earth.
+A spacecraft going to Mars takes about 7 months to get there.
+Mars has seasons, like Earth, because it is tilted too.
+The sky on Mars looks butterscotch during the day.
+Sunsets on Mars look blue.
+Jupiter has faint rings, but they are hard to see.
+All four giant planets have rings.
+Earth's shadow is cone shaped.
+An astronaut's footprints, flags, and rovers are still on the Moon.
+Astronauts left mirrors on the Moon so scientists can bounce lasers off them.
+Scientists measure the Moon's distance by timing a laser bounce.
+The Sun's light can make solar panels create electricity.
+The space station is about as big as a football field.
+Water floats in blobs inside the space station.
+Astronauts sleep in sleeping bags tied to the wall.
+Astronauts drink water that was recycled from their sweat and breath.
+Astronauts see Earth's thin blue layer of air from space.
+Earth's air gets thinner the higher you go.
+The boundary of space is often said to be 100 kilometers up.
+Mars has the solar system's tallest mountain and deepest canyon.
+Halley's Comet comes back about every 76 years.
+Halley's Comet will next be seen in 2061.
+The Sun spins too: its middle spins faster than its poles.
+The solar system formed from a spinning cloud of gas and dust.
+Planets move in paths called orbits.
+Orbits are shaped like stretched circles called ellipses.
+Earth is a little closer to the Sun in January than in July.
+Seasons are caused by Earth's tilt, not by its distance from the Sun.
+Mercury has huge cliffs, because the planet shrank as it cooled.
+Jupiter gives off more heat than it gets from the Sun.
+Jupiter's strong gravity pulls in many comets and asteroids.
+Jupiter has lightning storms bigger than any on Earth.
+The planets all orbit the Sun in the same direction.
+Earth's magnetic field shields us from harmful particles from the Sun.
+Galaxies come in shapes: spirals, ovals, and odd shapes.
+The Milky Way is a spiral galaxy.
+Our solar system takes about 230 million years to go around the galaxy once.
+Stars twinkle because their light gets bent by moving air.
+Planets usually don't twinkle as much as stars.
+Some stars are actually pairs of stars circling each other.
+The Sun is about 109 times wider than Earth.
+A trip around Earth on the space station takes about 90 minutes.
+In space, astronauts' hearts get a little rounder.
+Telescopes collect light so we can see faint, faraway things.
+Galileo was one of the first people to look at the sky with a telescope.
+Galileo discovered Jupiter's four biggest moons in 1610.
+The word planet comes from a Greek word meaning wanderer.
+Constellations are star patterns people imagined in the sky.
+There are 88 official constellations.
+Orion the Hunter is one of the easiest constellations to find.
+Betelgeuse, the red star in Orion, is a giant star near the end of its life.
+Sirius is the brightest star in the night sky.
+A black hole's edge is called the event horizon.
+The first picture of a black hole was shown in 2019.
+Earth's atmosphere makes the sky look blue.
+The sky looks blue because air scatters blue sunlight more than red.
+Sunsets look red and orange because sunlight travels through more air.
+
+# ---------- Animals ----------
+Octopuses have three hearts and blue blood.
+Sharks were around before trees existed.
+Butterflies taste with their feet.
+A blue whale's heart is about as big as a small car.
+Hummingbirds are the only birds that can fly backwards.
+When it's too dry, some snails seal up their shells and rest for months.
+A dog's nose is thousands of times better at smelling than yours.
+Owls can't move their eyes, so they turn their whole head instead.
+Cows have one stomach with four parts.
+Starfish can grow back a lost arm.
+Bees do a little dance to tell other bees where flowers are.
+Penguins live in the south. Polar bears live in the north. They never meet in the wild.
+Ants can carry many times their own body weight.
+Frogs drink water through their skin.
+A group of owls is called a parliament.
+Some turtles can breathe through their bottoms!
+Koalas sleep up to 20 hours a day.
+The blue whale is the biggest animal that has ever lived.
+A blue whale can be as long as three school buses.
+Cheetahs are the fastest land animals.
+A cheetah can go from 0 to 100 kilometers per hour in about 3 seconds.
+The peregrine falcon is the fastest animal: it can dive at over 300 kilometers per hour.
+Giraffes have the same number of neck bones as you: seven.
+A giraffe's tongue can be about 50 centimeters long.
+Giraffes only need a few hours of sleep a day.
+Elephants can't jump.
+An elephant's trunk has tens of thousands of muscles.
+Elephants use their trunks to smell, drink, grab, and say hello.
+Elephants can hear sounds through their feet.
+A baby elephant is called a calf.
+Elephants are pregnant for almost two years.
+Kangaroos can't walk backwards easily.
+A baby kangaroo, called a joey, is about the size of a jellybean when born.
+Platypuses are mammals that lay eggs.
+Male platypuses have venom in spurs on their back legs.
+Echidnas are the only other mammals that lay eggs.
+Bats are the only mammals that can truly fly.
+Bats find food in the dark by listening to echoes. That's called echolocation.
+Dolphins also use echolocation to find fish.
+Dolphins sleep with one half of their brain at a time.
+Dolphins call each other with special whistles, like names.
+Whales are mammals, so they breathe air.
+Humpback whales sing long, complex songs.
+A whale's blowhole is its nose.
+Sea otters hold hands while they sleep so they don't drift apart.
+Sea otters have the thickest fur of any animal.
+Sea otters use rocks as tools to crack open shells.
+Octopuses can change color in less than a second.
+Octopuses can squeeze through any hole bigger than their beak.
+An octopus has eight arms covered in suckers that can taste.
+Squid and octopuses squirt ink to escape.
+The giant squid has eyes as big as dinner plates.
+Jellyfish have no brain, heart, or bones.
+Some jellyfish glow in the dark.
+Starfish don't have blood. They pump seawater through their bodies.
+A starfish can push its stomach out of its mouth to eat.
+Seahorse dads carry the babies.
+Seahorses swim upright.
+Clownfish live safely among stinging sea anemones.
+Pufferfish puff up with water to scare off predators.
+Sharks have no bones. Their skeletons are made of cartilage.
+Sharks can grow thousands of teeth in a lifetime.
+Some sharks must keep swimming to breathe.
+The whale shark is the biggest fish in the world.
+Whale sharks eat tiny plankton, not big animals.
+Some fish can climb rocks, like the mudskipper.
+Flying fish can glide above the water for long distances.
+Electric eels can make electricity to stun their prey.
+Electric eels are not really eels. They're a kind of knifefish.
+Salmon swim back to the stream where they were born to lay eggs.
+Goldfish can learn tricks and remember things for months.
+Fish breathe by pulling oxygen out of water with their gills.
+Crabs walk sideways.
+Lobsters have blue blood.
+Hermit crabs move into bigger shells as they grow.
+Shrimp hearts are in their heads.
+Mantis shrimp can punch so fast the water around their claw boils for an instant.
+Coral reefs are built by tiny animals called coral polyps.
+The Great Barrier Reef is so big you can see it from space.
+Sponges are animals, even though they don't move.
+Sea cucumbers are animals related to starfish.
+Snails have thousands of tiny teeth.
+Slugs are snails without shells.
+Earthworms breathe through their skin.
+Earthworms have no eyes, but they can sense light.
+Earthworms help make soil healthy.
+Spiders are not insects. They're arachnids, with eight legs.
+Insects have six legs and three body parts.
+Spider silk is stronger than steel of the same thickness.
+Not all spiders spin webs. Some hunt or jump.
+Jumping spiders have eight eyes.
+Scorpions glow under ultraviolet light.
+Ladybugs eat aphids, which helps protect plants.
+Fireflies make light with a chemical reaction in their bodies.
+Honeybees make honey from flower nectar.
+A honeybee colony can have tens of thousands of bees.
+Only female bees can sting.
+A queen bee can lay over 1,000 eggs in a day.
+Bees can see ultraviolet light, which we can't.
+Ants talk to each other with smells called pheromones.
+Some ants farm fungus for food.
+Termites build mounds that can be taller than a person.
+Dragonflies can fly forwards, backwards, and hover.
+Dragonflies have been around for over 300 million years.
+Butterflies start life as caterpillars.
+A caterpillar turns into a butterfly inside a chrysalis.
+Monarch butterflies fly thousands of kilometers to Mexico for the winter.
+Moths are attracted to light at night.
+Crickets hear with ears on their front legs.
+Grasshoppers can jump about 20 times their body length.
+Fleas can jump over 100 times their own height.
+Cockroaches can live for a week without their heads.
+Mosquitoes find you by sensing the carbon dioxide you breathe out.
+Only female mosquitoes bite.
+Flies taste with their feet.
+A housefly beats its wings about 200 times a second.
+Snakes smell with their tongues.
+Snakes don't have eyelids.
+Snakes shed their skin as they grow.
+Some snakes can go months without eating.
+Pythons can swallow animals bigger than their heads.
+Rattlesnakes rattle their tails to warn you away.
+Chameleons can move each eye in a different direction.
+Chameleons catch insects with a super-fast tongue.
+Some lizards can drop their tails to escape, then grow new ones.
+Geckos can walk on ceilings thanks to tiny hairs on their feet.
+Komodo dragons are the biggest lizards in the world.
+Crocodiles have been around since the time of the dinosaurs.
+Crocodiles can't stick out their tongues.
+Alligators and crocodiles are different: crocodiles have pointier snouts.
+Turtles have shells made of bone.
+A turtle's shell is part of its skeleton. It can't crawl out of it.
+Sea turtles return to the beach where they hatched to lay eggs.
+Tortoises can live for more than 150 years.
+Frogs start life as tadpoles that live in water.
+Some frogs can freeze solid in winter and thaw out in spring.
+Poison dart frogs are brightly colored to warn predators.
+Frogs use their eyes to help push food down when they swallow.
+Axolotls can regrow legs, and even parts of their hearts.
+Salamanders are amphibians, like frogs.
+Birds are the only animals with feathers.
+Birds are living dinosaurs.
+Ostriches are the biggest birds, and they can't fly.
+An ostrich egg weighs about as much as 24 chicken eggs.
+Ostriches can run about 70 kilometers per hour.
+Penguins can't fly, but they're amazing swimmers.
+Emperor penguin dads keep eggs warm on their feet.
+Owls fly almost silently thanks to soft, fringed feathers.
+Parrots can learn to copy human words.
+Crows can use tools and solve puzzles.
+Crows can remember human faces.
+Woodpeckers have spongy skulls that protect their brains.
+Hummingbirds' hearts can beat over 1,000 times a minute.
+Hummingbirds are the smallest birds.
+The Arctic tern flies from the Arctic to Antarctica and back every year.
+Flamingos are pink because of the food they eat.
+Flamingos often stand on one leg.
+Pelicans scoop fish with a stretchy pouch.
+Eagles can see a rabbit from over a kilometer away.
+Chickens are related to the T. rex.
+A chicken can lay about 300 eggs a year.
+Ducks have waterproof feathers.
+Swans can live for over 20 years.
+Bird bones are hollow, which makes them light for flying.
+Some birds use Earth's magnetism to find their way.
+Lions live in groups called prides.
+Lions sleep up to 20 hours a day.
+A lion's roar can be heard 8 kilometers away.
+Tigers have striped skin, not just striped fur.
+No two tigers have the same stripes.
+Tigers like to swim.
+Snow leopards use their long tails like scarves.
+House cats spend about two-thirds of their lives asleep.
+Cats have whiskers that help them sense if they fit through a gap.
+A cat's purr may help heal its bones.
+Dogs sweat through their paws.
+A dog's nose print is unique, like a fingerprint.
+Dogs can hear sounds too high for people to hear.
+Wolves howl to talk to their pack.
+Foxes may use Earth's magnetic field to aim their pounces.
+Bears can smell food from kilometers away.
+Polar bears have black skin under their fur.
+Polar bear fur isn't white. Each hair is clear and hollow.
+Grizzly bears can run as fast as a horse for a short distance.
+Giant pandas eat bamboo for about 12 hours a day.
+Red pandas are not closely related to giant pandas.
+Gorillas are the biggest apes.
+Chimpanzees use sticks to fish for termites.
+Orangutans build new sleeping nests every night.
+Monkeys with tails are monkeys. Apes don't have tails.
+Sloths move so slowly that algae grows on their fur.
+Sloths can hold their breath for up to 40 minutes.
+Sloths only come down from trees about once a week.
+Armadillos can roll into a ball. Well, one kind can!
+Hedgehogs have about 5,000 spines.
+Porcupines can't shoot their quills.
+Beavers build dams with sticks and mud.
+Beavers' teeth never stop growing.
+Rabbits' teeth never stop growing either.
+Squirrels plant trees by forgetting where they buried nuts.
+Mice can squeeze through a hole the size of a pencil.
+Rats laugh when they are tickled.
+Naked mole-rats almost never get cancer.
+Moles can dig about 20 meters of tunnel in a day.
+Skunks can spray their smelly liquid up to 3 meters.
+Raccoons wash their food in water.
+Opossums pretend to be dead when scared.
+Camels store fat, not water, in their humps.
+A thirsty camel can drink over 100 liters of water in minutes.
+Camels have three eyelids to keep out sand.
+Zebras' stripes may help keep biting flies away.
+Every zebra has a unique stripe pattern.
+Horses can sleep standing up.
+Horses can't breathe through their mouths.
+Hippos can't really swim. They walk or bounce along the bottom.
+Hippos make their own red sunscreen.
+Rhinos' horns are made of keratin, like your fingernails.
+Moose are great swimmers.
+Reindeer eyes change color from gold in summer to blue in winter.
+Deer grow new antlers every year.
+Pigs are very smart, smarter than many dogs.
+Pigs roll in mud to stay cool.
+Goats have rectangle-shaped pupils.
+Sheep can recognize the faces of other sheep.
+Cows have best friends and get stressed when apart.
+Animals with backbones are called vertebrates.
+About 97 percent of animal species don't have backbones.
+Mammals have hair and feed their babies milk.
+Reptiles are cold-blooded, so they warm up in the sun.
+Amphibians live part of their lives in water and part on land.
+Some animals hibernate, or sleep through the winter.
+Bears don't truly hibernate. They're in a deep winter rest.
+Arctic foxes change fur color: brown in summer, white in winter.
+Camouflage helps animals hide by matching their surroundings.
+The leaf insect looks exactly like a leaf.
+Stick insects look like twigs.
+The anglerfish uses a glowing lure to catch food in the dark.
+The deep sea has animals that make their own light.
+Tardigrades, or water bears, can survive in space.
+Tardigrades are tiny, about the size of a grain of sand.
+Some jellyfish can turn back into babies and start life again.
+The oldest known animals are sponges and some clams that live hundreds of years.
+Greenland sharks can live for about 400 years.
+A group of crows is called a murder.
+A group of flamingos is called a flamboyance.
+A group of jellyfish is called a smack.
+A baby goat is called a kid.
+A baby swan is called a cygnet.
+A baby owl is called an owlet.
+Male lions have manes; females don't.
+Female lions do most of the hunting.
+Kangaroos use their tails like a fifth leg.
+Wombats make cube-shaped poop.
+Koalas have fingerprints almost like human fingerprints.
+Bats sleep upside down.
+Vampire bats drink blood, but only from animals, and only a little.
+Some bats eat fruit and help spread seeds.
+The longest snake is the reticulated python.
+The anaconda is the heaviest snake.
+Eels start life in the ocean and swim into rivers.
+Butterflies need warm wings to fly.
+A snail can sleep while stuck to a wall.
+Leeches have 32 brain segments.
+Cuttlefish can change the pattern of their skin to hypnotize prey.
+Narwhals have a long tooth that looks like a unicorn horn.
+Walruses use their tusks to pull themselves onto ice.
+Seals sleep underwater and come up to breathe without waking.
+Manatees are related to elephants.
+Orcas, or killer whales, are actually the biggest kind of dolphin.
+Orcas live in family groups called pods.
+Beluga whales are called sea canaries because they chirp and whistle.
+A sperm whale has the biggest brain of any animal.
+Gray whales migrate about 16,000 kilometers each year.
+Some fish change from male to female during their lives.
+Lungfish can breathe air.
+Archerfish shoot water to knock bugs into the river.
+Catfish have taste buds all over their bodies.
+The sailfish is one of the fastest fish in the ocean.
+Barnacles stick to rocks and whales with natural glue.
+Horseshoe crabs have blue blood and are older than dinosaurs.
+Coral can glow under special light.
+The pistol shrimp snaps its claw so hard it makes a loud bubble pop.
+Lobsters taste with their legs.
+
+# ---------- Human body ----------
+Your bones are about as strong as concrete, but much lighter.
+Your stomach makes a new lining every few days so it doesn't digest itself.
+Your heart beats about 100,000 times every day.
+The human body has 206 bones. Babies are born with about 300!
+Your fingernails are made of keratin, the same stuff as hair and horns.
+The smallest bone in your body is in your ear. It's called the stirrup.
+The biggest bone in your body is your thigh bone, the femur.
+Your heart is about the size of your fist.
+Blood looks red because of iron in a protein called hemoglobin.
+Your blood vessels, laid end to end, would wrap around Earth more than twice.
+Your body has about 5 liters of blood if you're a grown-up.
+Red blood cells carry oxygen all around your body.
+White blood cells fight germs.
+Platelets help your blood clot when you get a cut.
+Your blood makes a full trip around your body in about one minute.
+Your brain uses about 20 percent of your body's energy.
+Your brain is about 75 percent water.
+Your brain sends messages through your nerves faster than a race car.
+Your skin is your body's biggest organ.
+You shed tiny flakes of skin every minute.
+Much of the dust in a house is made of old skin flakes.
+Your skin completely replaces itself about every month or two.
+Hair grows about 1 centimeter a month.
+Fingernails grow faster than toenails.
+Nails grow faster on your writing hand.
+Everyone has unique fingerprints, even identical twins.
+Your tongue has thousands of taste buds.
+Taste buds get replaced about every two weeks.
+You can taste sweet, salty, sour, bitter, and savory, called umami.
+Most of what we call taste is really smell.
+Food tastes bland when you have a stuffy nose.
+Your nose can remember thousands of different smells.
+Your eyes blink about 15 to 20 times a minute.
+Your eye's lens flips images upside down. Your brain flips them back.
+Eyes see color with cells called cones.
+Rod cells help you see in dim light.
+Your pupils get bigger in the dark to let in more light.
+Your eye muscles are the busiest muscles in your body.
+Your ears help you balance, not just hear.
+Feeling dizzy after spinning happens because fluid in your ears keeps swirling.
+Earwax helps protect your ears from dirt and germs.
+Your ears and nose keep growing slowly all your life.
+You have over 600 muscles.
+It takes many muscles to smile.
+Muscles can only pull, not push.
+Your biggest muscle is in your bottom: the gluteus maximus.
+Your strongest muscle for its size is your jaw muscle, the masseter.
+Your tongue is made of several muscles working together.
+Tooth enamel is the hardest thing in your body.
+Kids have 20 baby teeth.
+Grown-ups have 32 teeth, including wisdom teeth.
+Your teeth are not bones.
+Your body makes about a liter of spit every day.
+Spit has chemicals that start breaking down food.
+Your small intestine is about 6 meters long.
+Your large intestine is wider but shorter than your small intestine.
+Food takes hours to travel through your stomach and intestines.
+Your stomach has acid strong enough to dissolve some metals.
+Your liver does more than 500 jobs.
+Your liver can regrow if part of it is removed.
+Your kidneys clean your blood and make pee.
+You can live with just one kidney.
+Your lungs have millions of tiny air sacs called alveoli.
+Your left lung is smaller to make room for your heart.
+You breathe about 20,000 times a day.
+You can't breathe and swallow at the same time.
+Hiccups are sudden squeezes of a muscle called the diaphragm.
+You can't sneeze with your eyes open, usually.
+Yawning might help cool your brain.
+Yawns are contagious, even reading about them!
+Goosebumps happen when tiny muscles pull your hairs up.
+Shivering makes heat by moving your muscles quickly.
+Sweating cools you down as the sweat dries.
+Your normal body temperature is about 37 degrees Celsius.
+A fever helps your body fight germs.
+Your body is about 60 percent water.
+You could live weeks without food, but only days without water.
+Bones are alive and keep rebuilding themselves.
+A broken bone heals by growing new bone.
+Bone marrow inside your bones makes blood cells.
+Your skull is made of 22 bones joined together.
+More than half of your bones are in your hands and feet.
+Your spine has 33 small bones called vertebrae.
+Your kneecap doesn't turn into hard bone until you're a few years old.
+You are a little taller in the morning than at night.
+Your heart has four rooms called chambers.
+The sound of your heartbeat is the sound of valves closing.
+Doctors listen to your heart with a stethoscope.
+Your heart pumps blood even while you sleep.
+Your brain is soft, like firm tofu.
+The wrinkles in your brain give it more room for thinking cells.
+Your brain has about 86 billion nerve cells called neurons.
+The left side of your brain controls the right side of your body.
+Sleep helps your brain store what you learned.
+Kids need more sleep than grown-ups.
+You dream most during a sleep stage called REM.
+Your eyes move quickly while you dream.
+Reflexes, like pulling away from a hot stove, happen before you even think.
+Your spinal cord carries messages between your brain and body.
+Nerves can send signals at over 100 meters per second.
+Your funny bone is really a nerve.
+Your body has about 37 trillion cells.
+Your body has more bacteria cells than you might think, about as many as your own cells.
+Good bacteria in your gut help digest food.
+Your belly button is where you were connected to your mom before birth.
+Babies have more taste buds than grown-ups.
+Babies can't make tears for the first few weeks.
+Newborn babies can only see about 30 centimeters away clearly.
+Freckles get darker in the sun.
+Skin color comes from a pigment called melanin.
+Melanin helps protect your skin from the sun.
+Hair color also comes from melanin.
+You lose about 50 to 100 hairs a day, and new ones grow.
+You have hair almost everywhere on your skin except palms and soles.
+Eyelashes protect your eyes from dust.
+Eyebrows help keep sweat out of your eyes.
+Tears clean and protect your eyes.
+Your nose makes mucus to trap dust and germs.
+Coughing clears stuff out of your airways.
+Vaccines teach your body how to fight germs.
+Antibodies are proteins your body makes to fight specific germs.
+Washing hands with soap for 20 seconds helps remove germs.
+Soap breaks apart the oily layer around many germs.
+Your heart is a muscle that never gets tired the way your legs do.
+Exercise makes your heart and lungs stronger.
+Your muscles get stronger when you use them.
+Stretching keeps your muscles flexible.
+Calcium helps build strong bones.
+Vitamin D helps your body use calcium, and sunlight helps you make it.
+Carrots have vitamin A, which helps your eyes.
+Protein helps build and repair muscles.
+Carbohydrates give your body quick energy.
+Fiber helps food move through your gut.
+Your body turns food into energy using oxygen.
+Energy in food is measured in calories.
+Your nose and mouth connect at the back of your throat.
+Your voice comes from vocal cords vibrating in your throat.
+Boys' voices get deeper as they grow because their vocal cords get longer.
+Your ears can hear sounds from very quiet to very loud.
+Loud noises can damage the tiny hairs inside your ears.
+Your inner ear has a snail-shaped part called the cochlea.
+The three tiny ear bones are the hammer, anvil, and stirrup.
+Your eyeballs are about the size of a ping-pong ball.
+Your eyes stay about the same size from childhood on.
+Blue eyes have no blue pigment; they look blue the way the sky does.
+Your eye has a blind spot, but your brain fills it in.
+Optical illusions trick your brain, not your eyes.
+Your body has a built-in clock that tells you when to sleep.
+Your heart rate goes up when you're excited or scared.
+Adrenaline is a chemical that gets your body ready for action.
+Hormones are chemical messengers in your blood.
+Growth hormone helps you grow, mostly while you sleep.
+Your bones stop getting longer when you're a teenager or young adult.
+The hyoid bone in your throat is the only bone not connected to another bone.
+Your thumbs are special: they can touch all your other fingers.
+Your fingertips are very sensitive to touch.
+Your fingers wrinkle in water, which may help you grip wet things.
+Your skin has sensors for heat, cold, touch, and pain.
+Your lips are very sensitive because they have lots of nerve endings.
+You have a unique tongue print, too.
+DNA is the instruction book for building your body.
+You got half your DNA from each parent.
+If you stretched out the DNA in one cell, it would be about 2 meters long.
+DNA is shaped like a twisted ladder called a double helix.
+Identical twins have almost the same DNA.
+Your genes help decide your eye color and hair color.
+Right-handed or left-handed? About 1 in 10 people are left-handed.
+Your gut has its own big network of nerves.
+Your appendix may store good gut bacteria.
+Burps are gas escaping from your stomach.
+Your stomach growls when it's squeezing, even if it's empty.
+Your stomach can stretch to hold a lot of food.
+Saliva helps you taste food by dissolving it.
+Your nose warms and moistens the air you breathe.
+Lungs aren't muscles. Your diaphragm muscle makes them breathe.
+At rest, you breathe in about half a liter of air with each breath.
+Laughing is good for you. It can lower stress.
+Smiling can actually help you feel happier.
+Your brain can't feel pain itself.
+Brain freeze happens when cold food chills blood vessels in your mouth.
+Your heart is on the left side, but closer to the middle than most people think.
+A grown-up's heart pumps about 7,000 liters of blood a day.
+Capillaries are blood vessels thinner than a hair.
+Arteries carry blood away from your heart.
+Veins carry blood back to your heart.
+Veins look blue through skin, but blood is always red.
+
+# ---------- Chemistry and materials ----------
+Honey never goes bad. Honey found in ancient Egyptian tombs could still be eaten!
+Diamonds and pencil lead are both made of carbon atoms.
+Bananas are slightly radioactive because they contain potassium.
+Water expands when it freezes. That's why ice floats!
+Glass is made by melting sand.
+Rust is iron joined with oxygen from the air.
+Table salt is made of sodium and chlorine.
+The air you breathe is mostly nitrogen, not oxygen.
+Vinegar and baking soda fizz because they make carbon dioxide gas.
+Steel is made mostly of iron with a little bit of carbon.
+Chalk and seashells are made of calcium carbonate, just like eggshells.
+Everything around you is made of tiny particles called atoms.
+Atoms are so small that millions could fit across the period at the end of this sentence.
+Atoms are made of protons, neutrons, and electrons.
+There are 118 known elements.
+Elements are listed on a chart called the periodic table.
+Hydrogen is the lightest and most common element in the universe.
+Helium is lighter than air, so helium balloons float.
+Helium was discovered on the Sun before it was found on Earth.
+Oxygen makes up about a fifth of the air.
+Gold's chemical symbol is Au, from the Latin word aurum.
+Silver's chemical symbol is Ag.
+Iron's chemical symbol is Fe.
+Lead's chemical symbol is Pb.
+Sodium's chemical symbol is Na.
+Potassium's chemical symbol is K.
+Copper's chemical symbol is Cu.
+Water is H2O: two hydrogen atoms and one oxygen atom.
+Carbon dioxide is CO2: one carbon atom and two oxygen atoms.
+Mercury is a metal that is liquid at room temperature.
+Gallium is a metal that can melt in your hand.
+Tungsten has the highest melting point of any metal.
+Gold is so soft you can squish it into a sheet thinner than paper.
+Gold doesn't rust.
+Copper turns green when it reacts with air over many years.
+The Statue of Liberty is green because its copper skin reacted with air.
+Aluminum is the most common metal in Earth's crust.
+Aluminum cans can be recycled over and over.
+Diamond is the hardest natural material.
+Graphite, in pencils, is soft because its carbon atoms are in slippery layers.
+Most matter on Earth is a solid, liquid, or gas.
+Plasma is a fourth state of matter, found in lightning and stars.
+When ice melts, it turns from a solid into a liquid.
+When water boils, it turns into a gas called steam.
+Evaporation is when a liquid slowly turns into a gas.
+Condensation is when a gas turns back into a liquid, like dew on grass.
+Dry ice is frozen carbon dioxide.
+Dry ice turns straight from a solid into a gas.
+Water boils at 100 degrees Celsius at sea level.
+Water freezes at 0 degrees Celsius.
+Salt water freezes at a lower temperature than fresh water.
+Putting salt on icy roads helps melt the ice.
+Sugar dissolves faster in hot water than in cold water.
+Oil and water don't mix. Oil floats on top.
+Soap helps oil and water mix so you can wash greasy hands.
+Lemon juice is an acid.
+Baking soda is a base.
+Acids taste sour.
+Your stomach uses acid to break down food.
+The pH scale measures how acidic or basic something is.
+Pure water has a pH of 7, which is neutral.
+Red cabbage juice changes color in acids and bases.
+Fire needs fuel, heat, and oxygen.
+Fire is a chemical reaction that gives off heat and light.
+Carbon dioxide can put out fires by pushing away oxygen.
+Fireworks get their colors from different metals.
+Copper makes fireworks blue or green.
+Strontium makes fireworks red.
+Sodium makes fireworks yellow.
+Rubber comes from the sap of rubber trees.
+Plastic is mostly made from oil.
+Some plastics take hundreds of years to break down.
+Paper is made from wood fibers.
+Paper can be recycled about 5 to 7 times.
+Cotton comes from a plant.
+Wool comes from sheep.
+Silk is made by silkworms.
+Nylon was one of the first plastics made into fabric.
+Concrete keeps getting harder for years after it's poured.
+Ancient Roman concrete has lasted for 2,000 years.
+Bricks are made by baking clay.
+Cement is made from limestone and clay that are heated.
+Glass is actually a solid, even though it has no crystal pattern.
+Mirrors are glass with a thin metal coating on the back.
+Snowflakes are ice crystals with six sides.
+Salt crystals are shaped like little cubes.
+Sugar crystals can grow into rock candy.
+Crystals grow when atoms line up in a repeating pattern.
+Quartz is one of the most common minerals on Earth.
+Your watch might use a tiny quartz crystal to keep time.
+Rubies and sapphires are the same mineral: corundum.
+Emeralds get their green color from tiny amounts of chromium.
+Pearls are made by oysters around a bit of grit.
+Amber is fossilized tree sap.
+Coal is made from ancient plants squeezed for millions of years.
+Oil formed from tiny sea creatures buried long ago.
+Natural gas has no smell. Companies add a stinky smell so leaks can be noticed.
+Bread rises because yeast makes carbon dioxide bubbles.
+Popcorn pops because water inside the kernel turns to steam.
+Apples turn brown when they react with oxygen in the air.
+Lemon juice slows apples from turning brown.
+Cooking an egg changes its proteins, so it can't be uncooked.
+Toast turns brown because of a reaction between sugars and proteins.
+Chocolate melts at about body temperature, so it melts in your mouth.
+Milk is mostly water.
+Butter is made by shaking cream until the fat clumps together.
+Cheese is made by curdling milk.
+Yogurt is made by good bacteria turning milk sour and thick.
+Salt was once so valuable it was used as money.
+Ice cream is creamy because tiny ice crystals and air bubbles are mixed in.
+Carbonated drinks fizz because carbon dioxide is dissolved in them.
+A shaken soda fizzes more because the bubbles get started all at once.
+Mentos make soda fizz quickly because their rough surface helps bubbles form.
+Glow sticks glow because of a chemical reaction.
+Glow sticks glow brighter in warm water and dimmer in the freezer.
+Batteries store energy as chemicals.
+A lemon can make a tiny bit of electricity, like a battery.
+Rust happens faster near the salty sea.
+Paint protects metal from rusting.
+Stainless steel has chromium in it to stop rust.
+Some metals, like iron and nickel, are magnetic. Most aren't.
+Aluminum foil isn't magnetic.
+Pennies in the US are mostly zinc with a thin copper coat.
+Bronze is a mix of copper and tin.
+Brass is a mix of copper and zinc.
+A mix of metals is called an alloy.
+Silicon, from sand, is used to make computer chips.
+Neon signs glow when electricity runs through neon gas.
+Neon glows red-orange. Other gases make other colors.
+Ozone is a kind of oxygen that protects Earth from the Sun's ultraviolet rays.
+Chlorine is added to swimming pools to kill germs.
+Fluoride in toothpaste helps make your teeth stronger.
+Bleach takes color out of things using a chemical reaction.
+Plants and animals are made mostly of carbon, hydrogen, oxygen, and nitrogen.
+The calcium in your bones is the same element as in chalk.
+Your body has enough iron to make a small nail.
+Uranium is a heavy, radioactive element used in nuclear power plants.
+Marie Curie discovered two elements: polonium and radium.
+Marie Curie was the first person to win two Nobel Prizes.
+Some elements are named after scientists, like einsteinium.
+Some elements are named after places, like americium and californium.
+The element helium is named after the Greek word for Sun, helios.
+Oxygen itself has no color, smell, or taste.
+Liquid oxygen is pale blue.
+Liquid nitrogen is so cold it freezes things instantly.
+Liquid nitrogen boils at minus 196 degrees Celsius.
+The coldest possible temperature is called absolute zero.
+Absolute zero is minus 273.15 degrees Celsius.
+Heat makes atoms move faster.
+Things usually expand when heated and shrink when cooled.
+Bridges have gaps called expansion joints so they can grow in summer.
+The Eiffel Tower grows about 15 centimeters taller in summer, because metal expands when hot.
+Water is one of the few things that expands when it freezes.
+Frozen water pipes can burst because ice takes up more space.
+Hot air rises because it's less dense than cold air.
+Hot air balloons float because the air inside is hotter than outside.
+Sugar is made of carbon, hydrogen, and oxygen.
+Salt and sugar look alike, but their crystals are different shapes.
+Seawater is about 3.5 percent salt.
+The Dead Sea is so salty that people float easily in it.
+Stalactites in caves are made by dripping water leaving minerals behind.
+Stalactites hang down. Stalagmites grow up from the floor.
+Baking powder has both an acid and a base, so it bubbles when wet.
+Iodine turns purple-black when it touches starch.
+Litmus paper turns red in acids and blue in bases.
+Some sunscreens contain zinc, which reflects sunlight.
+Gold is so unreactive that ancient gold jewelry still shines today.
+Platinum is even rarer than gold.
+Lithium is the lightest metal. It's used in rechargeable batteries.
+Sodium metal fizzes and can burst into flames in water.
+Chemists use goggles to protect their eyes.
+Slime is stretchy because its long molecules tangle together.
+Oobleck, cornstarch and water, acts like a solid when you squeeze it.
+Ketchup gets runnier when you shake it.
+Superglue hardens when it touches water in the air.
+Velcro was inspired by burrs that stuck to a dog's fur.
+Teflon makes pans nonstick. Hardly anything sticks to it.
+Kevlar fibers are strong enough to make bulletproof vests.
+Carbon fiber is strong and very light, used in race cars and bikes.
+Graphene is a sheet of carbon only one atom thick.
+Aerogel is so light it's sometimes called frozen smoke.
+Some glass is made to bend light, like in eyeglasses.
+
+# ---------- Physics: forces, energy, light, and sound ----------
+Sound travels about 4 times faster in water than in air.
+A bolt of lightning is about 5 times hotter than the surface of the Sun.
+Magnets have two ends: north and south. Opposite ends pull together.
+Light is the fastest thing in the universe.
+Electricity is the flow of tiny particles called electrons.
+Water boils at a lower temperature on top of a high mountain.
+Light travels about 300,000 kilometers every second.
+Light could go around Earth about 7 times in one second.
+Sound travels about 343 meters per second in air.
+You see lightning before you hear thunder because light is faster than sound.
+Count the seconds between lightning and thunder, divide by 3, and you get the distance in kilometers.
+Thunder is the sound of air expanding super fast from lightning's heat.
+Sound can't travel through empty space.
+Sound is made by things vibrating.
+High sounds come from fast vibrations. Low sounds come from slow ones.
+An echo is sound bouncing back to you.
+Sound travels even faster through steel than through water.
+A sonic boom happens when something goes faster than sound.
+The crack of a whip is a tiny sonic boom!
+White light is made of all the colors mixed together.
+A prism splits white light into a rainbow.
+A rainbow is sunlight split into colors by raindrops.
+The colors of the rainbow are red, orange, yellow, green, blue, indigo, and violet.
+You can only see a rainbow when the Sun is behind you.
+From an airplane, a rainbow can look like a full circle.
+Black things soak up light. White things bounce it back.
+That's why black clothes feel hotter in the sun.
+Mirrors flip things left and right.
+Light bends when it goes from air into water. That's called refraction.
+A straw in a glass of water looks broken because of refraction.
+A magnifying glass bends light to make things look bigger.
+Your eyes see things because light bounces off them into your eyes.
+Ultraviolet light from the Sun causes sunburns.
+Infrared light is a kind of light we feel as heat.
+X-rays can pass through skin but not bones.
+Radio waves are a kind of light too, just invisible to us.
+Microwave ovens heat food by making water molecules wiggle.
+Gravity pulls everything toward everything else.
+The more mass something has, the stronger its gravity.
+Without air, a feather and a hammer fall at the same speed.
+An astronaut proved this on the Moon by dropping a hammer and a feather.
+Isaac Newton described how gravity works.
+A story says Newton thought about gravity after seeing an apple fall.
+Friction is a force that slows things down when they rub together.
+Rubbing your hands together warms them because of friction.
+Ice is slippery because a thin layer of water forms on top.
+Air resistance slows down falling things. Parachutes use lots of it.
+A force is a push or a pull.
+Things keep moving or stay still unless a force acts on them. That's inertia.
+Seatbelts protect you because your body wants to keep moving in a crash.
+For every action, there's an equal and opposite reaction.
+That's why a balloon zooms away when you let the air out.
+Heavier things need more force to get moving.
+Levers help you lift heavy things with less effort.
+A seesaw is a lever.
+Ramps make it easier to lift things by spreading the work over a longer distance.
+Pulleys help lift heavy things using ropes and wheels.
+Wheels make it easier to move things by reducing friction.
+Screws are ramps wrapped around a pole.
+A wedge, like an axe, splits things apart.
+The six simple machines are lever, wheel and axle, pulley, ramp, wedge, and screw.
+Energy can't be created or destroyed. It only changes form.
+A battery changes chemical energy into electrical energy.
+A light bulb changes electrical energy into light and heat.
+LED bulbs use much less energy than old bulbs.
+A moving object has kinetic energy.
+A ball held up high has stored energy called potential energy.
+A roller coaster turns height into speed.
+Most roller coasters have no engine after the first hill.
+Stretched rubber bands store energy.
+Springs push back when you squish them.
+Static electricity makes your hair stand up after rubbing a balloon on it.
+A shock from a doorknob is static electricity jumping.
+Lightning is a giant spark of static electricity.
+Electricity always looks for a path to the ground.
+Metals let electricity flow easily. They're called conductors.
+Rubber and plastic block electricity. They're called insulators.
+Electrical wires are covered in plastic to keep us safe.
+A circuit is a loop that electricity flows through.
+A switch opens or closes a circuit.
+Birds can sit on power lines safely because electricity doesn't flow through them.
+Electric motors use magnets to spin.
+Generators spin magnets near wires to make electricity.
+Wind turbines turn wind into electricity.
+Dams use falling water to make electricity.
+Solar panels turn sunlight into electricity.
+Earth is like a giant magnet.
+A compass needle points north because of Earth's magnetism.
+Magnets can work through paper, water, and even your hand.
+If you cut a magnet in half, you get two smaller magnets.
+Electromagnets are magnets you can turn on and off with electricity.
+Junkyards use giant electromagnets to lift old cars.
+Maglev trains float above their tracks using magnets.
+Heat moves from hot things to cold things, never the other way on its own.
+Metal feels colder than wood because it pulls heat from your hand faster.
+A thermos keeps drinks hot or cold by blocking heat.
+Wool keeps you warm by trapping air.
+Snow is a good insulator, which is why igloos stay warmer inside.
+Temperature is how fast the tiny particles in something are moving.
+Thermometers measure temperature.
+Some old thermometers used liquid mercury.
+Floating happens when something pushes aside water that weighs as much as it does.
+Huge steel ships float because their shape pushes aside lots of water.
+A ball of clay sinks, but the same clay shaped like a boat floats.
+It's easier to float in salt water than fresh water.
+Air has weight! The air in a big room can weigh as much as a person.
+Air pressure pushes on you from all sides.
+Your ears pop when the air pressure changes.
+Drinking straws work because air pressure pushes the drink up.
+Airplane wings are shaped to make air push them up.
+Helicopter blades are spinning wings.
+Pendulums swing back and forth in a steady rhythm.
+Old clocks used pendulums to keep time.
+A swing is a pendulum.
+Spinning tops stay up because spinning makes them steady.
+Bikes are easier to balance when they're moving.
+Your weight would be different on other planets, but your mass stays the same.
+Albert Einstein discovered that nothing can travel faster than light.
+Einstein's famous equation is E = mc squared.
+Time passes slightly slower for fast-moving objects.
+GPS satellites have to adjust for tiny time differences caused by speed and gravity.
+Lasers make light where all the waves march in step.
+Barcode scanners use lasers.
+Fiber-optic cables carry information as light through thin glass threads.
+The internet travels under the ocean in fiber-optic cables.
+Glowing things like the Sun make their own light. The Moon only reflects it.
+Shadows are longest in the morning and evening.
+At noon, shadows are the shortest.
+Sundials tell time using shadows.
+Color is the way our eyes see different kinds of light.
+Mixing red, green, and blue light makes white light.
+Screens make all their colors from tiny red, green, and blue dots.
+Mixing paints works differently from mixing light.
+Polarized sunglasses block glare from water and roads.
+Bubbles show rainbow colors because light bounces inside their thin walls.
+Soap bubbles are round because that shape holds air with the least soap.
+Water drops are round because of surface tension.
+Some bugs can walk on water thanks to surface tension.
+A paper clip can float on water if you place it gently.
+Water climbs up paper towels because of capillary action.
+Plants use capillary action to pull water up.
+Rockets carry their own oxygen because there's none in space.
+Sound is louder underwater for whales, and it travels very far.
+Bats hear sounds too high for people. That's called ultrasound.
+Doctors use ultrasound to see babies before they're born.
+Elephants make sounds too low for people to hear.
+Your voice sounds different on a recording because you usually hear it through your bones too.
+A guitar string makes a higher note when it's tighter.
+A trumpet player changes notes by changing how their lips buzz.
+Musical instruments make sound by vibrating strings, air, or skins.
+Noise-canceling headphones make opposite sound waves to cancel noise.
+Thunder can be heard about 15 kilometers away.
+Light from the Moon takes just over 1 second to reach Earth.
+A ball thrown in space would keep going forever.
+Momentum is why a rolling bowling ball is hard to stop.
+Spinning ice skaters spin faster when they pull their arms in.
+Centripetal force keeps things moving in a circle.
+Water stays in a bucket swung in a circle because of its motion.
+Dominos falling is a chain reaction of energy.
+The wheel was invented about 5,500 years ago.
+
+# ---------- Earth, weather, and oceans ----------
+There are more trees on Earth than stars in our galaxy.
+Earth's core is about as hot as the surface of the Sun.
+Clouds are made of tiny water droplets or ice crystals.
+Earthquakes happen when giant pieces of Earth's crust slip past each other.
+Earth has layers: crust, mantle, outer core, and inner core.
+Earth's inner core is solid iron and nickel.
+Earth's outer core is liquid metal.
+The moving liquid metal in Earth's core makes our magnetic field.
+The crust is the thin outer layer we live on.
+Under the ocean, Earth's crust is thinner than under the continents.
+Earth's surface is broken into big pieces called tectonic plates.
+Tectonic plates move about as fast as your fingernails grow.
+Millions of years ago, all the continents were joined in one supercontinent called Pangaea.
+South America and Africa fit together like puzzle pieces.
+The Himalayas are still growing taller as plates push together.
+Mount Everest is the tallest mountain above sea level.
+Mount Everest is about 8,849 meters tall.
+Mauna Kea in Hawaii is taller than Everest if you measure from the ocean floor.
+Volcanoes form where hot melted rock comes up from inside Earth.
+Melted rock underground is called magma. Above ground it's called lava.
+Lava can be over 1,000 degrees Celsius.
+The Hawaiian Islands were made by volcanoes.
+New land is still being made in Hawaii by lava.
+There are about 1,350 potentially active volcanoes on land.
+Most volcanoes are hidden under the ocean.
+The Ring of Fire is a ring of volcanoes around the Pacific Ocean.
+Pumice is a volcanic rock so full of air bubbles it can float.
+Obsidian is black volcanic glass.
+Earthquakes are measured with a tool called a seismometer.
+There are thousands of tiny earthquakes every day that people can't feel.
+A tsunami is a giant wave usually caused by an undersea earthquake.
+Geysers shoot hot water into the air.
+Old Faithful is a famous geyser in Yellowstone.
+Yellowstone sits on top of a giant supervolcano.
+There are three main kinds of rocks: igneous, sedimentary, and metamorphic.
+Igneous rocks are made from cooled lava or magma.
+Sedimentary rocks are made of layers of sand, mud, or shells pressed together.
+Metamorphic rocks are rocks changed by heat and pressure.
+Marble is limestone changed by heat and pressure.
+Granite is made of crystals you can often see.
+Sand is made of tiny bits of broken rock and shells.
+Some beaches have black sand from volcanic rock.
+Some beaches have pink sand from tiny red shells.
+Soil is made of broken rock, dead plants, air, water, and living things.
+A handful of soil can contain billions of tiny living things.
+It can take hundreds of years to make a few centimeters of soil.
+Rivers carve valleys over thousands of years.
+The Grand Canyon was carved by the Colorado River.
+The Grand Canyon is about 1.8 kilometers deep.
+Caves are often carved by water dissolving limestone.
+The Nile and the Amazon are the two longest rivers in the world.
+The Amazon River carries more water than any other river.
+The Amazon rainforest makes much of its own rain.
+Rainforests cover a small part of Earth but hold over half of land animal and plant species.
+Deserts are places that get very little rain.
+Antarctica is the biggest desert in the world.
+The Sahara is the biggest hot desert.
+Not all deserts are sandy. Many are rocky.
+Antarctica holds about 70 percent of Earth's fresh water as ice.
+The ice in Antarctica is more than 4 kilometers thick in places.
+Icebergs are chunks of ice that break off glaciers.
+About 90 percent of an iceberg is underwater.
+Glaciers are rivers of ice that move very slowly.
+Glaciers carved many valleys and lakes.
+Oceans cover about 71 percent of Earth's surface.
+Most of Earth's water is salty ocean water.
+Less than 1 percent of Earth's water is fresh water we can easily use.
+The Pacific is the biggest and deepest ocean.
+The Pacific Ocean is bigger than all the land on Earth put together.
+The Mariana Trench is the deepest part of the ocean, about 11 kilometers down.
+If Mount Everest were in the Mariana Trench, its top would still be underwater.
+More people have walked on the Moon than have visited the deepest ocean.
+We have better maps of Mars than of our own ocean floor.
+The ocean is salty because rivers carry tiny bits of salt from rocks.
+Ocean waves are mostly made by wind.
+Tides rise and fall about twice a day.
+The ocean makes about half of the oxygen we breathe, thanks to tiny plants called phytoplankton.
+The deep ocean is completely dark and very cold.
+Some deep-sea vents spew water hotter than boiling, kept liquid by pressure.
+Animals live around deep-sea vents without any sunlight.
+The longest mountain range is underwater: the Mid-Ocean Ridge.
+The Dead Sea is the lowest place on land.
+Lake Baikal in Russia is the deepest lake in the world.
+Lake Baikal holds about a fifth of the world's fresh lake water.
+The water cycle moves water from oceans to clouds to rain and back.
+The water you drink is billions of years old.
+Water evaporates from oceans and lakes when the Sun warms it.
+Clouds form when water vapor cools and turns into tiny droplets.
+Rain falls when cloud droplets join together and get too heavy.
+Raindrops are shaped more like hamburger buns than teardrops.
+Snowflakes form when water vapor freezes on tiny specks of dust.
+No two snowflakes are exactly alike.
+Hail forms when raindrops are tossed up and down in a storm, adding layers of ice.
+Some hailstones are as big as softballs.
+Fog is a cloud that touches the ground.
+Dew forms when water vapor condenses on cool grass at night.
+Frost is frozen dew.
+Wind is air moving from high pressure to low pressure.
+The windiest continent is Antarctica.
+Tornadoes are spinning columns of air that touch the ground.
+Tornado winds can be faster than 400 kilometers per hour.
+Tornado Alley in the United States gets more tornadoes than anywhere.
+Hurricanes are giant spinning storms that form over warm oceans.
+The calm center of a hurricane is called the eye.
+Hurricanes, typhoons, and cyclones are the same kind of storm with different names.
+Lightning strikes somewhere on Earth about 40 to 50 times every second.
+Lightning can strike the same place twice.
+The Empire State Building gets hit by lightning about 20 times a year.
+Lightning rods protect buildings by guiding lightning safely to the ground.
+Rainbows happen when the sun shines while it's raining.
+A double rainbow has its colors flipped in the second bow.
+Weather is what's happening outside today. Climate is the usual weather over many years.
+Meteorologists are scientists who study and predict weather.
+Weather balloons carry instruments high into the sky.
+Earth's air is held close by gravity.
+Most weather happens in the lowest layer of air, the troposphere.
+The ozone layer protects us from harmful sunlight.
+The hottest air temperature ever measured was in Death Valley, California.
+The coldest temperature ever measured on Earth was in Antarctica, below minus 89 degrees Celsius.
+Some places get rain almost every day, like parts of Hawaii and India.
+Some parts of the Atacama Desert have gone years without rain.
+The equator is an imaginary line around the middle of Earth.
+Places near the equator are warm all year.
+At the North and South Poles, the Sun can stay up for months.
+In the Arctic summer, there's a midnight sun.
+Earth is not a perfect ball. It bulges a little at the equator.
+Earth spins at over 1,600 kilometers per hour at the equator.
+We don't feel Earth spinning because we spin along with it.
+Earth's magnetic north pole slowly wanders.
+Earth's magnetic field has flipped many times in the past.
+Fossils show us what life was like long ago.
+Diamonds form deep underground under huge pressure.
+Gold is often found in rivers and quartz rock.
+Minerals are natural crystals. Rocks are made of minerals.
+Talc is the softest mineral. You can scratch it with a fingernail.
+The Mohs scale ranks minerals from 1, soft, to 10, hard.
+Geodes look plain outside but are full of crystals inside.
+Coral reefs are sometimes called the rainforests of the sea.
+Mangrove trees grow in salty water along coasts.
+Wetlands clean water like a natural filter.
+Trees help prevent floods by soaking up rainwater.
+Forests cover about 31 percent of Earth's land.
+Earth's biggest living structure is the Great Barrier Reef.
+The Sahara Desert was once green with lakes and grasslands.
+Ice ages are long cold times when glaciers covered much more land.
+The last ice age ended about 12,000 years ago.
+Scientists learn about old climates by drilling into ancient ice.
+Air bubbles trapped in ice show what the air was like long ago.
+Sea level rises when ice on land melts.
+Plants and trees take carbon dioxide out of the air.
+Burning fuel adds carbon dioxide to the air, which traps heat.
+The greenhouse effect keeps Earth warm enough to live on.
+Without any greenhouse effect, Earth would be frozen.
+Recycling one aluminum can saves enough energy to run a TV for hours.
+Earth is the only planet known to have life.
+Earth is the only planet known to have liquid water on its surface.
+Earth is the densest planet in the solar system.
+Earth is the fifth-biggest planet.
+Mountains can make their own weather.
+One side of a mountain can be rainy while the other side is dry.
+Sand dunes move slowly as the wind blows sand over them.
+Some sand dunes sing or hum when sand slides down them.
+Quicksand is sand mixed with water. People float in it and don't sink all the way.
+Waterfalls form where a river flows over hard rock above soft rock.
+Angel Falls in Venezuela is the tallest waterfall.
+Niagara Falls moves backward a little as the rock wears away.
+The Earth's crust is mostly made of oxygen and silicon.
+
+# ---------- Plants, fungi, and tiny life ----------
+Plants make their own food from sunlight, water, and carbon dioxide.
+Making food from sunlight is called photosynthesis.
+Plants give off oxygen when they make food.
+Leaves are green because of a chemical called chlorophyll.
+Leaves change color in fall when chlorophyll breaks down.
+The yellow and orange colors were in the leaves all summer, hidden by green.
+You can tell a tree's age by counting its rings. Each ring is about one year.
+The tallest tree in the world is a redwood over 115 meters tall.
+Giant sequoias are the biggest trees by volume.
+Some bristlecone pine trees are almost 5,000 years old.
+Bamboo is a grass, and it can grow almost a meter in a day.
+Bamboo is one of the fastest-growing plants on Earth.
+Sunflowers turn to face the Sun when they are young.
+A sunflower head is made of hundreds of tiny flowers.
+The world's biggest flower, the rafflesia, smells like rotting meat.
+The corpse flower is a giant flower that also smells terrible.
+Venus flytraps snap shut on insects.
+A Venus flytrap counts touches. It needs two quick touches to close.
+Pitcher plants trap insects in a slippery cup.
+Some plants, like the sensitive plant, fold their leaves when touched.
+Cactuses store water in their thick stems.
+Cactus spines are actually leaves.
+Some cactuses can live 200 years.
+Roots pull water and nutrients from the soil.
+Roots grow down, and stems grow up, even in the dark.
+Plants can tell up from down using gravity.
+Plants lean toward light.
+Seeds can wait years before they sprout.
+A 2,000-year-old date palm seed was grown into a tree.
+Seeds travel by wind, water, animals, and even by exploding pods.
+Dandelion seeds float on the wind with tiny parachutes.
+Coconuts can float across oceans to new islands.
+Maple seeds spin like helicopters as they fall.
+Some seeds need fire to open.
+Bees, butterflies, birds, and bats help pollinate flowers.
+Flowers are bright and sweet-smelling to attract pollinators.
+Some flowers have ultraviolet patterns only bees can see.
+Fruits are the part of a plant that holds seeds.
+Tomatoes are fruits.
+Cucumbers, peppers, and pumpkins are fruits too.
+Strawberries carry their seeds on the outside.
+Bananas grow on giant herbs, not trees.
+Pineapples take about two years to grow.
+Apples float because they are about a quarter air.
+Potatoes are swollen underground stems called tubers.
+Carrots are roots.
+Lettuce is leaves. Celery is stems. Broccoli is flowers!
+Peanuts grow underground and are not true nuts.
+Chocolate comes from the seeds of the cacao tree.
+Vanilla comes from an orchid.
+Cinnamon comes from tree bark.
+Rice feeds more than half of the world's people.
+Wheat, rice, and corn are all grasses.
+Corn kernels grow in neat rows, usually an even number.
+Cotton is made from fluffy fibers around cotton seeds.
+Rubber, cork, and maple syrup all come from trees.
+It takes about 40 liters of maple sap to make 1 liter of maple syrup.
+Trees talk to each other through fungus networks in the soil.
+Mushrooms are not plants. They're fungi.
+Fungi are more closely related to animals than to plants.
+The biggest living thing may be a honey mushroom in Oregon that's kilometers wide.
+Mushrooms grow from a hidden underground web called mycelium.
+Some mushrooms glow in the dark.
+Yeast is a tiny fungus used to make bread rise.
+Mold is a fungus. Penicillin, a medicine, came from mold.
+Penicillin was discovered by accident by Alexander Fleming in 1928.
+Lichens are a fungus and an alga living together as partners.
+Moss has no roots or flowers.
+Ferns spread by spores instead of seeds.
+Algae are simple water plants and plant-like living things.
+Seaweed is a kind of algae.
+Kelp can grow about half a meter in a day.
+Some trees make chemicals that warn other trees about hungry insects.
+Grass grows from the bottom, so it keeps growing after being cut.
+Freshly cut grass smell is actually a plant's distress signal.
+Onions make you cry because they release a gas when cut.
+Hot peppers are hot because of a chemical called capsaicin.
+Birds can't taste the heat in hot peppers.
+Poison ivy has leaves in groups of three.
+Some plants are carnivores and eat insects.
+Plants breathe through tiny holes in their leaves called stomata.
+A big tree can drink hundreds of liters of water in a day.
+Water travels from a tree's roots to its leaves through tiny tubes.
+Wood is mostly made from carbon taken out of the air.
+Trees make wood by turning air and water into sugar, then into tough fibers.
+Oak trees can make tens of thousands of acorns in a good year.
+The largest seed in the world is the coco de mer, which can weigh 25 kilograms.
+The smallest flowering plant is watermeal, tinier than a grain of rice.
+Orchids have the tiniest seeds, like dust.
+Some plants live only one year. Others live hundreds.
+Evergreen trees keep their leaves all year.
+Pine needles are leaves.
+Pinecones open to release seeds when it's dry.
+Tulips keep growing a little after they're cut.
+Roses are related to apples, pears, and strawberries.
+Every living thing is made of cells.
+Cells are so small you need a microscope to see most of them.
+An egg yolk, before it's fertilized, is one giant cell.
+Bacteria are living things made of just one cell.
+Most bacteria are harmless, and many are helpful.
+Bacteria were some of the first living things on Earth.
+Bacteria can double in number in about 20 minutes.
+Some bacteria live in boiling hot springs.
+Viruses are much smaller than bacteria.
+Viruses can only make copies of themselves inside living cells.
+Antibiotics kill bacteria but don't work on viruses.
+Microscopes were invented about 400 years ago.
+Antonie van Leeuwenhoek was the first person to see bacteria with a microscope.
+Robert Hooke named cells after looking at cork under a microscope.
+Plant cells have stiff walls. Animal cells don't.
+Plant cells have chloroplasts that make food from sunlight.
+The cell's nucleus holds its DNA.
+Mitochondria are the power plants inside cells.
+Plankton are tiny living things that drift in the ocean.
+Diatoms are tiny algae with glass shells.
+Your mouth has hundreds of kinds of bacteria.
+Composting uses tiny living things to turn food scraps into soil.
+Decomposers, like worms and fungi, break down dead things.
+Without decomposers, dead leaves would pile up forever.
+A food chain shows who eats whom.
+Plants are producers because they make their own food.
+Animals that eat only plants are herbivores.
+Animals that eat only meat are carnivores.
+Animals that eat both are omnivores. People are omnivores.
+An ecosystem is all the living and non-living things in an area working together.
+A habitat is the natural home of a plant or animal.
+Biodiversity means the variety of life in a place.
+Scientists think there may be about 8 million species on Earth.
+Most species on Earth haven't been discovered yet.
+New species are discovered every year.
+Charles Darwin studied how living things change over many generations.
+Darwin studied finches on the Galapagos Islands.
+Living things that fit their surroundings best survive and have more babies. That's natural selection.
+All dogs, from Chihuahuas to Great Danes, are the same species.
+Dogs were tamed from wolves thousands of years ago.
+Most supermarket bananas are clones of each other.
+Seedless watermelons are grown from special seeds.
+Carrots used to be purple before orange ones became popular.
+Corn was bred over thousands of years from a wild grass called teosinte.
+Plants grown in space bend toward light too.
+Astronauts have grown lettuce on the space station.
+Some plants can grow without soil, in water. That's called hydroponics.
+Flowers close at night in some plants, like tulips.
+Morning glories open in the morning.
+Moonflowers bloom at night.
+Spider plants make little baby plants on long stems.
+Some trees can clone themselves through their roots.
+A forest of aspen trees in Utah, called Pando, is one giant connected tree.
+Trees cool cities by giving shade and releasing water.
+One big tree can make enough oxygen in a year for a couple of people.
+
+# ---------- Math ----------
+Zero is the only number that is neither positive nor negative.
+Any number times zero is zero.
+You can't divide by zero.
+The number zero was invented as a number in India about 1,500 years ago.
+Our number digits 0 to 9 are called Hindu-Arabic numerals.
+Roman numerals have no zero.
+In Roman numerals, X is 10, L is 50, C is 100, and M is 1,000.
+A prime number can only be divided evenly by 1 and itself.
+2 is the only even prime number.
+The first five prime numbers are 2, 3, 5, 7, and 11.
+There are infinitely many prime numbers.
+1 is not a prime number.
+Infinity is not a number. It's the idea of going on forever.
+There's no biggest number. You can always add 1.
+A googol is 1 followed by 100 zeros.
+The company name Google came from the word googol.
+A million seconds is about 11 and a half days.
+A billion seconds is about 31 years.
+If you counted one number per second without stopping, reaching a million would take over 11 days.
+Pi is the distance around a circle divided by the distance across it.
+Pi is about 3.14, and its digits go on forever without repeating.
+Pi Day is celebrated on March 14, or 3/14.
+Computers have calculated pi to trillions of digits.
+A circle has no corners.
+A triangle's three angles always add up to 180 degrees.
+A square's four angles add up to 360 degrees.
+A full turn is 360 degrees.
+A right angle is 90 degrees, like the corner of a book.
+A hexagon has 6 sides. Honeycomb cells are hexagons.
+Bees use hexagons because they pack together with no gaps and use little wax.
+An octagon has 8 sides, like a stop sign.
+A pentagon has 5 sides.
+A shape with 10 sides is a decagon.
+A shape with 12 sides is a dodecagon.
+A cube has 6 faces, 12 edges, and 8 corners.
+A sphere is a perfectly round 3D shape, like a ball.
+A cylinder is shaped like a can.
+A cone is shaped like an ice cream cone.
+A pyramid has a flat bottom and sides that meet at a point.
+Soccer balls are made of pentagons and hexagons.
+Snowflakes have six-way symmetry.
+Symmetry means one half matches the other half.
+Your face is almost symmetrical, but not exactly.
+A palindrome number reads the same both ways, like 121.
+Even numbers end in 0, 2, 4, 6, or 8.
+An odd number plus an odd number always makes an even number.
+An even number plus an even number is always even.
+Any number times 10 just gets a zero added to the end.
+Every number multiplied by 9 has digits that add up to a multiple of 9.
+If the digits of a number add up to a multiple of 3, the number can be divided by 3.
+The 9 times table has a pattern: the tens go up while the ones go down.
+11 times any two-digit number has a neat trick: 11 times 23 is 2, 2 plus 3, 3, or 253.
+A fraction shows part of a whole.
+One half is the same as two quarters.
+Percent means out of 100.
+50 percent is the same as one half.
+A dozen is 12. A baker's dozen is 13.
+A score is 20. Abraham Lincoln said four score and seven, meaning 87.
+A gross is 144, or a dozen dozens.
+A century is 100 years. A millennium is 1,000 years.
+A decade is 10 years.
+There are 60 seconds in a minute and 60 minutes in an hour, an idea from ancient Babylon.
+The Babylonians counted in groups of 60.
+There are 86,400 seconds in a day.
+There are 8,760 hours in a normal year.
+A leap year has 366 days.
+Leap years happen every 4 years, with some exceptions.
+The year 2000 was a leap year, but 1900 was not.
+The Fibonacci sequence goes 1, 1, 2, 3, 5, 8, 13: each number is the sum of the two before.
+Fibonacci numbers show up in pinecones, sunflowers, and pineapples.
+Many flowers have a Fibonacci number of petals, like 3, 5, or 8.
+A square number is a number times itself, like 4, 9, and 16.
+1 plus 3 plus 5 plus 7 is 16. Adding odd numbers always makes square numbers!
+Adding 1 through 100 equals 5,050.
+A young mathematician named Gauss found a quick trick to add 1 through 100.
+Negative numbers are less than zero, like the temperature on a freezing day.
+The number line goes on forever in both directions.
+Graphs help us see numbers as pictures.
+A tally mark groups numbers in fives.
+The abacus is an ancient counting tool still used today.
+An equation is like a balance: both sides must be equal.
+The equals sign was invented in 1557 by Robert Recorde.
+The plus and minus signs are about 500 years old.
+The Babylonians solved math equations about 4,000 years ago.
+Ancient Egyptians used math to build the pyramids.
+The Great Pyramid's sides line up almost perfectly with north, south, east, and west.
+Probability is the math of chance.
+A coin flip has a 1 in 2 chance of heads.
+A normal die has a 1 in 6 chance of landing on each number.
+The opposite sides of a die always add up to 7.
+In a room of just 23 people, there's a better than even chance two share a birthday.
+A shuffled deck of cards is almost certainly in an order never seen before.
+There are 52 cards in a standard deck.
+A tangram is a puzzle made of 7 flat shapes.
+A Möbius strip is a loop with only one side.
+You can make a Möbius strip by twisting a paper strip once and taping the ends.
+Origami uses math to fold paper into shapes.
+Folding paper in half 7 times is very hard, because the layers double each time.
+Doubling grows fast: start with 1 grain of rice and double it 64 times, and you'd have more rice than the whole world.
+Computers use only two digits: 0 and 1. That's called binary.
+In binary, 10 means two.
+Coordinates use two numbers to find a spot on a map.
+The shortest path between two points on a flat map is a straight line.
+Airplanes fly curved routes because Earth is round.
+An angle less than 90 degrees is called acute.
+An angle more than 90 degrees is called obtuse.
+Parallel lines never meet.
+A circle's widest measure through the center is called its diameter.
+The radius is half the diameter.
+The perimeter is the distance around a shape.
+Area is how much space is inside a flat shape.
+Volume is how much space is inside a 3D shape.
+A meter is about the length of a big step.
+A kilometer is 1,000 meters.
+A centimeter is about the width of your fingernail.
+A liter is a little more than a quart.
+A kilogram is 1,000 grams.
+A paper clip weighs about 1 gram.
+The metric system is based on 10s.
+Most countries use the metric system.
+A mile is about 1.6 kilometers.
+An inch is about 2.5 centimeters.
+A foot was once based on the length of a person's foot.
+Horses are measured in hands. A hand is about 10 centimeters.
+Temperatures can be measured in Celsius or Fahrenheit.
+Minus 40 degrees is the same in Celsius and Fahrenheit.
+Water boils at 212 degrees Fahrenheit.
+Water freezes at 32 degrees Fahrenheit.
+A number with 3 equal digits, like 111, can always be divided by 37.
+12 has more factors than any smaller number: 1, 2, 3, 4, 6, and 12.
+A perfect number equals the sum of its smaller factors, like 6 = 1 + 2 + 3.
+28 is also a perfect number: 1 + 2 + 4 + 7 + 14.
+The number 4 is the only number with the same number of letters as its value in English.
+Seven is often voted the world's favorite number.
+Hindus, Mayans, and Babylonians each came up with zero in their own ways.
+The Mayans counted in groups of 20.
+We count in tens probably because we have ten fingers.
+A shape that fits together with no gaps is called a tessellation.
+Squares, triangles, and hexagons can tessellate. Circles can't.
+Fractals are patterns that repeat at smaller and smaller sizes.
+Broccoli, ferns, and coastlines have fractal patterns.
+Romanesco broccoli is a beautiful natural fractal.
+A spiral shell grows in a pattern that keeps the same shape as it gets bigger.
+Mathematicians proved that four colors are enough to color any map so neighbors differ.
+A Rubik's Cube has over 43 quintillion possible arrangements.
+Any Rubik's Cube can be solved in 20 moves or fewer.
+Sudoku is a number puzzle that uses logic, not adding.
+Chess has more possible games than there are atoms in the observable universe.
+An average is found by adding numbers up and dividing by how many there are.
+Rounding 47 to the nearest ten gives 50.
+Half of a half is a quarter.
+A hundred hundreds make ten thousand.
+A thousand thousands make a million.
+A thousand millions make a billion.
+
+# ---------- Technology, engineering, and inventions ----------
+The first computers filled entire rooms.
+A phone today is millions of times more powerful than the computers that guided Apollo to the Moon.
+The first computer programmer was Ada Lovelace, in the 1840s.
+The first computer bug was a real moth stuck in a computer in 1947.
+Grace Hopper helped create early programming languages.
+Computers store everything as patterns of 0s and 1s.
+A bit is a single 0 or 1. Eight bits make a byte.
+Computer chips have billions of tiny switches called transistors.
+Some transistors are smaller than a virus.
+The first email was sent in 1971.
+The World Wide Web was invented by Tim Berners-Lee in 1989.
+The internet is a giant network of connected computers.
+Wi-Fi sends information using radio waves.
+A touchscreen senses the tiny electric charge in your finger.
+Touchscreens often don't work with gloves for that reason.
+Robots are machines that can sense, think, and act.
+The word robot comes from a Czech word meaning forced work.
+Some robots explore places too dangerous for people, like volcanoes and deep oceans.
+Robot vacuums use sensors to avoid bumping into stairs.
+3D printers build objects layer by layer.
+People have 3D printed houses, bridges, and even food.
+Drones are flying robots controlled from the ground.
+Self-driving cars use cameras, radar, and lasers to see the road.
+The telephone was invented by Alexander Graham Bell in 1876.
+The first words on the telephone were: Mr. Watson, come here, I want to see you.
+Thomas Edison invented the phonograph, which recorded sound.
+Edison's team tested thousands of materials to make a long-lasting light bulb.
+Nikola Tesla helped invent the electric system used in our homes.
+The Wright brothers made the first powered airplane flight in 1903.
+The first airplane flight lasted 12 seconds.
+The Wright brothers ran a bicycle shop.
+Today, airplanes fly about 900 kilometers per hour.
+The biggest passenger plane, the Airbus A380, can carry over 800 people.
+Jet engines suck in air, squeeze it, burn fuel, and blast it out the back.
+Hot air balloons were the first way people flew, in 1783.
+The first hot air balloon passengers were a sheep, a duck, and a rooster.
+Helicopters can fly straight up, hover, and fly backwards.
+Submarines dive by filling tanks with water and rise by blowing it out.
+The first steam train ran in 1804.
+Steam engines boil water to make steam that pushes pistons.
+Japan's bullet trains can go over 300 kilometers per hour.
+The fastest train is a maglev that has gone over 600 kilometers per hour.
+The first cars were slower than horses.
+Karl Benz built one of the first gasoline cars in 1885.
+Electric cars use batteries instead of gas.
+Electric cars were around over 100 years ago.
+Bicycles are one of the most energy-efficient ways to travel.
+Tires are filled with air to make the ride smoother.
+Traffic lights were first used with gas lamps in London in 1868.
+The first stop signs were black and white.
+Bridges are designed to handle wind, weight, and even earthquakes.
+Suspension bridges hang from big cables.
+The Golden Gate Bridge is painted orange so ships can see it in fog.
+Arches are strong because they push weight outward and down.
+Triangles are very strong shapes, so engineers use them in bridges and towers.
+The Eiffel Tower is made of about 18,000 iron pieces.
+The Burj Khalifa in Dubai is the tallest building in the world, over 800 meters tall.
+Skyscrapers sway a little in the wind, and that's on purpose.
+Some skyscrapers have giant heavy balls inside to stop them swaying too much.
+Elevators made skyscrapers possible.
+The first safe elevator was shown by Elisha Otis in 1854.
+Escalators were first built as amusement rides.
+The Great Wall of China is thousands of kilometers long.
+The Great Wall of China is not visible from space with your bare eyes.
+The ancient Romans built roads that are still used today.
+Roman aqueducts carried water for kilometers using only gravity.
+The Panama Canal lets ships cross between the Atlantic and Pacific Oceans.
+Canal locks raise and lower ships like water elevators.
+Dams can hold back huge lakes called reservoirs.
+The Hoover Dam has enough concrete to build a road across the United States.
+Tunnels are dug with giant machines called tunnel boring machines.
+The longest railway tunnel goes under the Swiss Alps.
+The Channel Tunnel connects England and France under the sea.
+Lighthouses warned ships away from rocks long before GPS.
+The printing press was invented by Johannes Gutenberg around 1440.
+Before printing presses, books were copied by hand.
+Paper was invented in China about 2,000 years ago.
+The compass was invented in China.
+Gunpowder and fireworks were invented in China.
+Glasses for reading were invented in Italy around 700 years ago.
+The microscope helped scientists discover germs.
+The telescope was invented in the Netherlands in 1608.
+Clocks with gears were invented about 700 years ago.
+Before clocks, people used sundials, water clocks, and candles to tell time.
+Atomic clocks are so accurate they'd lose only a second in millions of years.
+The first photograph was taken in 1826 and needed hours to expose.
+Early cameras needed people to sit still for minutes.
+Movies are many still pictures shown quickly, about 24 every second.
+Your brain blends fast pictures into smooth motion.
+The first video game is often said to be Tennis for Two, from 1958.
+Radio lets us send sound through the air without wires.
+Television was invented in the 1920s.
+Satellites send TV signals from space.
+Refrigerators keep food cold by moving heat out of the inside.
+The microwave oven was invented after a melted candy bar was found near a radar machine.
+Velcro, the microwave, and penicillin were all discovered partly by accident.
+Post-it Notes came from a glue that wasn't sticky enough.
+Play-Doh was first sold as wallpaper cleaner.
+Bubble wrap was first made to be wallpaper.
+The Slinky was invented by accident when a spring fell off a shelf.
+Crayons are made from wax and colored powder.
+The zipper was invented over 100 years ago.
+LEGO bricks from 1958 still click together with new ones.
+The first LEGO bricks were made in Denmark.
+Paper airplanes fly because of the same forces as real planes.
+Kites were invented in China thousands of years ago.
+Benjamin Franklin flew a kite in a storm to study electricity. Don't try it!
+Franklin also invented bifocal glasses and the lightning rod.
+Batteries were invented by Alessandro Volta, which is why we measure volts.
+A watt measures how fast energy is used.
+Solar panels on the space station power everything aboard.
+Wind turbines can be taller than the Statue of Liberty.
+Nuclear power plants make heat by splitting atoms.
+Hydroelectric dams make about a sixth of the world's electricity.
+Rechargeable batteries can be used hundreds of times.
+Recycling a glass bottle saves enough energy to light a bulb for hours.
+Glass can be recycled forever without wearing out.
+Engineers solve problems by designing, testing, and improving.
+Engineers test ideas with small models before building big things.
+Wind tunnels test how air flows around cars and planes.
+Crash-test dummies help make cars safer.
+Airbags fill with gas in about the blink of an eye.
+Bike helmets have foam that squishes to protect your head.
+Hearing aids make sounds louder for people who need help hearing.
+Prosthetic legs help people walk and run.
+Some prosthetic hands can be controlled by muscle signals.
+Braille is a way of reading with raised dots, invented by Louis Braille at age 15.
+Sign language uses hands, faces, and bodies to talk.
+Barcodes store numbers as black and white lines.
+QR codes are square barcodes that can hold much more information.
+Credit cards have a chip that is a tiny computer.
+Some rockets can now land themselves and fly again.
+The Saturn V rocket that went to the Moon was as tall as a 36-story building.
+Rocket engines can burn through tons of fuel per second.
+The first rocket to reach space was launched in 1944.
+Space telescopes are above the blurry air, so they see more clearly.
+Radio telescopes listen to radio waves from space.
+Engineers built the Mars rovers to drive on their own between commands.
+Messages to Mars rovers can take up to about 20 minutes to arrive.
+Solar-powered cars race across Australia.
+Some buildings have gardens on their roofs to keep them cool.
+Cities have pipes underground for water, sewage, power, and internet.
+A water tower uses gravity to push water into homes.
+Toilets flush using a siphon that pulls water out of the bowl.
+Faucets mix hot and cold water to the temperature you want.
+The first toothbrush with bristles was invented in China.
+Toothpaste was used in ancient Egypt.
+Soap has been made for over 4,000 years.
+Plastic was first made over 150 years ago.
+Stainless steel was invented in 1913.
+Lasers are used in surgery, music players, and measuring distances.
+Most electricity travels to your home through wires from power plants.
+Power lines are high up to keep people safe.
+Fuses and circuit breakers stop electricity when there's a problem.
+Fridge magnets stick because of magnets inside, not glue.
+Doorbells use electromagnets to ring.
+Speakers use magnets to vibrate and make sound.
+Microphones turn sound into electric signals.
+Headphones are tiny speakers.
+Video calls send pictures of you as a stream of 0s and 1s.
+Spell-check was invented in the 1970s.
+Computer mice were invented in the 1960s, made of wood.
+The first website is still online today.
+The first smartphone apps appeared in the 2000s.
+GPS was first built for the military and is now used by everyone.
+Maps on phones use satellites and cell towers to find where you are.
+Night-vision goggles see infrared light we can't.
+Thermal cameras show heat as colors.
+Weather radar can see rain falling from far away.
+Seismographs help warn people about earthquakes.
+Tsunami warning buoys float in the ocean to detect giant waves.
+Engineers build earthquake-safe buildings that sway without falling.
+Some buildings sit on giant rubber pads to absorb earthquake shaking.
+The ancient Greeks built a gear computer called the Antikythera mechanism to track the stars.
+The Antikythera mechanism is over 2,000 years old.
+Leonardo da Vinci drew ideas for helicopters and parachutes 500 years ago.
+Archimedes found a way to measure volume using water in his bathtub.
+Archimedes is said to have shouted Eureka, which means I found it.
+The Archimedes screw lifts water and is still used today.
+The wheelbarrow was invented in China and Greece long ago.
+Windmills have been used for over 1,000 years to grind grain.
+Waterwheels used rivers to power machines.
+Tools made of stone are over 3 million years old.
+People learned to control fire hundreds of thousands of years ago.
+The plow made farming much easier.
+Writing was invented about 5,000 years ago.
+The first writing was used to keep track of things like grain.
+
+# ---------- Dinosaurs, fossils, and the story of life ----------
+Dinosaurs lived for about 165 million years.
+Dinosaurs died out about 66 million years ago.
+A giant asteroid hit Earth 66 million years ago and ended the age of dinosaurs.
+The asteroid crater is in Mexico and is called Chicxulub.
+Birds are the only dinosaurs still alive today.
+T. rex lived closer in time to us than to Stegosaurus.
+T. rex had teeth as big as bananas.
+T. rex had one of the strongest bites of any land animal ever.
+T. rex had tiny arms, but they were strong.
+Some dinosaurs had feathers.
+Velociraptors were about the size of a turkey and had feathers.
+Velociraptors were much smaller than in the movies.
+Dinosaur means terrible lizard, but dinosaurs weren't lizards.
+Stegosaurus had a brain about the size of a lime.
+Stegosaurus used the spikes on its tail to defend itself.
+Triceratops means three-horned face.
+Ankylosaurus had a club on its tail made of bone.
+Argentinosaurus was one of the biggest dinosaurs, as heavy as about 10 elephants.
+Long-necked dinosaurs are called sauropods.
+Sauropods like Brachiosaurus ate plants from tall trees.
+Spinosaurus was longer than T. rex and spent lots of time in water.
+Some dinosaurs were as small as chickens.
+Dinosaurs laid eggs.
+Some dinosaur eggs were as big as a football.
+Some dinosaurs cared for their babies in nests.
+Maiasaura means good mother lizard.
+Pterosaurs could fly, but they weren't dinosaurs.
+Quetzalcoatlus was a pterosaur as tall as a giraffe.
+Swimming reptiles like plesiosaurs lived in the oceans with the dinosaurs.
+Mosasaurs were giant sea lizards related to snakes and monitor lizards.
+Dinosaurs lived on every continent, even Antarctica.
+Antarctica was warmer and covered in forests when dinosaurs lived there.
+Paleontologists are scientists who study fossils.
+Fossils are the remains or traces of living things from long ago.
+Most fossils form when a living thing is buried in mud or sand.
+Over time, minerals replace bone and turn it into stone.
+Footprints can become fossils too.
+Fossilized dinosaur poop is called a coprolite.
+Fossils of sea animals have been found on mountaintops.
+Insects can be preserved in amber for millions of years.
+The first dinosaur to be named was Megalosaurus, in 1824.
+Mary Anning found amazing sea reptile fossils as a girl in England.
+New kinds of dinosaurs are discovered almost every week.
+Sue is the name of one of the most complete T. rex skeletons ever found.
+Dinosaur bones are often found in rocks that were once riverbeds.
+Scientists can tell how fast a dinosaur walked by measuring its footprints.
+Some dinosaurs swallowed stones to help grind up food.
+Hadrosaurs, or duck-billed dinosaurs, had hundreds of teeth.
+Parasaurolophus may have used its head crest to make loud honking sounds.
+Pachycephalosaurus had a thick, dome-shaped skull.
+Dinosaurs didn't live at the same time as people.
+Mammals lived alongside dinosaurs, but most were small.
+After the dinosaurs died, mammals grew bigger and spread out.
+Woolly mammoths lived during the last ice age.
+Some woolly mammoths were still alive when the Egyptian pyramids were built.
+Saber-toothed cats had teeth up to 18 centimeters long.
+Megalodon was a giant shark that could be three times longer than a great white.
+Megalodon's teeth were as big as a person's hand.
+The first life on Earth appeared over 3.5 billion years ago.
+For billions of years, life on Earth was only tiny single cells.
+Stromatolites are rock layers made by ancient bacteria. Some still grow today.
+The first animals lived in the ocean.
+Trilobites were sea creatures with many legs that lived for about 300 million years.
+Plants moved onto land before animals did.
+The first animals to walk on land were related to fish.
+Tiktaalik was a fish with legs, a link between fish and land animals.
+Giant insects lived 300 million years ago, including dragonflies as big as hawks.
+Insects could grow bigger back then because there was more oxygen in the air.
+Before dinosaurs, there was a huge extinction that wiped out most sea life.
+Dimetrodon, with a sail on its back, lived before dinosaurs and isn't one.
+Crocodiles are the closest living relatives of birds, besides other birds.
+Horseshoe crabs have barely changed in over 400 million years.
+Coelacanths are fish thought to be extinct until one was caught in 1938.
+Ginkgo trees have been around since before the dinosaurs.
+Cockroaches have been on Earth for over 300 million years.
+Sharks have survived four of Earth's five great mass extinctions.
+Extinct means a kind of living thing is gone forever.
+The dodo bird went extinct in the 1600s.
+Some scientists are trying to bring back animals like the woolly mammoth.
+Fossils show that whales once had legs and walked on land.
+The ancestor of horses was the size of a small dog.
+Early humans made cave paintings over 40,000 years ago.
+Humans have been around for about 300,000 years.
+Some sauropods were longer than a basketball court.
+The heaviest dinosaurs may have weighed over 70 tonnes.
+Dinosaurs walked with their legs straight under their bodies, unlike lizards.
+Many dinosaurs were probably colorful, like birds.
+Scientists found the color of some dinosaur feathers using microscopes.
+Microraptor had four feathered wings.
+Archaeopteryx was a feathered dinosaur that could fly or glide.
+Scientists use CT scans to look inside fossil skulls.
+Dinosaur bones show growth rings like tree rings.
+T. rex grew super fast as a teenager.
+Baby sauropods hatched from eggs about the size of a grapefruit.
+The longest dinosaur names include Micropachycephalosaurus.
+Some dinosaurs had hollow bones, just like birds.
+Some dinosaurs had beaks.
+Dinosaurs' closest living relatives are birds and crocodiles.
+Footprints show some dinosaurs traveled in herds.
+Oviraptor was named egg thief, but it was really protecting its own eggs.
+Pangaea started breaking apart while dinosaurs were alive.
+The time of the dinosaurs is called the Mesozoic Era.
+The Mesozoic has three parts: Triassic, Jurassic, and Cretaceous.
+T. rex and Triceratops lived in the Cretaceous period.
+Stegosaurus and Brachiosaurus lived in the Jurassic period.
+The first dinosaurs appeared in the Triassic period.
+Fossils can be dated by measuring radioactive atoms in nearby rocks.
+Many museums have dinosaur skeletons made from casts, not real bone.
+Petrified wood is wood that turned into stone.
+Some fossils are only tiny, like pollen or plankton shells.
+The White Cliffs of Dover are made of tiny fossil shells.
+Limestone is often made of the shells of ancient sea creatures.
+Oil and coal are called fossil fuels because they came from ancient life.
+
+# ---------- Scientists, records, and amazing extras ----------
+Scientists test ideas with experiments.
+A good experiment changes only one thing at a time.
+A hypothesis is a smart guess that you can test.
+Scientists share results so others can check them.
+Mistakes help scientists learn. Many discoveries came from surprises.
+Isaac Newton also figured out that white light is made of colors.
+Einstein won the Nobel Prize for explaining how light can knock electrons out of metal.
+Galileo showed that heavy and light objects fall at the same rate, without air.
+Copernicus said the Earth goes around the Sun, not the other way around.
+Johannes Kepler discovered that planets move in ovals, not perfect circles.
+Edwin Hubble discovered that there are other galaxies beyond ours.
+Hubble also found that the universe is expanding.
+Rosalind Franklin took the famous photo that helped reveal DNA's shape.
+Louis Pasteur showed that germs cause many diseases.
+Pasteur invented a way to make milk safe by heating it. That's called pasteurization.
+Edward Jenner made the first vaccine, against smallpox.
+Smallpox was wiped out completely in 1980, thanks to vaccines.
+Florence Nightingale used charts and math to improve hospitals.
+Katherine Johnson did the math for early American space flights.
+Mae Jemison was the first African American woman in space.
+Valentina Tereshkova was the first woman in space, in 1963.
+Sally Ride was the first American woman in space.
+Jane Goodall studied chimpanzees in the wild for decades.
+Jane Goodall discovered that chimpanzees make and use tools.
+George Washington Carver found hundreds of uses for peanuts.
+Alexander Fleming discovered penicillin after mold grew on a dish he forgot.
+Dmitri Mendeleev organized the elements into the periodic table.
+Mendeleev left gaps in his table for elements nobody had found yet, and they were found later.
+Michael Faraday discovered how to make electricity with magnets.
+James Watt improved the steam engine, and the watt is named after him.
+Wilhelm Röntgen discovered X-rays in 1895.
+The first X-ray photo showed the bones of Röntgen's wife's hand.
+Gregor Mendel studied pea plants and discovered how traits are passed on.
+Carl Linnaeus created the system of giving every living thing a two-part name.
+Humans are called Homo sapiens, which means wise human.
+Stephen Hawking studied black holes.
+Hawking showed that black holes can slowly give off energy.
+Rachel Carson wrote a book that helped protect birds from harmful chemicals.
+Hedy Lamarr, a movie star, helped invent technology used in Wi-Fi and Bluetooth.
+The Nobel Prizes started in 1901.
+The hottest planet is Venus, at about 465 degrees Celsius.
+The coldest place in the solar system may be a crater on the Moon.
+The biggest ocean animal by weight is the blue whale.
+The tallest animal is the giraffe.
+The heaviest land animal is the African elephant.
+The fastest swimming fish may be the sailfish or black marlin.
+The loudest animal is the sperm whale.
+The longest-living land animal on record is a tortoise named Jonathan, born around 1832.
+The smallest mammal by weight is the Etruscan shrew.
+The bumblebee bat is one of the smallest mammals, about the size of a bumblebee.
+The largest egg laid by a living bird is the ostrich egg.
+The smallest bird egg is the hummingbird's, about the size of a jellybean.
+The biggest frog is the goliath frog, as big as a house cat.
+The biggest spider by leg span is the giant huntsman spider.
+The biggest insect by weight may be the giant weta, heavier than a mouse.
+The largest cat species is the tiger.
+The tallest grass is bamboo.
+The deepest a person has gone in the ocean is the bottom of the Mariana Trench.
+The highest a person has flown is around the Moon, on Apollo 13.
+The longest time a person has spent in space in one go is about 437 days.
+The fastest human-made object is the Parker Solar Probe.
+The Parker Solar Probe has flown closer to the Sun than anything else we've built.
+The deepest hole people ever dug is the Kola Superdeep Borehole, over 12 kilometers deep.
+The deepest hole ever dug didn't even get through Earth's crust.
+The biggest diamond ever found, the Cullinan, was about the size of a fist.
+The largest crystal caves, in Mexico, have crystals longer than a bus.
+The world's largest island is Greenland.
+Australia is both a country and a continent.
+Asia is the biggest continent.
+There are seven continents.
+Russia is the biggest country by area.
+The Amazon rainforest is the largest tropical rainforest.
+The Caspian Sea is actually the world's biggest lake.
+The Sahara is about the size of the United States.
+A day is a little shorter than 24 hours if you measure by the stars: about 23 hours 56 minutes.
+Human eyes can see about 10 million colors.
+Mantis shrimp have far more color sensors than people do.
+Dogs see fewer colors than people, mostly blues and yellows.
+Cats can see well in very dim light.
+Owls can't see well up close.
+Snakes can sense the heat of animals with special pits on their faces.
+Sharks can sense the tiny electric signals made by other animals.
+Platypuses find food with an electric sense in their bills.
+Birds see ultraviolet colors on each other's feathers.
+Some butterflies can see ultraviolet patterns on flowers.
+Goldfish can see ultraviolet and infrared light.
+Bees can't see red. It looks dark to them.
+Hummingbirds love red flowers.
+Mosquitoes are the deadliest animals to humans because they spread diseases.
+Only about 1 in 10 people in history have been left-handed.
+Laughter is found in many animals, including apes and rats.
+Elephants recognize themselves in mirrors.
+Magpies, dolphins, and great apes can recognize themselves in mirrors too.
+Octopuses can open jars.
+Crows can make hooks out of wire to grab food.
+Honeybees can learn to count to four.
+Chimpanzees can beat people at some memory games.
+Parrots can live over 80 years.
+Some clams can live over 500 years.
+Pigeons can find their way home from hundreds of kilometers away.
+Pigeons were used to carry messages in wars.
+Dogs can be trained to smell diseases.
+Rats are trained to sniff out land mines.
+Bees can be trained to smell explosives.
+Starfish have an eye at the end of each arm.
+Scallops have up to 200 tiny eyes.
+Spiders have blue blood.
+Worms have five pairs of heart-like pumps.
+Snails and slugs move on a layer of slime.
+A snail's slime helps it crawl over sharp things without getting hurt.
+Sloths can turn their heads almost all the way around.
+Cats can't taste sweetness.
+Dogs have about 1,700 taste buds. People have about 10,000.
+Catfish have over 100,000 taste buds.
+Butterflies' wings are covered in tiny scales.
+Moths and butterflies drink through a straw-like tongue called a proboscis.
+Male mosquitoes drink only plant juices.
+A rainbow's red is always on the outside.
+Rainbows are actually full circles, but the ground usually hides the bottom half.
+Clouds can weigh as much as hundreds of elephants, but they float because the drops are tiny.
+A single storm cloud can hold millions of tonnes of water.
+It snowed in the Sahara Desert in 2018.
+The windiest place on Earth's surface is in Antarctica.
+Some frogs and fish have fallen from the sky after storms picked them up.
+Space smells like seared steak, according to some astronauts.
+Moon dust smells like spent gunpowder, astronauts said.
+On Uranus, a single season lasts about 21 Earth years.
+On Neptune, it may rain diamonds.
+Saturn's hexagon is a six-sided storm at its north pole.
+A spoonful of honey is the life's work of about 12 bees.
+Bees have to visit about two million flowers to make 500 grams of honey.
+A cow can produce over 20 liters of milk a day.
+A chicken egg's shell has thousands of tiny holes that let air in.
+Eggs can float in salty water but sink in fresh water.
+Old eggs float because air builds up inside them.
+A potato can power a small clock.
+You can make a compass with a needle, a magnet, and a cork in water.
+You can see your pulse by watching a toothpick stuck in clay on your wrist.
+Rubbing a balloon on your hair lets it stick to the wall.
+A straw in water looks bent, but it isn't.
+Ice cubes with salt on them can pick up a string.
+Pepper on water rushes away when you touch it with soapy fingers.
+Celery in colored water will change color as it drinks.
+White flowers in food coloring water change color too.
+A paper cup of water can be heated over a flame without burning, because the water soaks up the heat.
+A spinning egg that's raw wobbles. A hard-boiled one spins smoothly.
+Ice melts faster on metal than on plastic.
+A wet finger rubbed on a glass rim can make it sing.
+Blowing across a bottle top makes a musical note.
+Adding water to a bottle changes the note it makes.
+Your shadow is longer when the light is low.
+Earth is the only planet with plate tectonics that we know of.
+Diamonds can burn if they get hot enough.
+Bones contain living cells, blood vessels, and nerves.
+The cornea, the clear front of your eye, has no blood vessels.
+Your eyes can get sunburned.
+Your skin makes vitamin D when sunlight hits it.
+Humans share about 98 percent of their DNA with chimpanzees.
+Your body glows very faintly, but too dim for eyes to see.
+Some people can wiggle their ears. They have a muscle that's still active.
+Kids' bones heal faster than grown-ups' bones.
+Babies are born without kneecaps made of bone.
+Ancient Egyptians used honey on wounds because it kills germs.
+Ancient Egyptians made toothpaste from crushed eggshells and ashes.
+People in ancient times used crushed shells to make purple dye.
+Tyrian purple dye was made from sea snails and cost more than gold.
+Colors like ultramarine blue were once made from crushed gemstones.
+Pencils don't have lead. They have graphite.
+Erasers were once made of bread crumbs.
+Rubber erasers were named because they rub out marks.
+Silly Putty bounces like a ball but stretches like gum.
+A rubber ball bounces because it squishes and springs back.
+Basketballs bounce less when they're cold.
+Golf balls have dimples to help them fly farther.
+A curveball curves because of the ball's spin.
+Swimmers wear smooth suits to slip through water faster.
+Cyclists ride close together to cut through the air with less effort.
+Geese fly in a V so each bird gets a little lift from the one in front.
+Penguins huddle to share warmth in Antarctic storms.
+Ants can build bridges and rafts with their bodies.
+Fire ants can float as a living raft during floods.
+Leafcutter ants can carry leaves many times their own weight.
+A bee's wings beat about 200 times per second, making the buzz.
+The hum of a hummingbird comes from its fast wings.
+Crickets chirp faster when it's warmer.
+You can estimate the temperature by counting cricket chirps.
+Cats always land on their feet thanks to a twisting reflex.
+Dogs' wet noses help them smell better.
+Sea turtles use Earth's magnetic field to navigate.
+Monarch butterflies use the Sun as a compass.
+Dung beetles use the Milky Way to steer at night.
+
+# ---------- More amazing extras ----------
+A group of lions is called a pride, and a group of whales is called a pod.
+A group of geese on the ground is called a gaggle.
+Octopuses taste with the suckers on their arms.
+Bees have five eyes: two big ones and three small ones on top.
+Ants don't have lungs. Air flows in through tiny holes in their bodies.
+Spiders can't chew, so they turn their food into liquid first.
+A spider's web is sticky only on some threads, so the spider doesn't get stuck.
+Woodpeckers can peck about 20 times a second.
+Kiwi birds lay eggs that are huge compared to their bodies.
+The kiwi is a bird that can't fly and has nostrils at the tip of its beak.
+Puffins can carry over 10 fish in their beaks at once.
+Arctic ground squirrels can cool their bodies below freezing when they hibernate.
+Wood frogs stop their hearts in winter and restart them in spring.
+Tree kangaroos live in trees in New Guinea and Australia.
+Capybaras are the biggest rodents in the world.
+Okapis are relatives of giraffes that look a bit like zebras.
+The aye-aye taps on trees and listens for grubs inside.
+Some lizards can run on water, like the basilisk lizard.
+Flying squirrels don't really fly. They glide.
+Moonlight is really sunlight bouncing off the Moon.
+Earth's shadow during a lunar eclipse is round, which shows Earth is round.
+Ancient Greeks figured out Earth is round more than 2,000 years ago.
+Eratosthenes measured Earth's size over 2,000 years ago using shadows.
+The Sun is so far away that its light looks like parallel rays when it reaches us.
+Meteor showers happen when Earth passes through dust left by a comet.
+The Perseid meteor shower comes every August.
+An astronomical unit is the distance from Earth to the Sun.
+Pluto's moon Charon is half as wide as Pluto.
+Mercury and Venus are the only planets with no moons.
+Adding salt to water raises its boiling point a tiny bit.
+Sound needs something to travel through, like air, water, or rock.
+Magnets lose their strength if they get very hot.
+A balloon in a freezer shrinks because the cold air inside takes up less space.
+Soap bubbles freeze into delicate ice balls on very cold days.
+Breath turns into a cloud on cold days because the water in it condenses.
+Puddles dry up faster on sunny, windy days.
+A cup of hot water can freeze faster than cold water in some conditions. Scientists still argue why.
+Your bones make about 2 million new red blood cells every second.
+Most people can hold their breath for about 30 to 90 seconds.
+A sneeze is your body's way of clearing your nose.
+Laughter uses muscles in your face, chest, and belly.
