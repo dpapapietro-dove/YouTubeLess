@@ -1,0 +1,27 @@
+name: Curate videos
+
+# Run by hand (Actions tab, or by Claude). Lists videos from the trusted channels and
+# saves the result as a downloadable file. It does not change the site by itself.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  curate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install --quiet yt-dlp
+      - run: python curation/curate.py
+      - run: cat curation/report.md >> "$GITHUB_STEP_SUMMARY"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: curated
+          path: |
+            curation/curated.txt
+            curation/report.md
