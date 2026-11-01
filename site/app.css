@@ -47,6 +47,8 @@ button { font: inherit; cursor: pointer; }
 .card:hover, .card:focus-visible { transform: scale(1.03); outline: 4px solid var(--accent); }
 .card img { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; background: #ccc; }
 .card span { display: block; padding: 9px 11px 12px; font-size: 16px; font-weight: 600; line-height: 1.25; }
+#must-note { font-size: clamp(20px, 2.6vw, 28px); font-weight: 700; margin: 0 0 18px; }
+#grid.single { grid-template-columns: minmax(0, 560px); justify-content: center; }
 #empty { font-size: 24px; color: var(--muted); text-align: center; margin-top: 80px; }
 
 /* ---------- player ---------- */
