@@ -34,7 +34,7 @@ Dev never edits code; Claude makes every change. Dev may edit `videos.txt` on gi
   (beginWatching) it leaves the screen and moves to the back of the queue. New list entries go in front of
   watched ones. Empty slots prefer groups not already on screen.
 - Watch history per video in localStorage `ytl-history` (title, group, views, seconds watched, furthest
-  point, duration, first/last time). It lives only on the Chromebook for now.
+  point, duration, times finished `done`, first/last time). It lives only on the Chromebook for now.
 
 ## Curated list
 - videos.txt holds ~950 hand-reviewed videos from trusted channels (curation/channels.json), made by the

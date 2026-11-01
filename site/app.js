@@ -357,6 +357,10 @@
       showCover('Paused', true);
     } else if (e.data === S.ENDED) {
       btnPlay.textContent = '▶';
+      if (started && current && history_[current.id]) {   // he reached the very end
+        history_[current.id].done = (history_[current.id].done || 0) + 1;
+        writeJSON(HISTORY_KEY, history_);
+      }
       coverPlay.textContent = '↻ Watch again';
       showCover('All done! 🎉', true);   // hides YouTube's end screen
     } else if (e.data === S.UNSTARTED) {
