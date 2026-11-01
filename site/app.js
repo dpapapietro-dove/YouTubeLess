@@ -61,11 +61,20 @@
       });
   }
 
+  // With a long list, skip the "All" tab and open on the first group, so the page stays quick.
+  function showAll() {
+    var n = 0;
+    data.categories.forEach(function (c) { n += (c.videos || []).length; });
+    return n <= 150;
+  }
+
   function renderTabs() {
+    if (!showAll() && activeTab === 0 && data.categories.length) activeTab = 1;
     tabs.innerHTML = '';
     if (data.categories.length < 2) return;
-    var names = ['All'].concat(data.categories.map(function (c) { return c.name; }));
+    var names = (showAll() ? ['All'] : ['']).concat(data.categories.map(function (c) { return c.name; }));
     names.forEach(function (name, i) {
+      if (!name) return;
       var b = el('button', 'tab', name);
       b.setAttribute('aria-pressed', i === activeTab ? 'true' : 'false');
       b.addEventListener('click', function () { activeTab = i; renderTabs(); renderGrid(); });
@@ -76,6 +85,7 @@
   function renderGrid() {
     grid.innerHTML = '';
     var list = [];
+    if (!showAll() && activeTab === 0 && data.categories.length) activeTab = 1;
     if (activeTab === 0) data.categories.forEach(function (c) { list = list.concat(c.videos || []); });
     else list = data.categories[activeTab - 1].videos || [];
     empty.hidden = list.length > 0;

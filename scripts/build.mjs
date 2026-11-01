@@ -51,11 +51,20 @@ for (let i = 0; i < lines.length; i++) {
   if (seen.has(id)) continue;
   seen.add(id);
 
-  const info = await lookup(id);
-  if (!info.ok) { warnings.push(`Line ${n}: video ${id} is private, deleted, or does not allow playing on other sites. It was left out.`); continue; }
-  if (!title) title = info.title || 'Video';
   if (!current) { current = { name: 'Videos', videos: [] }; groups.push(current); }
-  current.videos.push({ id, title });
+  current.videos.push({ id, title, line: n });
+}
+
+// Check every video with YouTube, 16 at a time, so a long list still builds quickly.
+const all = groups.flatMap(g => g.videos);
+for (let i = 0; i < all.length; i += 16) {
+  await Promise.all(all.slice(i, i + 16).map(async v => { v.info = await lookup(v.id); }));
+}
+for (const g of groups) {
+  g.videos = g.videos.filter(v => {
+    if (!v.info.ok) { warnings.push(`Line ${v.line}: video ${v.id} is private, deleted, or does not allow playing on other sites. It was left out.`); return false; }
+    return true;
+  }).map(v => ({ id: v.id, title: v.title || v.info.title || 'Video' }));
 }
 
 const out = { siteName, categories: groups.filter(g => g.videos.length) };
