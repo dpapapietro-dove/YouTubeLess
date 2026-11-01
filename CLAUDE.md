@@ -17,12 +17,13 @@ Dev never edits code; Claude makes every change. Dev may edit `videos.txt` on gi
   iv_load_policy=3. Our own controls are drawn on top.
 - A transparent `#shield` div covers the iframe so nothing inside YouTube's player is clickable.
 - Pause and end states show our own `#cover`, hiding YouTube's "more videos" and end screens.
-- Ads: YouTube never reports PLAYING during an ad, so the player starts muted behind a cover showing
-  the daily STEM fact (`facts.txt` -> `site/facts.json` at build; picked by day number stepping by a prime coprime to the count). On the first PLAYING we pause it and show
-  "Continue to video"; pressing it (`started = true`) unmutes and plays. 45 s fallback shows the button anyway.
-  Mid-roll ads (UNSTARTED after start) are muted and covered.
-  While an ad may be showing, `#stage.ad-window` clip-paths a hole in the bottom-right 30%x28% of #cover and
-  #shield so he can tap YouTube's Skip button (Dev asked for this; everything else stays covered). Sound button state is `wantSound`.
+- Ads: YouTube never reports PLAYING during an ad, so the player starts muted behind a cover showing a
+  STEM fact (`facts.txt` -> `site/facts.json`; a NEW fact every view, via a localStorage counter stepping by a
+  prime coprime to the count). While waiting, `#stage.ad-window` clip-paths a hole in the bottom-right
+  30%x28% of #cover/#shield so he can tap YouTube's Skip. Dev's rule: Skip OR Continue, never both.
+  So on the first PLAYING: if an ad was seen (window blur into the iframe while the corner is open, or
+  ready more than AD_GUESS_MS=6s after load) the video starts by itself; otherwise it is paused and
+  "Continue to video" is shown. 45 s fallback shows the button anyway. Mid-roll ads are muted and covered.
 - Full screen is applied to our `#stage` (not the iframe) so the shield stays in place.
 - `openVideo` refuses any id not in the allowlist, including ids in the URL hash.
 - Chromebook: Family Link "approved sites only" with the Pages domain and youtube-nocookie.com.

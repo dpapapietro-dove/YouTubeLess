@@ -15,7 +15,11 @@
   var activeTab = 0;         // 0 = All
   var player = null, apiReady = null, current = null;
   var facts = [];            // loaded from facts.json (built from facts.txt)
-  var started = false;       // has he pressed "Continue to video" for this video yet?
+  var started = false;       // has the real video been started yet?
+  var adSeen = false;        // did an ad play (or did he tap Skip) before the video?
+  var loadStart = 0;         // when we asked YouTube for the video
+  var viewFact = '';         // the fact chosen for this view
+  var AD_GUESS_MS = 6000;    // ready later than this after loading means an ad played first
   var fallbackTimer = null;
   var wantSound = true;      // the Sound button; ads are always silenced regardless
   var ticker = null, idleTimer = null, seeking = false;
@@ -145,6 +149,9 @@
     nowTitle.textContent = current.title;
     document.title = current.title;
     started = false;
+    adSeen = false;
+    loadStart = Date.now();
+    viewFact = nextFact();
     showWaiting(false);
     clearTimeout(fallbackTimer);
     // If YouTube never reports the video as ready, offer the button anyway after a while
@@ -156,6 +163,7 @@
 
     loadApi().then(function () {
       if (!current || current.id !== id) return;
+      loadStart = Date.now();
       if (!player) player = makePlayer(id);
       else if (player.loadVideoById) { player.mute(); player.loadVideoById(id); }
     }).catch(function () {
@@ -186,16 +194,19 @@
       .catch(function () {});
   }
 
-  // One fact per day. Stepping by a large prime mixes the topics while still
-  // visiting every fact once before any repeats.
-  function todaysFact() {
+  // A new fact for every video. A counter saved in this browser walks through the
+  // list in steps of a large prime, which mixes the topics and still shows every
+  // fact once before any repeats.
+  function nextFact() {
     var n = facts.length;
     if (!n) return '';
-    var d = new Date();
-    var day = Math.floor((d.getTime() - d.getTimezoneOffset() * 60000) / 86400000);
+    var k = null;
+    try { k = parseInt(localStorage.getItem('ytl-fact-count'), 10); } catch (e) {}
+    if (!(k >= 0)) k = Math.floor(Math.random() * n);
+    try { localStorage.setItem('ytl-fact-count', String(k + 1)); } catch (e) {}
     var step = 7919;
     while (gcd(step, n) !== 1) step++;
-    return facts[(day * step) % n];
+    return facts[(k * step) % n];
   }
   function gcd(a, b) { while (b) { var t = a % b; a = b; b = t; } return a; }
 
@@ -205,7 +216,8 @@
 
   function showWaiting(ready) {
     setAdWindow(!ready);
-    var fact = todaysFact();
+    if (!viewFact) viewFact = nextFact();   // facts may have loaded after the video opened
+    var fact = viewFact;
     $('fact-text').textContent = fact;
     $('fact').hidden = !fact;
     coverText.textContent = ready ? '' : 'Your video is coming up…';
@@ -241,7 +253,12 @@
     var S = YT.PlayerState;
     if (e.data === S.PLAYING) {
       // YouTube only reports PLAYING for the real video, never during an ad.
-      // The first time, hold it on the fact screen until he presses Continue.
+      // After an ad (skipped or finished) the video just starts: one tap is enough.
+      // With no ad, hold it on the fact screen until he presses Continue.
+      if (!started && (adSeen || Date.now() - loadStart > AD_GUESS_MS)) {
+        started = true;
+        clearTimeout(fallbackTimer);
+      }
       if (!started) {
         player.pauseVideo();
         player.mute();
@@ -338,6 +355,16 @@
   });
   document.addEventListener('contextmenu', function (e) { e.preventDefault(); });
   document.addEventListener('dragstart', function (e) { e.preventDefault(); });
+
+  // A tap inside the Skip corner moves focus into YouTube's player, which blurs our page.
+  window.addEventListener('blur', function () {
+    setTimeout(function () {
+      if (stage.classList.contains('ad-window') && document.activeElement &&
+          document.activeElement.tagName === 'IFRAME') {
+        adSeen = true;
+      }
+    }, 0);
+  });
 
   window.addEventListener('popstate', function () {
     var m = /#v=([A-Za-z0-9_-]{11})/.exec(location.hash);
