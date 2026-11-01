@@ -45,7 +45,11 @@ Dev never edits code; Claude makes every change. Dev may edit `videos.txt` on gi
   openVideo refuses everything else until it is finished. Full = ENDED with >=90% of it played in that viewing
   (`viewSecs`), so seeking to the end doesn't count. Most overdue group first; unplayable must-video is swapped.
 - Watch history per video in localStorage `ytl-history` (title, group, views, seconds watched, furthest
-  point, duration, times finished `done`, first/last time). It lives only on the Chromebook for now.
+  point, duration, times finished `done`, first/last time).
+- Watch log: each viewing also POSTs one line (sendLog, via sendBeacon) to Dev's Google Form "Luciano watch log"
+  (LOG_FORM/LOG_FIELD in app.js; field entry.637870952): `date time | group | title | id | watched m:ss of m:ss |
+  furthest m:ss | finished/not finished`. Sent on Home/close, on ENDED and on pagehide. Responses land in Dev's
+  Google Sheet; to answer "what is Luciano watching?" read that sheet (Google Sheets connector).
 
 ## Curated list
 - videos.txt holds ~950 hand-reviewed videos from trusted channels (curation/channels.json), made by the

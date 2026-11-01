@@ -430,8 +430,8 @@
   // ---------- watch log (Google Form in Dev's account) ----------
   // One row per viewing, sent when he leaves the video (or the page). The form only takes
   // new rows; it can't be read from here. Empty LOG_FORM = logging off.
-  var LOG_FORM = '';         // https://docs.google.com/forms/d/e/<id>/formResponse
-  var LOG_FIELD = '';        // entry.<number>
+  var LOG_FORM = 'https://docs.google.com/forms/d/e/1FAIpQLSdEmRuFkhTUsRYBWr4lzgOh9hpeyDXqINFpn26le8Y_eXLo9w/formResponse';
+  var LOG_FIELD = 'entry.637870952';
   var logView = null;
   function two(n) { return (n < 10 ? '0' : '') + n; }
   function sendLog() {
