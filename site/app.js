@@ -19,6 +19,9 @@
   var quizDone = false;      // has he answered this view's Fun Fact question?
   var videoReady = false;    // YouTube is ready to play the real video (any ad is over)
   var quizTimer = null;
+  // Ads in the middle of a video: YouTube may keep saying PLAYING, so we watch for the video's
+  // clock stopping, or its length changing (the ad's length), and cover + mute until it moves on.
+  var midAd = false, lastT = -1, stillSince = 0, contentDur = 0, MIDAD_STILL_MS = 1500;
   var fallbackTimer = null;
   var wantSound = true;      // the Sound button; ads are always silenced regardless
   var ticker = null, idleTimer = null, seeking = false;
@@ -283,6 +286,7 @@
     started = false;
     quizDone = false;
     videoReady = false;
+    midAd = false; lastT = -1; stillSince = 0; contentDur = 0;
     viewFact = nextFact();
     clearTimeout(quizTimer);
     quizRead(false);
@@ -455,9 +459,10 @@
         player.mute();
         return;
       }
+      btnPlay.textContent = '⏸';
+      if (midAd) return;   // the ticker lifts the cover once the video's clock moves again
       if (wantSound) player.unMute();
       hideCover();
-      btnPlay.textContent = '⏸';
       timeTotal.textContent = fmt(player.getDuration());
       wakeControls();
     } else if (e.data === S.PAUSED) {
@@ -474,7 +479,7 @@
       // an ad (or the video loading): keep it silent and hidden
       player.mute();
       if (!started) return;   // the quiz screen stays up
-      else { showCover('Your video will be right back…', false); setAdWindow(true); }
+      else if (!midAd) startMidAd();
     } else if (e.data === S.CUED) {
       if (!started) { videoReady = true; if (quizDone) showContinue(); }
       else { coverPlay.textContent = '▶ Play'; showCover(current ? current.title : '', true); }
@@ -499,10 +504,33 @@
       var d = player.getDuration() || 0, t = player.getCurrentTime() || 0;
       timeNow.textContent = fmt(t);
       if (d) { timeTotal.textContent = fmt(d); seek.value = Math.round((t / d) * 1000); }
-      if (started && current && player.getPlayerState && player.getPlayerState() === YT.PlayerState.PLAYING) {
-        addWatchTime(current.id, 0.25, t, d);
+      if (started && current && player.getPlayerState) {
+        var st = player.getPlayerState(), P = YT.PlayerState;
+        var running = st === P.PLAYING || st === P.BUFFERING || st === P.UNSTARTED;
+        var moved = Math.abs(t - lastT) > 0.05;
+        if (!contentDur && d && moved && !midAd) contentDur = d;
+        var otherLength = contentDur && d && Math.abs(d - contentDur) > 1;
+        if (running && !moved) { if (!stillSince) stillSince = Date.now(); }
+        else stillSince = 0;
+        if (!midAd && running && (otherLength || (stillSince && Date.now() - stillSince > MIDAD_STILL_MS))) startMidAd();
+        else if (midAd && moved && !otherLength && st === P.PLAYING) endMidAd();
+        if (st === P.PLAYING && moved && !midAd) addWatchTime(current.id, 0.25, t, contentDur || d);
+        lastT = t;
       }
     }, 250);
+  }
+  function startMidAd() {
+    midAd = true;
+    player.mute();
+    showCover('Your video will be right back…', false);
+    setAdWindow(true);   // he can still tap Skip in the corner
+  }
+  function endMidAd() {
+    midAd = false;
+    stillSince = 0;
+    if (wantSound) player.unMute();
+    hideCover();
+    wakeControls();
   }
   function stopTicker() { if (ticker) clearInterval(ticker); ticker = null; }
 
