@@ -26,7 +26,10 @@ Dev never edits code; Claude makes every change. Dev may edit `videos.txt` on gi
   of #cover/#shield so he can tap YouTube's Skip, and the next PLAYING starts the video. PLAYING before the
   answer is paused and waits. 45 s after a right answer with no PLAYING, a Continue button appears.
   In ad-window the cover keeps clear of the bottom 28cqh (#stage is a size container) and hides "All videos",
-  so nothing overlaps the Skip hint. Mid-roll ads are muted and covered (no quiz).
+  so nothing overlaps the Skip hint.
+- Mid-roll ads: YouTube may keep reporting PLAYING, so the ticker treats "clock stuck >1.5 s while
+  playing/buffering" or "getDuration differs from the video's own length" as an ad: mute, cover, open the
+  Skip corner (controls hidden). It lifts when the clock moves again at the right length. No watch time counts.
 - Full screen is applied to our `#stage` (not the iframe) so the shield stays in place.
 - `openVideo` refuses any id not in the allowlist, including ids in the URL hash.
 - Chromebook: Family Link "approved sites only" with the Pages domain, youtube-nocookie.com AND www.youtube-nocookie.com
