@@ -14,6 +14,7 @@
   var allowed = {};          // id -> video, the only ids we will ever play
   var activeTab = 0;         // 0 = All
   var player = null, apiReady = null, current = null;
+  var wantSound = true;      // the Sound button; ads are always silenced regardless
   var ticker = null, idleTimer = null, seeking = false;
 
   // ---------- helpers ----------
@@ -119,6 +120,7 @@
         onReady: function (e) {
           var f = e.target.getIframe();
           f.setAttribute('tabindex', '-1');
+          e.target.mute();        // stay silent until the real video starts (ads play first)
           e.target.playVideo();
           updateMute();
         },
@@ -142,7 +144,8 @@
     coverImg.style.visibility = '';
     coverImg.onerror = function () { coverImg.style.visibility = 'hidden'; };
     coverImg.src = thumb(id);
-    showCover(current.title, true);
+    coverPlay.textContent = '▶ Play';
+    showCover('Your video is starting…', true);
     seek.value = 0;
     timeNow.textContent = '0:00';
     timeTotal.textContent = '0:00';
@@ -151,7 +154,7 @@
     loadApi().then(function () {
       if (!current || current.id !== id) return;
       if (!player) player = makePlayer(id);
-      else if (player.loadVideoById) player.loadVideoById(id);
+      else if (player.loadVideoById) { player.mute(); player.loadVideoById(id); }
     }).catch(function () {
       showCover("Can't reach YouTube right now. Check the internet and try again.", false);
     });
@@ -182,6 +185,8 @@
   function onState(e) {
     var S = YT.PlayerState;
     if (e.data === S.PLAYING) {
+      // YouTube only reports PLAYING for the real video, never during an ad
+      if (wantSound) player.unMute();
       hideCover();
       btnPlay.textContent = '⏸';
       timeTotal.textContent = fmt(player.getDuration());
@@ -194,6 +199,11 @@
       btnPlay.textContent = '▶';
       coverPlay.textContent = '↻ Watch again';
       showCover('All done! 🎉', true);   // hides YouTube's end screen
+    } else if (e.data === S.UNSTARTED) {
+      // an ad (or the video loading): keep it silent and hidden
+      player.mute();
+      coverPlay.textContent = '▶ Play';
+      showCover('Your video is starting…', true);
     } else if (e.data === S.CUED) {
       coverPlay.textContent = '▶ Play';
       showCover(current ? current.title : '', true);
@@ -208,9 +218,7 @@
     else player.playVideo();
   }
 
-  function updateMute() {
-    if (player && player.isMuted) btnMute.textContent = player.isMuted() ? '🔇' : '🔊';
-  }
+  function updateMute() { btnMute.textContent = wantSound ? '🔊' : '🔇'; }
 
   function startTicker() {
     stopTicker();
@@ -247,9 +255,10 @@
   coverBack.addEventListener('click', function () { closeVideo(false); });
   btnFull.addEventListener('click', toggleFull);
   btnMute.addEventListener('click', function () {
-    if (!player || !player.isMuted) return;
-    if (player.isMuted()) player.unMute(); else player.mute();
-    setTimeout(updateMute, 50);
+    if (!player || !player.mute) return;
+    wantSound = !wantSound;
+    if (wantSound && player.getPlayerState() === YT.PlayerState.PLAYING) player.unMute(); else player.mute();
+    updateMute();
   });
   seek.addEventListener('input', function () { seeking = true; });
   seek.addEventListener('change', function () {
