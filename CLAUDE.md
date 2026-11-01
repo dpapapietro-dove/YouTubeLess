@@ -28,6 +28,14 @@ Dev never edits code; Claude makes every change. Dev may edit `videos.txt` on gi
 - `openVideo` refuses any id not in the allowlist, including ids in the URL hash.
 - Chromebook: Family Link "approved sites only" with the Pages domain and youtube-nocookie.com.
 
+## Home screen
+- No group tabs. Home shows 10 videos (SHOW_COUNT) from one queue mixed round-robin across groups
+  (localStorage `ytl-lineup` {queue, shown}). Shown videos stay until watched; when the real video starts
+  (beginWatching) it leaves the screen and moves to the back of the queue. New list entries go in front of
+  watched ones. Empty slots prefer groups not already on screen.
+- Watch history per video in localStorage `ytl-history` (title, group, views, seconds watched, furthest
+  point, duration, first/last time). It lives only on the Chromebook for now.
+
 ## Curated list
 - videos.txt holds ~950 hand-reviewed videos from trusted channels (curation/channels.json), made by the
   manual "Curate" workflow (curation/curate.py, yt-dlp). Dev's taste: smart kid (7), CrunchLabs/Mark Rober

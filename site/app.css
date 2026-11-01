@@ -5,7 +5,6 @@
   --muted: #6b7a86;
   --accent: #2a9d8f;
   --accent-ink: #ffffff;
-  --tab: #ffe8c2;
   --shadow: 0 6px 18px rgba(35, 48, 59, 0.12);
 }
 @media (prefers-color-scheme: dark) {
@@ -14,7 +13,6 @@
     --card: #223040;
     --ink: #f1f4f7;
     --muted: #a9b6c2;
-    --tab: #2e4053;
     --shadow: 0 6px 18px rgba(0, 0, 0, 0.4);
   }
 }
@@ -34,16 +32,10 @@ button { font: inherit; cursor: pointer; }
 #picker { max-width: 1400px; margin: 0 auto; padding: 20px 24px 48px; }
 .top { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 24px; margin-bottom: 20px; }
 #site-name { margin: 0; font-size: clamp(28px, 4vw, 44px); }
-#tabs { display: flex; flex-wrap: wrap; gap: 10px; }
-.tab {
-  border: 0; border-radius: 999px; padding: 10px 20px;
-  background: var(--tab); color: var(--ink); font-size: 20px; font-weight: 600;
-}
-.tab[aria-pressed="true"] { background: var(--accent); color: var(--accent-ink); }
 
 #grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(195px, 1fr));
+  grid-template-columns: repeat(5, 1fr);   /* 10 videos: two even rows */
   gap: 16px;
 }
 .card {
@@ -143,6 +135,7 @@ button { font: inherit; cursor: pointer; }
   white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
 }
 
+@media (max-width: 900px) { #grid { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 600px) {
   #picker { padding-left: 16px; padding-right: 16px; }
   .home-btn { font-size: 18px; padding: 8px 16px; }
