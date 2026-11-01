@@ -20,7 +20,9 @@ Dev never edits code; Claude makes every change. Dev may edit `videos.txt` on gi
 - Ads: YouTube never reports PLAYING during an ad, so the player starts muted behind a cover showing
   the daily STEM fact (`facts.txt` -> `site/facts.json` at build; picked by day number stepping by a prime coprime to the count). On the first PLAYING we pause it and show
   "Continue to video"; pressing it (`started = true`) unmutes and plays. 45 s fallback shows the button anyway.
-  Mid-roll ads (UNSTARTED after start) are muted and covered. Sound button state is `wantSound`.
+  Mid-roll ads (UNSTARTED after start) are muted and covered.
+  While an ad may be showing, `#stage.ad-window` clip-paths a hole in the bottom-right 30%x28% of #cover and
+  #shield so he can tap YouTube's Skip button (Dev asked for this; everything else stays covered). Sound button state is `wantSound`.
 - Full screen is applied to our `#stage` (not the iframe) so the shield stays in place.
 - `openVideo` refuses any id not in the allowlist, including ids in the URL hash.
 - Chromebook: Family Link "approved sites only" with the Pages domain and youtube-nocookie.com.

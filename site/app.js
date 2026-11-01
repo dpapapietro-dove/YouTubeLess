@@ -200,7 +200,11 @@
   function gcd(a, b) { while (b) { var t = a % b; a = b; b = t; } return a; }
 
   // The fact screen shown while an ad plays. The button appears only once the video is ready.
+  // During an ad, open a see-through corner so he can tap YouTube's Skip button.
+  function setAdWindow(on) { stage.classList.toggle('ad-window', on); }
+
   function showWaiting(ready) {
+    setAdWindow(!ready);
     var fact = todaysFact();
     $('fact-text').textContent = fact;
     $('fact').hidden = !fact;
@@ -223,6 +227,7 @@
   }
 
   function showCover(text, canPlay) {
+    setAdWindow(false);
     $('fact').hidden = true;
     coverText.className = '';
     coverText.textContent = text;
@@ -230,7 +235,7 @@
     cover.hidden = false;
     stage.classList.remove('idle');
   }
-  function hideCover() { cover.hidden = true; }
+  function hideCover() { cover.hidden = true; setAdWindow(false); }
 
   function onState(e) {
     var S = YT.PlayerState;
@@ -261,7 +266,7 @@
       // an ad (or the video loading): keep it silent and hidden
       player.mute();
       if (!started) showWaiting(false);
-      else showCover('Your video will be right back…', false);
+      else { showCover('Your video will be right back…', false); setAdWindow(true); }
     } else if (e.data === S.CUED) {
       if (!started) showWaiting(true);
       else { coverPlay.textContent = '▶ Play'; showCover(current ? current.title : '', true); }
