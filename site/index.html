@@ -22,12 +22,15 @@
 
   <!-- Player: a locked-down YouTube player -->
   <section id="player-view" hidden>
+    <div class="player-bar">
+      <button id="home-btn" class="home-btn">🏠 Home</button>
+      <h2 id="now-title"></h2>
+    </div>
     <div id="stage">
       <div id="yt-host"><div id="yt"></div></div>
       <!-- Covers the YouTube player so nothing inside it can be clicked (no links out) -->
       <div id="shield" aria-hidden="true"></div>
       <div id="cover" class="cover" hidden>
-        <img id="cover-img" alt="">
         <div class="cover-body">
           <div id="fact" class="fact" hidden>
             <span class="fact-label">💡 Did you know?</span>
@@ -50,10 +53,8 @@
         <button id="btn-full" class="ctl" title="Full screen" aria-label="Full screen">⛶</button>
       </div>
     </div>
-    <h2 id="now-title"></h2>
   </section>
 
-  <script src="facts.js"></script>
   <script src="app.js"></script>
 </body>
 </html>
