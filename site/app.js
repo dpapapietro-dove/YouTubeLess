@@ -274,6 +274,8 @@
   }
 
   // ---------- player view ----------
+  window.addEventListener('pagehide', function () { writeJSON(HISTORY_KEY, history_); sendLog(); });
+
   function openVideo(id, push) {
     if (!allowed[id]) return;   // never play anything that is not on the list
     if (lineup.must && lineup.must.id !== id) return;   // the required video comes first
@@ -310,6 +312,7 @@
   }
 
   function closeVideo(fromPop) {
+    sendLog();
     if (player && player.stopVideo) { try { player.stopVideo(); } catch (e) {} }
     current = null;
     clearTimeout(fallbackTimer);
@@ -421,7 +424,35 @@
 
   function beginWatching() {
     started = true;
-    if (current) markWatched(current.id);
+    if (current) { markWatched(current.id); logView = { id: current.id, finished: false, sent: false }; }
+  }
+
+  // ---------- watch log (Google Form in Dev's account) ----------
+  // One row per viewing, sent when he leaves the video (or the page). The form only takes
+  // new rows; it can't be read from here. Empty LOG_FORM = logging off.
+  var LOG_FORM = 'https://docs.google.com/forms/d/e/1FAIpQLSdEmRuFkhTUsRYBWr4lzgOh9hpeyDXqINFpn26le8Y_eXLo9w/formResponse';
+  var LOG_FIELD = 'entry.637870952';
+  var logView = null;
+  function two(n) { return (n < 10 ? '0' : '') + n; }
+  function sendLog() {
+    var v = logView;
+    if (!v || v.sent) return;
+    v.sent = true;
+    var h = history_[v.id];
+    if (!LOG_FORM || !h) return;
+    var d = new Date();
+    var line = [
+      d.getFullYear() + '-' + two(d.getMonth() + 1) + '-' + two(d.getDate()) + ' ' + two(d.getHours()) + ':' + two(d.getMinutes()),
+      h.g, h.t, v.id,
+      'watched ' + fmt(h.viewSecs) + ' of ' + fmt(h.dur || 0),
+      'furthest ' + fmt(h.far || 0),
+      v.finished ? 'finished' : 'not finished'
+    ].join(' | ');
+    var body = new URLSearchParams();
+    body.set(LOG_FIELD, line);
+    var ok = false;
+    try { ok = navigator.sendBeacon && navigator.sendBeacon(LOG_FORM, body); } catch (e) {}
+    if (!ok) { try { fetch(LOG_FORM, { method: 'POST', mode: 'no-cors', body: body, keepalive: true }); } catch (e) {} }
   }
 
   function continueToVideo() {
@@ -472,7 +503,12 @@
       showCover('Paused', true);
     } else if (e.data === S.ENDED) {
       btnPlay.textContent = '▶';
-      if (started && current) finishedInFull(current.id);   // he reached the very end
+      if (started && current) {   // he reached the very end
+        finishedInFull(current.id);
+        var hh = history_[current.id];
+        if (logView && hh && hh.dur && hh.viewSecs >= hh.dur * FULL_SHARE) logView.finished = true;
+        sendLog();
+      }
       coverPlay.textContent = '↻ Watch again';
       showCover('All done! 🎉', true);   // hides YouTube's end screen
     } else if (e.data === S.UNSTARTED) {
