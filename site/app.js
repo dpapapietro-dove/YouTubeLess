@@ -14,6 +14,8 @@
   var allowed = {};          // id -> video, the only ids we will ever play
   var activeTab = 0;         // 0 = All
   var player = null, apiReady = null, current = null;
+  var started = false;       // has he pressed "Continue to video" for this video yet?
+  var fallbackTimer = null;
   var wantSound = true;      // the Sound button; ads are always silenced regardless
   var ticker = null, idleTimer = null, seeking = false;
 
@@ -144,8 +146,11 @@
     coverImg.style.visibility = '';
     coverImg.onerror = function () { coverImg.style.visibility = 'hidden'; };
     coverImg.src = thumb(id);
-    coverPlay.textContent = '▶ Play';
-    showCover('Your video is starting…', true);
+    started = false;
+    showWaiting(false);
+    clearTimeout(fallbackTimer);
+    // If YouTube never reports the video as ready, offer the button anyway after a while
+    fallbackTimer = setTimeout(function () { if (!started) showWaiting(true); }, 45000);
     seek.value = 0;
     timeNow.textContent = '0:00';
     timeTotal.textContent = '0:00';
@@ -165,6 +170,7 @@
   function closeVideo(fromPop) {
     if (player && player.stopVideo) { try { player.stopVideo(); } catch (e) {} }
     current = null;
+    clearTimeout(fallbackTimer);
     stopTicker();
     if (document.fullscreenElement) document.exitFullscreen().catch(function () {});
     playerView.hidden = true;
@@ -174,7 +180,41 @@
     load();   // pick up any changes to the list
   }
 
+  // ---------- daily fact ----------
+  function todaysFact() {
+    var facts = window.STEM_FACTS || [];
+    if (!facts.length) return '';
+    var d = new Date();
+    var day = Math.floor((d.getTime() - d.getTimezoneOffset() * 60000) / 86400000);
+    return facts[day % facts.length];
+  }
+
+  // The fact screen shown while an ad plays. The button appears only once the video is ready.
+  function showWaiting(ready) {
+    var fact = todaysFact();
+    $('fact-text').textContent = fact;
+    $('fact').hidden = !fact;
+    coverText.textContent = ready ? '' : 'Your video is coming up…';
+    coverText.className = 'small';
+    coverPlay.textContent = '▶ Continue to video';
+    coverPlay.hidden = !ready;
+    coverBack.hidden = false;
+    cover.hidden = false;
+    stage.classList.remove('idle');
+  }
+
+  function continueToVideo() {
+    if (!player || !player.playVideo) return;
+    started = true;
+    clearTimeout(fallbackTimer);
+    showCover('Starting…', false);
+    if (wantSound) player.unMute();   // the button press lets the browser play sound
+    player.playVideo();
+  }
+
   function showCover(text, canPlay) {
+    $('fact').hidden = true;
+    coverText.className = '';
     coverText.textContent = text;
     coverPlay.hidden = !canPlay;
     cover.hidden = false;
@@ -185,7 +225,14 @@
   function onState(e) {
     var S = YT.PlayerState;
     if (e.data === S.PLAYING) {
-      // YouTube only reports PLAYING for the real video, never during an ad
+      // YouTube only reports PLAYING for the real video, never during an ad.
+      // The first time, hold it on the fact screen until he presses Continue.
+      if (!started) {
+        player.pauseVideo();
+        player.mute();
+        showWaiting(true);
+        return;
+      }
       if (wantSound) player.unMute();
       hideCover();
       btnPlay.textContent = '⏸';
@@ -193,6 +240,7 @@
       wakeControls();
     } else if (e.data === S.PAUSED) {
       btnPlay.textContent = '▶';
+      if (!started) return;   // we paused it ourselves to show the Continue button
       coverPlay.textContent = '▶ Keep watching';
       showCover('Paused', true);
     } else if (e.data === S.ENDED) {
@@ -202,16 +250,17 @@
     } else if (e.data === S.UNSTARTED) {
       // an ad (or the video loading): keep it silent and hidden
       player.mute();
-      coverPlay.textContent = '▶ Play';
-      showCover('Your video is starting…', true);
+      if (!started) showWaiting(false);
+      else showCover('Your video will be right back…', false);
     } else if (e.data === S.CUED) {
-      coverPlay.textContent = '▶ Play';
-      showCover(current ? current.title : '', true);
+      if (!started) showWaiting(true);
+      else { coverPlay.textContent = '▶ Play'; showCover(current ? current.title : '', true); }
     }
   }
 
   function togglePlay() {
     if (!player || !player.getPlayerState) return;
+    if (!started) { if (!coverPlay.hidden) continueToVideo(); return; }
     var st = player.getPlayerState();
     if (st === YT.PlayerState.PLAYING || st === YT.PlayerState.BUFFERING) player.pauseVideo();
     else if (st === YT.PlayerState.ENDED) { player.seekTo(0, true); player.playVideo(); }
