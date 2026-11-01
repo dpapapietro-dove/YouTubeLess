@@ -13,7 +13,7 @@
 #
 #  The video's name is filled in automatically. To use your own name,
 #  put a | after the link and type the name:
-#    https://www.youtube.com/watch?v=XqZsoesa55w | Baby Shark
+#    https://www.youtube.com/watch?v=BYVZh5kqaFg | Egg Drop From Space
 #
 #  GROUPS: a line in [square brackets] starts a new group. Each group
 #  becomes a button at the top of the page. Make as many as you like.
@@ -25,12 +25,966 @@
 
 Site name: My Videos
 
-[Songs]
-https://www.youtube.com/watch?v=XqZsoesa55w | Baby Shark Dance
-https://www.youtube.com/watch?v=e_04ZrNroTo | Wheels on the Bus
+# ---- Curated automatically from trusted channels (curation/channels.json) ----
+
+[Engineering & Inventions]
+https://youtu.be/DPZzrlFCD_I | World's Largest Jello Pool- Can you swim in Jello?
+https://youtu.be/Q6vVuj3iggE | Skin a Watermelon Party Trick
+https://youtu.be/BYVZh5kqaFg | Egg Drop From Space
+https://youtu.be/My4RA5I0FKs | Liquid Sand Hot Tub- Fluidized air bed
+https://youtu.be/hFZFjoX2cGg | Backyard Squirrel Maze 1.0- Ninja Warrior Course
+https://youtu.be/DTvS9lvRxZ8 | Backyard Squirrel Maze 2.0- The Walnut Heist
+https://youtu.be/Rsxao9ptdmI | Beating 5 Scam Arcade Games with Science
+https://youtu.be/tk_ZlWJ3qJI | Carnival Scam Science (and how to WIN)
+https://youtu.be/7__r4FVj-EI | Octopus vs Underwater Maze
+https://youtu.be/T9xsTO6ujqM | This Ball is Impossible to Hit
+https://youtu.be/edRloa1ZHqY | 1500 Water Balloons + Trampoline- SLO MO!!
+https://youtu.be/BHiWygziyso | World's Largest Devil's Toothpaste Explosion
+https://youtu.be/P_6my53IlxY | World's Longest Field Goal- Robot vs NFL Kicker
+https://youtu.be/Kou7ur5xt_4 | World's Largest Elephant Toothpaste Experiment
+https://youtu.be/JdFRjsEZrmU | Acid vs Lava- Testing Liquids That Melt Everything
+https://youtu.be/Twn_4AW0M6U | My Rock, Paper, Scissors Robot Never Loses (+9 Other Inventions)
+https://youtu.be/8HEfIJlcFbs | World Record Domino Robot (100k dominoes in 24hrs)
+https://youtu.be/2JAOTJxYqh8 | Bed Bugs- What You've Been Told is Totally False
+https://youtu.be/9c2NqlUWZfo | World’s Smallest Nerf Gun Shoots an Ant
+https://youtu.be/QpwJEYGCngI | You've Never Seen A Wheelchair Like This
+https://youtu.be/pXDx6DjNLDU | This Robot Eats Trash #TeamSeas
+https://youtu.be/wM5NHC97JBw | World's First Automatic Strike Bowling Ball
+https://youtu.be/h5Zwg3Ag-bE | Lasers vs Lightning- Which Is More Powerful?
+https://youtu.be/M7-h3FO-KKo | Testing If You Can Blow Your Own Sail
+https://youtu.be/tpg3VvoIVfA | Testing The World's Smartest Crow
+https://youtu.be/Zb01RStdzEs | Candy Thieves vs Rigged Candy Bowl
+https://youtu.be/e09xig209cQ | World's Tallest Elephant Toothpaste Volcano
+https://youtu.be/MFVXsnq230c | 25 Million Orbeez in a pool- Do you sink or float?
+https://youtu.be/pFEB0chiuJA | World's Largest Horn Shatters Glass
+https://youtu.be/uBEL3YVzMwk | Robot Piano Catches Fire Playing Rush E (World’s Hardest Song)
+https://youtu.be/T1KRQ3RcvXA | World's Largest Super Soaker
+https://youtu.be/vXBfwgwT1nQ | This Arcade Game is a SCAM (I have proof)
+https://youtu.be/57MKxz4pJKE | World's Largest Nerf Gun
+https://youtu.be/9IiYOTzJ2uw | I Built a Roller Coaster In My Lab
+https://youtu.be/25N0R1KnXVs | Lava vs Lasers - Which Is More Destructive?
+https://youtu.be/lg5wznn3IBE | Backyard Squirrelympics 3.0- The Summer Games
+https://youtu.be/DOWDNBu9DkU | Amazing Invention- This Drone Will Change Everything
+https://youtu.be/lv8wqnk_TsA | NICEST Car Horn Ever- DIY
+https://youtu.be/nsnyl8llfH4 | 1st place Egg Drop project ideas- using SCIENCE
+https://youtu.be/SrGENEXocJU | Vortex Cannon vs Drone
+https://youtu.be/Sqr-PdVYhY4 | My Puzzle Robot is 200x Faster Than a Human
+https://youtu.be/jnL7sJYblGY | 200 dropped wallets- the 20 MOST and LEAST HONEST cities
+https://youtu.be/tMKXbLBgkEc | CAR vs. WORLD’S STRONGEST TRAMPOLINE- 150ft (45m) drop
+https://youtu.be/IQJL3htsDyQ | Can You Fool A Self Driving Car?
+https://youtu.be/a1D-fZP8qJk | World's Largest Lemon Battery
+https://youtu.be/zwgaTYOx0RI | Beat Any Escape Room- 10 proven tricks and tips
+https://youtu.be/-RjJtO51ykY | EASY Pinewood Derby Car WINS using Science!!!
+https://youtu.be/oBcxuzdP3rs | Rocket Powered Golf Club at 100,000 FPS
+https://youtu.be/q2C1JpQi5G4 | Uncovering America's Underwater City
+https://youtu.be/U7nJBFjKqAY | Using Drones to Plant 20,000,000 Trees
+https://youtu.be/FRlbNOno5VA | BEST Guess Who Strategy- 96% WIN record using MATH
+https://youtu.be/QiKZYt9070U | World's Largest T-Shirt Cannon (breaks the roof)
+https://youtu.be/9e9D7ABgHpU | Unbreakable Ice Cream Safe
+https://youtu.be/GYCI58pMGuQ | Playing Card Machine Gun- Card Throwing Trick Shots
+https://youtu.be/lv6R9TexjCQ | Engineers vs Extreme Hide & Seek
+https://youtu.be/ZViWWpA2AFk | Engineers vs Pumpkin Carving
+https://youtu.be/rSgvY33JRt4 | Engineers vs GIANT Egg Drop
+https://youtu.be/e4icPIRX9nc | Revealing 5 Secret Magic Tricks With Science 2.0
+https://youtu.be/gynd5ZIzBjU | Engineer vs Pro Chef- Extreme Gingerbread House Contest
+https://youtu.be/o7SFgrWl524 | World's Largest Frisbee Launcher
+https://youtu.be/16LuvR2CARA | Inside Disney’s Secret Engineering Lab
+https://youtu.be/cBlDLW5pv-s | Engineers vs Food Robots
+https://youtu.be/wxSkpngdQ5U | Ultimate Slime Obstacle Course!
+https://youtu.be/QMFrtyT5a2k | Making Impossible Items Float
+https://youtu.be/0CPGc0vgYfM | $10,000 Tennis Ball Cannon Challenge
+https://youtu.be/oUIk1KLFXOY | Filling My Warehouse w/10,000+ Balloons!
+https://youtu.be/zlqfrcJ-BY4 | Building REAL LIFE Mario Karts At CrunchLabs
+https://youtu.be/D3s14gpmea4 | Mark Rober Reacts to Kids Genius Inventions
+https://youtu.be/jsYP1SLRzSI | How to Levitate a Baby (and other household objects)
+https://youtu.be/t4GJ0KzoGRI | Turning Kids Drawings Into Real Toys
+https://youtu.be/9QldsLTaQHo | Animals vs Engineers
+https://youtu.be/nBfK04-QPpg | Engineers vs Almost Impossible Tasks
+https://youtu.be/n4biw_1ReQ0 | World's Largest Toy Catapult
+https://youtu.be/NafMsMCfErk | World's Largest Coin Spinner
+https://youtu.be/szDbBAcP12M | World's Longest Hot Wheels Track
+https://youtu.be/iSbLf1iOcZQ | Water Experiments That Look Like Magic
+https://youtu.be/f8-uvmL58nE | This Is What 400 MPH Looks Like
+https://youtu.be/yi29dbPnu28 | Arduino 101- Crash Course w/ Mark Rober
+https://youtu.be/1ekU0_GPi-g | Engineers vs Thanksgiving Dinner
+https://youtu.be/E9xR-tslE0U | Giant Whoosh Cannon!
+https://youtu.be/HLemKJnetm8 | Laser Explosions!
+https://youtu.be/bhLaAnRQ_XU | Billiard Ball Snake!
+https://youtu.be/rpNtNOAtGbU | Lego Explosions!
+https://youtu.be/4fvkgAJiBQI | I Engineered the First-Ever Human Car Wash
+https://youtu.be/Ysg3KPR4Uco | Giant Smoke Rings!
+https://youtu.be/xKlUXwVEIo0 | 4,000 Mouse Trap Chain Reaction
+https://youtu.be/LZxHd0_J2aQ | Ping Pong Explosions!
+https://youtu.be/Nw6ry2apRAQ | This Disc Launcher Gives You Superpowers!!!
+https://youtu.be/1j1kAuqePJo | How To Build Your Own Desktop Turret Robot!
+https://youtu.be/bY1E2IkvQ3k | The Bizarre Paths of Groundwater Around Structures
+https://youtu.be/e-DVIQPqS8E | How Do Sinkholes Form?
+https://youtu.be/HRx_dZawN44 | The Hidden Engineering of Landfills
+https://youtu.be/cZINeaDjisY | Why Concrete Needs Reinforcement
+https://youtu.be/tmbZVmXyOXM | Why Are Cooling Towers Shaped Like That?
+https://youtu.be/3oBCtTv6yOw | What Really Happened at the Arecibo Telescope?
+https://youtu.be/YkR79oDAgOg | What is a Weir?
+https://youtu.be/jduDyF2Zwd8 | Where Does Grounded Electricity Actually Go?
+https://youtu.be/yZwfcMSDBHs | How Water Towers Work
+https://youtu.be/zFdyqTGx32A | How Does a Hydraulic Ram Pump Work?
+https://youtu.be/xoLmVFAFjn4 | What is Water Hammer?
+https://youtu.be/URC125wpMS4 | How are Underwater Structures Built?
+https://youtu.be/XiUOBdEUqjY | All Dams Are Temporary
+https://youtu.be/zdkp9N3qfkI | What is Air Lock?
+https://youtu.be/-17mPnFxi30 | Stopping the Unstoppable
+https://youtu.be/KciAzYfXNwU | What Really Happened During the 2003 Blackout?
+https://youtu.be/UpHOkHxpTvQ | How Sewers Work (feat. Fake Poop)
+https://youtu.be/zqmOSMAtadc | Why Railroads Don't Need Expansion Joints
+https://youtu.be/jxNM4DGBRMU | What Really Happened at the Oroville Dam Spillway?
+https://youtu.be/Ry_3icwd68o | How Different Spillway Gates Work
+https://youtu.be/PhW2BjFQCZM | The Los Angeles Aqueduct is Wild
+https://youtu.be/bG19b06NG_w | How Wells & Aquifers Actually Work
+https://youtu.be/mxqOPdEUNTs | Why Is Desalination So Difficult?
+https://youtu.be/0olpSN6_TCc | Sand Castle Holds Up A Car! - Mechanically Stabilized Earth
+https://youtu.be/JAhdb7dKQpU | How Do You Steer a Drill Below The Earth?
+https://youtu.be/PLF18H9JGHs | Does Rebar Rust?
+https://youtu.be/6CmX4ZmhwPM | Every Construction Machine Explained in 15 Minutes
+https://youtu.be/XpTs1V2NQ24 | Why Bridges Don't Sink
+https://youtu.be/vLZElIYHmAI | Why Engineers Can't Control Rivers
+https://youtu.be/z-wQnWUhX5Y | Repairing Underground Power Cables Is Nearly Impossible
+https://youtu.be/Ty-m4pm8oog | What Really Happened at the Suez Canal?
+https://youtu.be/aFZM_BY6jBw | How French Drains Work
+https://youtu.be/3nDdLiXS5wk | The Bizarre Bases of Antenna Towers
+https://youtu.be/nGa1244hK9Y | What’s the Deal with Base Plates?
+https://youtu.be/ph9O9yJoeZY | What Really Happened at the Millennium Tower?
+https://youtu.be/7Q-aVBv7PWM | How Do Substations Work?
+https://youtu.be/xNDppVTVUss | Why Tunnels Don't Collapse
+https://youtu.be/SPCewaAfqPA | How does land surveying work?
+https://youtu.be/0_KhihMIOG8 | Why Buildings Need Foundations
+https://youtu.be/MFzDaBzBlL0 | The Backwards Brain Bicycle - Smarter Every Day 133
+https://youtu.be/Q_F9CxSmGOM | World's Longest Home Run (The "Mad Batter" Machine) - Smarter Every Day 230
+https://youtu.be/p1PgNbgWSyY | GOING SUPERSONIC with U.S. Air Force Thunderbirds! Pulling 7 G's in an F-16 -Smarter Every Day 235
+https://youtu.be/JT0wx27J9xs | How Hard Can You Hit a Golf Ball? (at 100,000 FPS) - Smarter Every Day 216
+https://youtu.be/M2w3NZzPwOM | Why Snatch Blocks are AWESOME (How Pulleys Work) - Smarter Every Day 228
+https://youtu.be/RXXMJAU6vY8 | Boarding a US NAVY NUCLEAR SUBMARINE in the Arctic - Smarter Every Day 240
+https://youtu.be/4I-p8vjQ95s | Trying to Catch a 1,000 MPH Baseball - Smarter Every Day 247
+https://youtu.be/EVbdbVhzcM4 | Two Vortex Rings Colliding in SLOW MOTION - Smarter Every Day 195
+https://youtu.be/O7zewtuUM_0 | The Archer's Paradox in SLOW MOTION - Smarter Every Day 136
+https://youtu.be/xe-f4gokRBs | Mystery of Prince Rupert's Drop at 130,000 fps - Smarter Every Day 86
+https://youtu.be/toVfvRhWbj8 | How Does A Carburetor Work? - Transparent Carburetor at 28,546 fps Slow Mo - Smarter Every Day 259
+https://youtu.be/cqidD7kVnxY | World's Fastest Pitch - Supersonic Baseball Cannon - Smarter Every Day 242
+https://youtu.be/xflY5uS-nnw | How Engines Work - (See Through Engine in Slow Motion) - Smarter Every Day 166
+https://youtu.be/kUfF2MTnqAw | Why You Should Put YOUR MASK On First (My Brain Without Oxygen) - Smarter Every Day 157
+https://youtu.be/RtWbpyjJqrU | Slow Motion Flipping Cat Physics - Smarter Every Day 58
+https://youtu.be/g3Ud6mHdhlQ | How Do Nuclear Submarines Make Oxygen?- Smarter Every Day 251
+https://youtu.be/0i5rycLJ3D8 | How to Escape from a Car Window (SLOW MOTION) - Smarter Every Day 144
+https://youtu.be/7WJCnC5ebf4 | Jellyfish Stinging in MICROSCOPIC SLOW MOTION - Smarter Every Day 120
+https://youtu.be/QxZ_iPldGtI | Where does NASA keep the Moon Rocks? - Smarter Every Day 220
+https://youtu.be/fvu5FxKuqdQ | The Infinadeck Omnidirectional Treadmill - Smarter Every Day 192
+https://youtu.be/K9_b9X2EA3E | Inside a Kangaroo Pouch - Smarter Every Day 139
+https://youtu.be/y7Hyc3MRKno | Why Laminar Flow is AWESOME - Smarter Every Day 208
+https://youtu.be/dCXu8Ju_fdY | ROBOFORMING: The Future of Metalworking? (I Had NO IDEA This Was Possible) - Smarter Every Day 290
+https://youtu.be/S1opkMO1w4U | How Weed Eaters Work (at 62,000 FRAMES PER SECOND) - Smarter Every Day 236
+https://youtu.be/y8mzDvpKzfY | A Baffling Balloon Behavior - Smarter Every Day 113
+https://youtu.be/ywBV6M7VOFU | Everything About Grain Bins (Farmers are Geniuses) - Smarter Every Day 218
+https://youtu.be/at-xZA5U1ps | What does a Gong Sound Like when Hit with a 1189mph Baseball? - Smarter Every Day 267
+https://youtu.be/Q8Yp9SjCU5E | WORLD’S MOST AMAZING ARCHER in Slow Motion - Smarter Every Day 130
+https://youtu.be/bPJUVKizh90 | How to Make Pizza on a Submarine - Smarter Every Day 246
+https://youtu.be/ADD7QlQoFFI | Secret of Snapping Spaghetti in SLOW MOTION - Smarter Every Day 127
+https://youtu.be/ImoQqNyRL8Y | The Incredible Sounds of the Falcon Heavy Launch (BINAURAL AUDIO IMMERSION) - Smarter Every Day 189
+https://youtu.be/IANBoybVApQ | Mind-Blowing Magic Magnets - Smarter Every Day 153
+https://youtu.be/aoXJfuPaFF8 | Why This Zig-Zag Coast Guard Search Pattern is Actually Genius - Smarter Every Day 268
+https://youtu.be/eXR1olg_I0w | Hovering a Helicopter is Hilariously Hard - Smarter Every Day 145
+https://youtu.be/_TNSUIsjdpY | See Through Potato Cannon at 20,000 fps - Smarter Every Day 156
+https://youtu.be/X3o71W4uNHc | Prince Rupert's Drop EXPLODING in Epoxy Resin at 456,522 fps - Smarter Every Day 273
+https://youtu.be/AnaASTBn_K4 | How does a whip break the sound barrier? (Slow Motion Shockwave formation) - Smarter Every Day 207
+https://youtu.be/c8W-auqg024 | We Sent Garlic Bread to the Edge of Space, Then Ate It
+https://youtu.be/Ef93WmlEho0 | Why California's musical road sounds terrible
+https://youtu.be/EocJm3Dry4E | The US-Canada border splits this road down the middle
+https://youtu.be/G025oxyWv0E | If Educational Videos Were Filmed Like Music Videos
+https://youtu.be/DMKcO-T5Y4o | G-force, jerk, and a giant centrifuge
+https://youtu.be/j9JD9W0n7gE | The sculpture that looks like a real-life cartoon
+https://youtu.be/gN_PK5pXmIY | Do The Numbers On Toaster Dials Mean Minutes?
+https://youtu.be/i70wkxmumAw | This giant model stopped a terrible plan
+https://youtu.be/_NzVmtbPOrM | I can't show you how pink this pink is.
+https://youtu.be/xXC6U0NfJg8 | Sinking Ship Simulator: The Royal Navy's Damage Repair Instructional Unit
+https://youtu.be/Q-v4LsbFc5c | This Video Is 2D And 3D Simultaneously: the Pulfrich Effect
+https://youtu.be/2tdiKTSdE9Y | I promise this story about microwaves is interesting.
+https://youtu.be/dzYP01CPC6E | I took the world's shortest flight. It was underwhelming.
+https://youtu.be/gisdyTBMNyQ | I thought this rotating house was impossible.
+https://youtu.be/9uZam0ubq-Y | The Language Sounds That Could Exist, But Don't
+https://youtu.be/IP-rGJKSZ3s | The Two Generals’ Problem
 
 [Science]
-# Paste science videos here
+https://youtu.be/uxPdPpi5W4o | Why Are 96,000,000 Black Balls on This Reservoir?
+https://youtu.be/AeJ9q45PfD0 | World's Lightest Solid!
+https://youtu.be/2OSrvzNW9FE | Backspin Basketball Flies Off Dam
+https://youtu.be/AF8d72mA41M | Why It Was Almost Impossible to Make the Blue LED
+https://youtu.be/pir_muTzYM8 | Inside The Navy's Indoor Ocean
+https://youtu.be/094y1Z2wpJg | The Simplest Math Problem No One Can Solve - Collatz Conjecture
+https://youtu.be/GcdB5bFwio4 | I Waterproofed Myself With Aerogel!
+https://youtu.be/OxGsU8oIWjY | How An Infinite Hotel Ran Out Of Room
+https://youtu.be/ZMByI4s-D-Y | World's Roundest Object!
+https://youtu.be/6akmv1bsz1M | White holes and wormholes are probably real. Here's why.
+https://youtu.be/qevIIQHrJZg | This Unstoppable Robot Could Save Your Life
+https://youtu.be/GeyDf4ooPdo | Anti-Gravity Wheel?
+https://youtu.be/BZbChKzedEk | Can You Swim in Shade Balls?
+https://youtu.be/88bMVbx1dzM | Can You Keep Zooming In Infinitely?
+https://youtu.be/DxL2HoqLbyA | The Most Misunderstood Concept in Physics
+https://youtu.be/HeQX2HjkcNo | Math's Fundamental Flaw
+https://youtu.be/bHIhgxav9LY | The Biggest Misconception About Electricity
+https://youtu.be/t-_VPRCtiUg | The Surprising Secret of Synchronization
+https://youtu.be/Q56PMJbCFXQ | This Skyscraper Was Days From Collapsing And No One Knew
+https://youtu.be/AaZ_RSt0KP8 | The Universe is Hostile to Computers
+https://youtu.be/yCsgoLc_fzI | A Physics Professor Bet Me $10,000 I'm Wrong
+https://youtu.be/ZMQbHMgK2rw | The Fastest Maze-Solving Competition On Earth
+https://youtu.be/j5v8D-alAKE | This is why we can't have nice things
+https://youtu.be/9cNmUNHSBac | Most People Don't Know How Bikes Work
+https://youtu.be/pTn6Ewhb27k | Why No One Has Measured The Speed Of Light
+https://youtu.be/Tt6WQYtefXA | How Japanese Masters Turn Sand Into Swords
+https://youtu.be/cUzklzVXJwo | How Imaginary Numbers Were Invented
+https://youtu.be/_k9egfWvb7Y | World's Heaviest Weight
+https://youtu.be/Zrv1EDIqHkY | The Oldest Unsolved Problem in Math
+https://youtu.be/48sCx-wBs34 | The Infinite Pattern That Never Repeats
+https://youtu.be/qJZ1Ez28C-A | The Strangest Implication of Quantum Mechanics
+https://youtu.be/wCrtk-pyP0I | Microwaving Grapes Makes Plasma
+https://youtu.be/16Ci_2bN_zc | How Dangerous is a Penny Dropped From a Skyscraper?
+https://youtu.be/iSNsgj1OCLA | The Riddle That Seems Impossible Even If You Know The Answer
+https://youtu.be/aFPJf-wKTd0 | How Hidden Technology Transformed Bowling
+https://youtu.be/FUHkTs-Ipfg | The SAT Question Everyone Got Wrong
+https://youtu.be/lFlu60qs7_4 | The line that broke mathematicians for 2000 years
+https://youtu.be/tZ8ehplVFp4 | Why Do Escalator Steps Have Teeth?
+https://youtu.be/wCxRHueX6jQ | Wirtz pumps are really clever
+https://youtu.be/81ebWToAnvA | Can water solve a maze?
+https://youtu.be/DAUl6upA3q4 | Self-Healing Material
+https://youtu.be/NtZaP8VMv0c | NASA tested my chain theory in space
+https://youtu.be/fT2KhJ8W-Kg | How gas pumps know when to turn themselves off
+https://youtu.be/f9zyenX2PWk | How these impossibly thin cuts are made
+https://youtu.be/vrOjy-v5JgQ | Self-assembling material pops into 3D
+https://youtu.be/r_LG8FDt51U | You can't hide the batteries when it's transparent!
+https://youtu.be/0onncd0_0-o | Tensegrity Explained
+https://youtu.be/1uEmX5XClPY | The cheap Chinese bulb that won't turn off
+https://youtu.be/3AXupc7oE-g | Pop-Pop Boats Are Weirder Than You Think
+https://youtu.be/2IKZIWVHXvo | Why Gluggle Jugs Are So Weird
+https://youtu.be/QpuCtzdvix4 | This weird metal is insanely bouncy
+https://youtu.be/DWzXF9B68nQ | Space filling curves filling with water
+https://youtu.be/Cg73j3QYRJc | The Spring Paradox
+https://youtu.be/_2By2ane2I4 | How a quartz watch works - its heart beats 32,768 times a second
+https://youtu.be/QrkiJZKJfpY | Mechanical circuits: electronics without electricity
+https://youtu.be/3oM7hX3UUEU | The Turntable Paradox
+https://youtu.be/D07aJB0Blzw | A 2D Heron's Fountain Behaves Weirdly
+https://youtu.be/Fg0qy9L12_g | How the portal illusion works
+https://youtu.be/T47s4L1Wje4 | Do tire balancing beads actually work?
+https://youtu.be/a9tMjCwP-yI | Will this toy engine work at full size? (yes)
+https://youtu.be/DkaJ6iK2CJc | I Can Twist My Eye Around Its Pupil (And So Can You)
+https://youtu.be/x3VluzZTReE | Penrose Unilluminable Room Is Impossible To Light
+https://youtu.be/IxXaizglscw | I Made A Water Computer And It Actually Works
+https://youtu.be/70-_GBymrck | Watch gravity pull two metal balls together
+https://youtu.be/O_-2Vo-f1AU | Warbling Whistles Are Weird
+https://youtu.be/SqhXQUzVMlQ | Bizarre travelling flame discovery
+https://youtu.be/g_VxOIlg7q8 | You can't bounce a ball under a table
+https://youtu.be/qtQ4rK66vlE | This microscope uses touch
+https://youtu.be/wcJXA8IqYl8 | Piezoelectricity - why hitting crystals makes electricity
+https://youtu.be/TNuzi-jMXoY | The Band Should Slip Off But It Does The Opposite!
+https://youtu.be/1o8ktldjcog | Light sucking flames look like magic
+https://youtu.be/1EyN9_QO4_A | The Arm Spin That Stops a Fall
+https://youtu.be/5sbM2Isx17A | The Golf Ball Paradox
+https://youtu.be/k3Q9UWWiPsQ | The "Perpetual Motion" Pump That Actually Works
+https://youtu.be/RWbCC6f_k1c | The Liquid Hammer Toy You Can't Buy
+https://youtu.be/xUUW6SYl_ak | We should use this amazing mechanism that's inside a grasshopper leg
+https://youtu.be/qebMrMt4240 | The Spool Paradox
+https://youtu.be/xuL2yT-B2TM | Self organising steel balls explain metal heat treatment
+https://youtu.be/d_BvHJXIAQs | Peruvian Whistling Vessels are weird
+https://youtu.be/BFZxlauizx0 | The bizarre flashing lights on a smartwatch
+https://youtu.be/9Bqg-6nzkzw | Is It Possible To Completely Fill a Klein Bottle?
+https://youtu.be/rvVF5QWSYF4 | Gömböc—The Shape That Shouldn't Exist
+https://youtu.be/aQPh6paW_js | Mind-Bending Effect of Ferrofluid on a Superconductor
+https://youtu.be/8GY4m022tgo | Quantum Locking Will Blow Your Mind—How Does it Work?
+https://youtu.be/ZKz0_kSFSP0 | Chickens Are Weirder Than You Thought
+https://youtu.be/N9VaJKIO1JA | The Darkest Clothing In The World
+https://youtu.be/p6q54q2iam8 | I Painted My Entire Room With Musou Black—The World's Blackest Paint
+https://youtu.be/Gav25xB0LtE | The Greedy Cup Has Become Even More Devious
+https://youtu.be/o4xTbyfQgps | This Weird Shape Rolls Uphill Instead of Down
+https://youtu.be/7bP8lSiHy6Q | Filling an Air Mattress With Helium to See if I Can Float!
+https://youtu.be/yrefqqirklY | Magnifying The World's Brightest Flashlight (200,000 Lumens)
+https://youtu.be/CwFRJ7SkYvI | Can an Umbrella Made of Water Stop the Rain?
+https://youtu.be/y3P77vz0QyU | This Strange Wave Changed Physics Forever
+https://youtu.be/MH-iyCoonsA | What Happens When a White Hole and a Black Hole Collide?
+https://youtu.be/8Q4fam5UOPU | Running Off A Vehicle Backwards At The Same Speed That It Is Driving Forward!
+https://youtu.be/wI6baSNBpPw | How To Make Fried Water
+https://youtu.be/7nTqycDH2lM | I Finally Discovered Perpetual Motion
+https://youtu.be/Ls_ISb7lG-I | Superhydrophobic Knife Slices Water Drops in Half
+https://youtu.be/OreWXw1ojow | This Ancient Technology Makes Things Spin Really Fast!
+https://youtu.be/uipbvHBG9jE | How Hard Is It To Freeze Flowing Water?
+https://youtu.be/pXlJMTx4kW4 | Opening a Bottle of Liquid Nitrogen Under Water!
+https://youtu.be/DjdFn1RYHDE | Painting My Entire Room With The World's Brightest Paint...Then Turning on a 100,000 Lumen Light!
+https://youtu.be/tX6XSs2T5Go | How Does This App Blow Out Candles?
+https://youtu.be/U1py70uyGtA | This Mysterious Material Moves Around on Your Hand
+https://youtu.be/PhSQnIrQIOg | How Does The Space Cup Work?
+https://youtu.be/zm_7txMrG5U | Can You Use Umbrellas Instead of a Parachute?
+https://youtu.be/SRDfOPH_DTA | I Melted Wood With Friction
+https://youtu.be/bdWUnCb9Ly8 | This Ice Cream Trick Feels Impossible
+https://youtu.be/aXTcYa7u12k | Why Don't Liquids Splash In a Vacuum?
+https://youtu.be/sxvIQMnKhIg | This Tesla Valve Straw Only Works In One Direction
+https://youtu.be/kvSlaIwUCuk | How to Make a Quantum Tunnel In Real Life
+https://youtu.be/1rBafWR3b50 | I Built An Entire Room Made Completely Out of Mirrors!
+https://youtu.be/DwgMjr-Qu1Y | Hitting Earth with a Grain of Sand Going 99.9% the Speed of Light
+https://youtu.be/kX4N8hNzsDw | What Does a Giant Neodymium Magnet do to Stretch Armstrong?
+https://youtu.be/TaHovkewa2s | How Long Does The Forever Pen Really Last?
+https://youtu.be/VSYwaesDQBw | These Planes Are Propelled With Ionic Thrust
+https://youtu.be/Y8c7TZx8HeY | What Does It Look Like INSIDE a Spherical Mirror?
+https://youtu.be/7bHOQLlSTdo | Drinking The World's Highest Pressure Soda
+https://youtu.be/udqihUBGuZ8 | Slowing The Speed of Light Down To 2 m/s—What Special Relativity Feels Like
+https://youtu.be/Pw3AvKcHeTw | This Material Gets Bigger When You Squish It
+https://youtu.be/TM9alPcOMcU | Shining Light Through Solid Balls Using Quantum Mechanics—Poisson's Spot Experiment
+https://youtu.be/niqeCL80W5g | Will a Drone Be Pushed Backwards Inside an Accelerating Truck?
+https://youtu.be/NdAganj2Gfo | Swimming In Syrup Is As Easy As Swimming In Water
+https://youtu.be/PffSc5ZBXgc | Is It Really Impossible To Breathe Through a Tube Underwater?
+https://youtu.be/WPCqTeOlRdE | Why Water Boils In Tall Cups
+https://youtu.be/WRqZsHt0fAw | What Does a Fan Do in a Vacuum Chamber? Weird Results
+https://youtu.be/hvU7Xz1mCik | The World's Tallest Pythagoras Cup—Does It Still Drain?
+https://youtu.be/5q1lje3dfOw | Opening a Vial of Cesium Underwater
+https://youtu.be/EQCzO4RfZAM | Hydrophobic Projectiles Slice Through Water With No Drag
+https://youtu.be/hPlZHGdooo0 | Trying To Drink From The World's Longest Straw
+https://youtu.be/l64YwNl1wr0 | Earth's Rotation & Revolution: Crash Course Kids 8.1
+https://youtu.be/wyRy8kowyM8 | Matter Compilation: Crash Course Kids
+https://youtu.be/R-Iak3Wvh9c | Weathering and Erosion: Crash Course Kids #10.2
+https://youtu.be/ELchwUIlWa8 | What's Matter? - Crash Course Kids #3.1
+https://youtu.be/YbAWny7FV3w | Weather vs. Climate: Crash Course Kids #28.1
+https://youtu.be/FN6QX43QB4g | Landforms, Hey!: Crash Course Kids #17.1
+https://youtu.be/b25g4nZTHvM | Seasons and the Sun: Crash Course Kids 11.1
+https://youtu.be/EwY6p-r_hyU | Gravity Compilation: Crash Course Kids
+https://youtu.be/CZhE2p46vJk | Food Chains Compilation: Crash Course Kids
+https://youtu.be/VMxjzWHbyFM | Four Spheres Part 1 (Geo and Bio): Crash Course Kids #6.1
+https://youtu.be/ljRlB6TuMOU | Defining Gravity: Crash Course Kids #4.1
+https://youtu.be/owHF9iLyxic | What's an Engineer? Crash Course Kids #12.1
+https://youtu.be/fxJWin195kU | The Engineering Process: Crash Course Kids #12.2
+https://youtu.be/QVZExLO0MWA | Severe Weather: Crash Course Kids #28.2
+https://youtu.be/37pir0ej_SE | Chemical Changes: Crash Course Kids #19.2
+https://youtu.be/6FB0rDsR_rc | Here Comes the Sun: Crash Course Kids #5.1
+https://youtu.be/MuKs9o1s8h8 | Fabulous Food Chains: Crash Course Kids #7.1
+https://youtu.be/1SN1BOpLZAs | Following the Sun: Crash Course Kids #8.2
+https://youtu.be/UXh_7wbnS3A | Four Spheres Part 2 (Hydro and Atmo): Crash Course Kids #6.2
+https://youtu.be/Td_A9H69eE8 | Space Compilation: Crash Course Kids
+https://youtu.be/jA0PzblYPUM | The Great Picnic Mix Up: Crash Course Kids #19.1
+https://youtu.be/Vtb3I8Vzlfg | Food Webs: Crash Course Kids #21.2
+https://youtu.be/p15IrEuhYmo | Home Sweet Habitat: Crash Course Kids #21.1
+https://youtu.be/npv74D2MO6Q | Part(icles) of Your World: Crash Course Kids #3.2
+https://youtu.be/xDSFlRunlrU | Living Things Change: Crash Course Kids #41.1
+https://youtu.be/z5G4NCwWUxY | The Great Aqua Adventure: Crash Course Kids #24.1
+https://youtu.be/uB61rfeeAsM | The Dirt on Decomposers: Crash Course Kids #7.2
+https://youtu.be/o_bbQ0m3wuM | Dinosaur Pee?: Crash Course Kids #24.2
+https://youtu.be/MZffhapfOgg | Super Stars (Constellations): Crash Course Kids #31.1
+https://youtu.be/oaQCiwzjnCM | The Basics of Freshwater: Crash Course Kids 14.1
+https://youtu.be/z9TIlM96lT8 | Gotta Eat! - Crash Course Kids 1.1
+https://youtu.be/nlSemv2fLN8 | What's My Property: Crash Course Kids #35.2
+https://youtu.be/ZZYnERZe3Cg | Hunting for Properties: Crash Course Kids #9.1
+https://youtu.be/8LfD_EKze2M | Resources: Welcome to the Neighborhood - Crash Course Kids #2.1
+https://youtu.be/AHCOzc143Ec | Feed Me: Classifying Organisms - Crash Course Kids #1.2
+https://youtu.be/Fnd-2jetT1w | Oobleck and Non-Newtonian Fluids: Crash Course Kids #46.1
+https://youtu.be/3lHHOiTdmK4 | Vacation or Conservation (Of Mass): Crash Course Kids #23.1
+https://youtu.be/eBIS17Va9sA | The Zodiac Constellations: Crash Course Kids #37.1
+https://youtu.be/RD-2dvaG4UY | Weather Channels: Crash Course Kids #34.2
+https://youtu.be/tGfLhPslEjQ | Material World: Crash Course Kids #40.1
+https://youtu.be/BbzCA0Lgf3Y | Constellation Location: Crash Course Kids #31.2
+https://youtu.be/SkAhB-8CtZg | Water Water Everywhere: Crash Course Kids #14.2
+https://youtu.be/_fcXL61NZS0 | Current Events: Crash Course Kids #34.1
+https://youtu.be/WoPtsnIcSv8 | Gas Giants Weather: Crash Course Kids #43.2
+https://youtu.be/7omxmCDpW7U | Measurement Mystery: Crash Course Kids #9.2
+https://youtu.be/dN2VDcmuTl4 | The Science of Lunch: Crash Course Kids #15.2
+https://youtu.be/eCSIrlk0GTs | Who Needs Dirt?: Crash Course Kids #27.1
+https://youtu.be/EstPeBt9CyU | Vegetation Transformation: Crash Course Kids #5.2
+https://youtu.be/Zo-sKzMWYFA | Glow On: Crash Course Kids #20.2
+https://youtu.be/-s3UwOq1P1E | What is a Tornado? - Weather Science - SciShow Kids
+https://youtu.be/l-zc_1vjLnI | Worms Are Wonderful - Amazing Animals - Backyard Science - SciShow Kids
+https://youtu.be/A7LU5Wxc_0Y | Blobfish: The World's Ugliest Animal - Biology for Kids - SciShow Kids
+https://youtu.be/tkFPyue5X3Q | How Does A Seed Become A Plant? - Backyard Science - SciShow Kids
+https://youtu.be/3qdxEiIB_Sw | Don't Be Afraid of Spiders! - Amazing Animals - Backyard Science - SciShow Kids
+https://youtu.be/fEiVi9TB_RQ | What Causes Thunder and Lightning? - Weather Science - SciShow Kids
+https://youtu.be/N2s7KjzcoKg | Sea Monsters Of The Past - SciShow Kids
+https://youtu.be/GSmBYqmz4Y4 | Blue Whales: The Biggest Animal EVER! - SciShow Kids
+https://youtu.be/ZFk0xhqT5fQ | Super Sharks! - Amazing Animals! - SciShow Kids
+https://youtu.be/aOebfGGcjVw | Why do We Brush Our Teeth? - Health for Kids - SciShow Kids
+https://youtu.be/ta154f5Rp5Y | Busy Bees! - Bumblebees and Honeybees - Amazing Animals - SciShow Kids
+https://youtu.be/PePymheJcbc | Happy Earth Day! - SciShow Kids Compilation
+https://youtu.be/xKubdY2mHXc | What's a Hurricane? - Weather Science - SciShow Kids
+https://youtu.be/3-xKZKxXuu0 | What is Sound? - Physics for Kids - SciShow Kids
+https://youtu.be/jrNlQekH_jE | 5 Animal Valentines! - Valentine's Day - A SciShow Kids Compilation
+https://youtu.be/V5RSpMQQOpw | How Does a Caterpillar Become a Butterfly? - Amazing Animals - Spring is Here - SciShow Kids
+https://youtu.be/6L_p3ZkSlLo | Meat-Eating Plants - Botany for Kids - SciShow Kids
+https://youtu.be/1Q_4HXewiS0 | 4 Amazing Science Experiments for a Day Inside - Compilation - SciShow Kids
+https://youtu.be/L9ymkJK2QCU | The 5 Fabulous Food Groups
+https://youtu.be/irWiYRL62to | Meet 3 Giant Insects!
+https://youtu.be/oVOnRPefcno | What Makes Bridges So Strong? - Engineering for Kids - STEAM - SciShow Kids
+https://youtu.be/HOFp8bHTN30 | The Power of Circuits! - Technology for Kids - SciShow Kids
+https://youtu.be/wfrq11bowOw | Fun Facts About Groundhogs! - Groundhog Day - SciShow Kids
+https://youtu.be/eQuW8G2QV_Q | Sink or Float?
+https://youtu.be/oXwoy-Ce1ZE | What Happened to the Dinosaurs?
+https://youtu.be/x7k7CeWDtWs | Know Your Globe
+https://youtu.be/nw8KaHglokQ | Let's Make Oobleck!
+https://youtu.be/qaZ2CICGuL8 | The Science of Spring! - SciShow Kids Compilation
+https://youtu.be/jwdkg5eFaHs | Brr! 5 Videos about Winter!
+https://youtu.be/-SwCpKlR9J8 | Cicadas: The Loudest Bugs in the World! - Biology for Kids - SciShow Kids
+https://youtu.be/sENgdSF8ppA | Copper's Surprising Reaction to Strong Magnets - Force Field Motion Dampening
+https://youtu.be/PT6cjp_zThw | DIY Salt-Water Survival Bottle (Compact Desalination Kit)
+https://youtu.be/R_-wFiFdwAE | How To Turn Salt Water Into Fresh Water (Simple Improvised Distillation)
+https://youtu.be/0IbWampaEcM | History of a Lost Supermaterial & How To Make It (Starlite Part 2)
+https://youtu.be/xUqbcpQqxhg | Electromagnetic Force Fields VS. Magnetic Cannonball
+https://youtu.be/v8KYZHMkTHw | How to Make Bismuth Crystals
+https://youtu.be/z_R0gEDZhAI | Recycled Bedsheets Make The Best Waterproof Tarps
+https://youtu.be/8CLRTa_ocmo | How To Make Parabolic Mirrors From Space Blankets - NightHawkInLight
+https://youtu.be/6RnorkCkEqI | Make A Vacuum Suspended Fish Tank
+https://youtu.be/XKCkR6L85vg | How to Scramble Eggs Inside Their Shell - NEW VERSION
+https://youtu.be/Nqxjfp4Gi0k | DIY Supermaterial Could Save You From Heatstroke: Salt based PCMs
+https://youtu.be/CFiPJjrmmtE | A Real Invisibility Shield - How Does It Work?
+https://youtu.be/HedRbIsM75M | A Better Way to Waterproof Fabric
+https://youtu.be/45JhacvmXV8 | Learn to Build With Cardboard! STRONG, Waterproof and Free.
+https://youtu.be/SZB_L2qY9YQ | How To Make Ice Cream With A Frying Pan [DIY Cold Stone] - NightHawkInLight
+https://youtu.be/wL9PcGu_xrA | DIY Solar Tracking System Inspired by NASA (Parker Solar Probe)
+https://youtu.be/JFFhD5HeByM | 99 Years Later... We Solved It
+https://youtu.be/pnbJEg9r1o8 | Crazy pool vortex
+https://youtu.be/PCuyCJocJWg | Why This Stuff Costs $2700 Trillion Per Gram - Antimatter at CERN
+https://youtu.be/WsksFbFZeeU | 7 Science Tricks with Surface Tension
+https://youtu.be/uNOKWoDtbSk | Does this look white to you?
+https://youtu.be/Ek1buV2HA68 | World's Only Moving Mud Puddle
+https://youtu.be/9Oc1ErVFk1Q | I found a Mud Volcano in California
+https://youtu.be/1JgBp7dX4AU | What stretching actually does to your body ft. Sofie Dossi
+https://youtu.be/68A_Azsqqg4 | How to Make a Cloud in Your Mouth
+https://youtu.be/k0tnqPmwWvk | Why Hawaii's volcano is so UNUSUAL
+https://youtu.be/4b8ZsFszE8I | Are perpetual motion machines possible?
+https://youtu.be/vBpxhfBlVLU | Why do mirrors flip horizontally (but not vertically)?
+https://youtu.be/yFRPhi0jhGc | Why this trick should be IMPOSSIBLE ft. Rodney Mullen - Skateboarding Science
+https://youtu.be/VMJPHqwv41U | After 15,000 years, it's waking up
+https://youtu.be/DjcS1kRkc6M | Why are there giant concrete tunnels in the desert?
+https://youtu.be/CSu0cV3fqi8 | Only some humans can see this type of light
+https://youtu.be/B3m3AMRlYfc | My first science video in 3 years
+https://youtu.be/GRD-xvlhGMc | SUNSCREEN in UV
+https://youtu.be/JRQSbK4Krg0 | I dove in a NUCLEAR SUBMARINE (Frozen Ocean)
+https://youtu.be/q67vH0SKahU | We can see things moving faster than light
+https://youtu.be/ieDIpgso4no | BREAKING: New Phase of Matter
+https://youtu.be/qFOX3AO2FjE | This phenomenon only happens in Hawaii . . . and Cuba & Nigeria & Indonesia & Peru & Sudan & Laos &…
+https://youtu.be/rk-6wHimbUs | Ballistic Ping Pong Ball vs. Tennis Ball at 450km/h!
+https://youtu.be/c6Eq2sI1NDY | How the Edge of Our Galaxy Defies Known Physics
+https://youtu.be/g4a7_HH9Wbg | What do programmers actually do?
+https://youtu.be/3MqYE2UuN24 | Is it Better to Walk or Run in the Rain?
+https://youtu.be/jSMZoLjB9JE | Passing A Portal Through Itself
+https://youtu.be/9eKc5kgPVrA | Immovable Object vs. Unstoppable Force - Which Wins?
+https://youtu.be/d3zTfXvYZ9s | Time Travel in Fiction Rundown
+https://youtu.be/OydqR_7_DjI | How to See Without Glasses
+https://youtu.be/Ywn2Lz5zmYg | The True Science of Parallel Universes
+https://youtu.be/jN-FfJKgis8 | What if the Earth were Hollow?
+https://youtu.be/tmNXKqeUtJM | Why is the Solar System Flat?
+https://youtu.be/XayNKY944lY | Solution to the Grandfather Paradox
+https://youtu.be/zcqZHYo7ONs | Bell's Theorem: The Quantum Venn Diagram Paradox
+https://youtu.be/IOYyCHGWJq4 | Schrödinger's Cat
+https://youtu.be/hW7DW9NIO9M | Einstein's Proof of E=mc²
+https://youtu.be/B19nlhbA7-E | The Portal Paradox
+https://youtu.be/IM630Z8lho8 | Common Physics Misconceptions
+https://youtu.be/W2Xb2GFK2yc | A Better Way To Picture Atoms
+https://youtu.be/M9sbdrPVfOQ | There is no "Fourth" dimension
+https://youtu.be/9udYi7exojk | This is Not a Rainbow
+https://youtu.be/FflcA85zcOM | 3 Simple Ways to Time Travel (& 3 Complicated Ones)
+https://youtu.be/gxJ4M7tyLRE | Why is it Dark at Night?
+https://youtu.be/hFAOXdXZ5TM | MAGNETS: How Do They Work?
+https://youtu.be/t-O-Qdh7VvQ | The Unreasonable Efficiency of Black Holes
+https://youtu.be/C5-I0bAuEUE | Solution to The Impossible Bet - The 100 Prisoners Problem
+https://youtu.be/LKnqECcg6Gw | Computer Color is Broken
+https://youtu.be/1Hqm0dYKUx4 | Why It's Impossible to Tune a Piano
+https://youtu.be/V7C318DGB38 | The "Mountain Or Valley?" Illusion
+https://youtu.be/ebEkn-BiW5k | Simpson's Paradox
+https://youtu.be/xdIjYBtnvZU | Feynman's Lost Lecture (ft. 3Blue1Brown)
+https://youtu.be/q65O3qA0-n4 | What is Sea Level?
+https://youtu.be/3gNkgj9h2oM | Why Isn't It Faster To Fly West?
+https://youtu.be/3mnSDifDSxQ | The Largest Star in the Universe – Size Comparison
+https://youtu.be/sNhhvQGsMEc | The Fermi Paradox — Where Are All The Aliens? (1/2)
+https://youtu.be/0FH9cgRhQ-k | The Largest Black Hole in the Universe - Size Comparison
+https://youtu.be/Da-2h2B4faU | String Theory Explained – What is The True Nature of Reality?
+https://youtu.be/PaErPyEnDvk | What’s Hiding at the Most Solitary Place on Earth? The Deep Sea
+https://youtu.be/9P6rdqiybaw | Wormholes Explained – Breaking Spacetime
+https://youtu.be/p_8yK2kmxoo | The Most Dangerous Stuff in the Universe - Strange Stars Explained
+https://youtu.be/pP44EPBMb8A | How to Build a Dyson Sphere - The Ultimate Megastructure
+https://youtu.be/udFxKZRyQt4 | Neutron Stars – The Most Extreme Things that are not Black Holes
+https://youtu.be/lheapd7bgLA | What Happens if the Moon Crashes into Earth?
+https://youtu.be/G-WO-z-QuWI | How To Terraform Venus (Quickly)
+https://youtu.be/rhFK5_Nx9xY | What Do Alien Civilizations Look Like? The Kardashev Scale
+https://youtu.be/gLZJlf5rHVs | What If Earth got Kicked Out of the Solar System? Rogue Earth
+https://youtu.be/QqsLTNkzvaY | What If You Fall into a Black Hole?
+https://youtu.be/v3y8AIEX_dU | How to Move the Sun: Stellar Engines
+https://youtu.be/JhHMJCUmq28 | Quantum Computers Explained – Limits of Human Technology
+https://youtu.be/f7KSfjv4Oq0 | What Happens If We Throw an Elephant From a Skyscraper? Life & Size 1
+https://youtu.be/NtQkz0aRDe8 | How We Could Build a Moon Base TODAY – Space Colonization 1
+https://youtu.be/1fQkVqno-uI | The Fermi Paradox II — Solutions and Ideas – Where Are All The Aliens?
+https://youtu.be/8nHBGFKLHZQ | What if there was a black hole in your pocket?
 
-[Stories]
-# Paste story videos here
+[Earth & Nature]
+https://youtu.be/8a3r-cG8Wic | Why Do Rivers Curve?
+https://youtu.be/_LpgBvEPozk | Where Did Earth's Water Come From?
+https://youtu.be/mOSpRzW2i_4 | Why is it Hot Underground?
+https://youtu.be/uKP3lc9SOaA | Why There Are No King Bees
+https://youtu.be/3n1DC_Q-2Ng | The Best Dragon (According to Science)
+https://youtu.be/GPJBw-TLYZQ | Why Don't Scavengers Get Sick?
+https://youtu.be/tmztPktOfzs | Invasion of the Yellow Crazy Ants!
+https://youtu.be/6XCkgXgKBqI | Why Did T Rex Have Such Tiny Arms?
+https://youtu.be/ZPUYBsI7Pp0 | Birds that Hibernate in Lakes?!
+https://youtu.be/-XlD1xWqNh0 | Why It's Good To Have A Weak Hand
+https://youtu.be/pxmHHoTPSKI | Why is All Sand the Same?
+https://youtu.be/tG9OKz0jsUY | The Secret Weapon That Could Help Save Bees
+https://youtu.be/6jUpX7J7ySo | Tidal Locking - Why Do We Only See One Side of the Moon?
+https://youtu.be/eNxDgd3D_bU | How to Survive a Lightning Strike
+https://youtu.be/o7d6cZsLo6c | Why Don't We Eat Carnivores?
+https://youtu.be/DHvgq7xRcj0 | Which Bear Is Best?
+https://youtu.be/vWAA-SrrFUQ | The Biggest Organism on Earth
+https://youtu.be/9yswzITbAbA | Why Do We Eat Spoiled Food?
+https://youtu.be/HDG4GSypcIE | Why Don't Sled Dogs Ever Get Tired?
+https://youtu.be/kwfNGatxUJI | Plate Tectonics Explained
+https://youtu.be/ttCd60Qko5A | Why Some Fruits Won’t Ripen On Your Counter
+https://youtu.be/87v_9Bud7vw | Rain's Dirty Little Secret
+https://youtu.be/bvKKHRCCkfI | Why Are Some People Mosquito Magnets?
+https://youtu.be/lIs7PAW0mlM | Why Water Dissolves (Almost) Everything
+https://youtu.be/c7puPXZVsFQ | How Different Are Different Types of Dogs?
+https://youtu.be/VEMtc1w4z6c | Should We Let Pandas Go Extinct?
+https://youtu.be/YocDQ9OqeuA | Would You Drink Water Made From Sewage?
+https://youtu.be/bjvIpI-1w84 | Null Island: The Busiest Place That Doesn't Exist (ft @Tom Scott )
+https://youtu.be/IbY122CSC5w | Are We Really 99% Chimp?
+https://youtu.be/CHTMZiXeB6A | How do fish get into isolated mountain lakes?
+https://youtu.be/5eMAmRER0y8 | The Ancestor Paradox
+https://youtu.be/iwa0SLUMDAs | The Freshwater Paradox
+https://youtu.be/gxLSTOE5TaM | How Long Can We Live?
+https://youtu.be/A47ythEcz74 | Why Do Rivers Have Deltas?
+https://youtu.be/RL0Fai06OhU | We're Oversalting Our Food, And It's Not What You Think
+https://youtu.be/UWagM1FBB4c | ALL THE CATS, EXPLAINED
+https://youtu.be/Yb26BBvAAWU | How Lice Turn Your Hair Into Their Jungle Gym - Deep Look
+https://youtu.be/YB6O7jS_VBM | These Hairworms Eat a Cricket Alive and Control Its Mind - Deep Look
+https://youtu.be/el_lPd2oFV4 | Why Is The Very Hungry Caterpillar So Dang Hungry? - Deep Look
+https://youtu.be/sAKkjD3nEv0 | Honey Bees Make Honey ... and Bread? - Deep Look
+https://youtu.be/odCtCote9U0 | A Tsetse Fly Births One Enormous Milk-Fed Baby - Deep Look
+https://youtu.be/ToeWrGTGOOI | Watch Bed Bugs Get Stopped in Their Tracks - Deep Look
+https://youtu.be/JyqY64ovjfY | What Happens When You Put a Hummingbird in a Wind Tunnel? - Deep Look
+https://youtu.be/tjDmH8zhp6o | Daddy Longlegs Risk Life ... and Especially Limb ... to Survive - Deep Look
+https://youtu.be/oPbH1YhsdP8 | Watch This Bee Build Her Bee-jeweled Nest - Deep Look
+https://youtu.be/Z3BHrzDHoYo | Sticky. Stretchy. Waterproof. The Amazing Underwater Tape of the Caddisfly - Deep Look
+https://youtu.be/jYMjLgPFSso | Watch These Cunning Snails Stab and Swallow Fish Whole - Deep Look
+https://youtu.be/_IoOJu2_FKE | How Ticks Dig In With a Mouth Full of Hooks - Deep Look
+https://youtu.be/dQMM93aySOw | Meeting a Wormlion Is the Pits - Deep Look
+https://youtu.be/ak2xqH5h0YY | Sea Urchins Pull Themselves Inside Out to be Reborn - Deep Look
+https://youtu.be/jBPFCvEhv9Y | Here’s How That Annoying Fly Dodges Your Swatter - Deep Look
+https://youtu.be/O-0SFWPLaII | Take Two Leeches and Call Me in the Morning - Deep Look
+https://youtu.be/S6a3Q5DzeBM | A Real Alien Invasion Is Coming to a Palm Tree Near You - Deep Look
+https://youtu.be/rsUNxvXofgo | This Bee Gets Punched by Flowers for Your Ice Cream - Deep Look
+https://youtu.be/9bEjYunwByw | Turret Spiders Launch Sneak Attacks From Tiny Towers - Deep Look
+https://youtu.be/QjPInsEYDLs | These Giant Leaf Insects Will Sway Your Heart - Deep Look
+https://youtu.be/HuOnqWpIL9E | What Do Earwigs Do With Those Pincers Anyway? - Deep Look
+https://youtu.be/USxQgEp1GN8 | What Makes This Frog's Tongue So Fast AND Sticky? - Deep Look
+https://youtu.be/ZO4IAZycUik | Look Inside a Rattlesnake's Rattle - Deep Look
+https://youtu.be/sj8pFX9SOXE | Roly Polies Came From the Sea to Conquer the Earth - Deep Look
+https://youtu.be/vrzalLssomg | Born Pregnant: Aphids Invade With an Onslaught of Clones - Deep Look
+https://youtu.be/Q1XFi9r3dIE | These Mites Rain Down To Save Your Strawberries - Deep Look
+https://youtu.be/tfoYD8pAsMw | For Pacific Mole Crabs It's Dig or Die - Deep Look
+https://youtu.be/y7qMqAgCqME | For These Tiny Spiders, It's Sing or Get Served - Deep Look
+https://youtu.be/0wtLrlIKvJE | You're Not Hallucinating. That's Just Squid Skin. - Deep Look
+https://youtu.be/cfKr6rnpakE | Fire Ants Turn Into a Stinging Life Raft to Survive Floods - Deep Look
+https://youtu.be/3lkdidU79TY | Why Did the Mexican Jumping Bean Jump? - Deep Look
+https://youtu.be/dATZsuPdOnM | Why Do Tumbleweeds Tumble? - Deep Look
+https://youtu.be/RBqt5egv6go | The 4 Most Ruthless Ants We’ve Ever Filmed - Deep Look
+https://youtu.be/q2RtbP1d7Kg | The House Centipede is Fast, Furious, and Just So Extra - Deep Look
+https://youtu.be/Lm1ChtK9QDU | The Snail-Smashing, Fish-Spearing, Eye-Popping Mantis Shrimp - Deep Look
+https://youtu.be/oWdCMFvgFbo | So ... Sometimes Fireflies Eat Other Fireflies - Deep Look
+https://youtu.be/A5KvNcNz9aQ | A Flea's Fantastic Jump Takes More Than Muscle - Deep Look
+https://youtu.be/4fjzjphH6CM | This Weevil Was Born in Your Rice and It’s Hungry - Deep Look
+https://youtu.be/YTYFdpNpkMY | These Crazy Cute Baby Turtles Want Their Lake Back - Deep Look
+https://youtu.be/D4kBrsyWhS4 | Cape Sundews Trap Bugs In A Sticky Situation - Deep Look
+https://youtu.be/KLVfWKxtfow | This Adorable Sea Slug Is a Sneaky Little Thief - Deep Look
+https://youtu.be/wR5O48zsbnc | It’s a Goopy Mess When Pines and Beetles Duke it Out - Deep Look
+https://youtu.be/ENvfcrWETJE | Rescuing Baby Animals! - Bandit Patrol - Compilation - Nat Geo Kids
+https://youtu.be/lQ_AN9ic8-w | Wackiest Places Around the World 🌎 - 10 Minute Compilation - Nat Geo Kids
+https://youtu.be/1XkbjQxA6BY | Every Greeking Out: Minute Myths ⏱️🏺 - Nat Geo Kids
+https://youtu.be/rnLMax5LjXY | Swimming with a Giant Saltwater Crocodile - Fearless Adventures with Jack Randall
+https://youtu.be/0wRdFr1t7iI | Cool Facts About Alligators and Crocodiles - Things You Wanna Know
+https://youtu.be/00F7pKYGtro | How to Spot Stars and Constellations in the Sky ⭐️- The Wonder List - Earth Month 🌎- @natgeokids
+https://youtu.be/pX3V9hoX1eM | Cool Facts About Cats - Things You Wanna Know
+https://youtu.be/tN-aRkStGbo | Fearless Adventures with Jack Randall 🐊 - 25 Minutes - Nat Geo Kids Compilation - @natgeokids
+https://youtu.be/5BuDAY-L7mE | Storm Chasers🌪️ - Weird But True! - S1 E2 - Full Episode - @natgeokids
+https://youtu.be/-bxkjOyKa7E | Learn How Electric Guitars Are Made! 🎸😎 - Made in a Day Full Episode - @natgeokids
+https://youtu.be/Mbxq29__WAU | Things You Wanna Know 🐊 - 20 Minutes - Nat Geo Kids Compilation - @natgeokids
+https://youtu.be/moIrGJh56Sg | Sharks! 🦈 - Weird But True! - S1 E5 - Full Episode - @natgeokids
+https://youtu.be/hvyvVL95ukY | Super Serpents That Slither - Awesome 8
+https://youtu.be/o9ZEktQHHas | 4 Types of Clouds & How to Spot Them☁️🔎 - The Wonder List - Earth Month 🌎 - @natgeokids
+https://youtu.be/A6lmmAyvl3I | Cool Facts About Monkeys - Things You Wanna Know
+https://youtu.be/8Sl8m5-Tutk | Journey Into Space 🪐 - Spaced Out FULL Compilation - Nat Geo Kids Compilation - @natgeokids
+https://youtu.be/NBCODnTUOrY | Cool Facts About Bats - Things You Wanna Know
+https://youtu.be/dt956XK94FI | 3 Types of Trees & Their Cool Secrets 🌴- The Wonder List - Earth Month 🌎 - @natgeokids
+https://youtu.be/yqG1D_JJpjg | Become a Rock Detective! 🔍 🪨 - The Wonder List - Earth Month 🌎 - @natgeokids
+https://youtu.be/gce527HId7c | Animal Invaders - Weird But True! - S1 E10 - Full Episode - @natgeokids
+https://youtu.be/Gf6C78_YY14 | Hunting a Python and Blue-Tongue Lizard - Fearless Adventures with Jack Randall
+https://youtu.be/yC7lhscL9qY | Astronauts 🌕 - Weird But True! - S1 E17 - Full Episode - @natgeokids
+https://youtu.be/jvjZAPTY4Vs | Dino Road Trip 🦖🚙 - 10 Minutes - Nat Geo Kids Compilation - @natgeokids
+https://youtu.be/hMUrgq1Iz48 | Roller Coasters 🎢 - Weird But True! - S1 E12 - Full Episode - Nat Geo Kids
+https://youtu.be/S6qwdfQ7-ek | Buggin' Out - Weird But True! - S1 E9 - Full Episode - @natgeokids
+https://youtu.be/sSTzh0ba3vM | Learn About the Evolution of Dogs 🐶 - Weird But True! - S1 E4 - Full Episode - @natgeokids​
+https://youtu.be/HlvK6DLwCz4 | How 3D Printers Work - How Things Work with Kamri Noel
+https://youtu.be/eCGw4JuCw_M | Cool Facts About Snakes, Lizards & Dragons - Things You Wanna Know
+https://youtu.be/FXplXFR6gMY | Learn How Fire Trucks Are Made! 🚒🔥 - Made in a Day Full Episode - @natgeokids
+https://youtu.be/Scd2e8roNK4 | THE FREAKIEST CREATURES! - Frog, Bear, Jellyfish AND MORE! - Nat Geo Kids Compilation - @natgeokids
+https://youtu.be/eAPqQFWEoKg | Busy Beavers Build Dam Ahead of Winter - Yellowstone - BBC Earth
+https://youtu.be/0guNyC6cEJE | Top 5 Whale Scenes - BBC Earth
+https://youtu.be/RBgFsVN3uR8 | The Strange and Secret World of Dinosaurs - BBC Earth
+https://youtu.be/oaJIkGhAf7U | The Strangest Creatures of the Ocean - BBC Earth
+https://youtu.be/OmtH_3gSVBE | The Wildlife of Yellowstone - BBC Earth
+https://youtu.be/T7oExc711xE | Explore the Secret Areas of Earth Where Nature Remains Untouched - 4K UHD - BBC Earth
+https://youtu.be/R-1c2xGajXc | Extraordinary Nature Scenes in 4K - BBC Earth
+https://youtu.be/rc_WTcK2-rA | Baby Elephant Gets Left Behind and Learns an Important Lesson - 4K UHD - BBC Earth
+https://youtu.be/GjPIvvxIQME | Cute Pika Steals Food From Neighbours - 4K UHD - Mammals - BBC Earth
+https://youtu.be/6VGTUz9LSy0 | Photographing the Vast Wildlife of Yellowstone - Framed In Nature - BBC Earth
+https://youtu.be/ZiPoqQn63L0 | Baby Flying Squirrel Takes Flight for the First Time - Mammals - BBC Earth
+https://youtu.be/woCIpMyyjxw | Best Penguin Moments - BBC Earth
+https://youtu.be/ld3nEnlK4nI | Hungry Wolf Pack Trap Elk - Yellowstone - BBC Earth
+https://youtu.be/tVpUYoBSQJY | A Penguin Chick's Brave First Steps - BBC Earth
+https://youtu.be/Q2ua2luJW00 | Pika: The Tiny Mountain Bandit - Natural Born Rebels - BBC Earth
+https://youtu.be/-kjcorlHzPM | Robot Spy Copies Orangutan Behaviour to Earn Their Trust - 4K UHD - Spy In The Wild - BBC Earth
+https://youtu.be/FTS46pVoX5w | Rare Look at How Marine Iguanas Feed Underwater - 4K UHD - A Perfect Planet - BBC Earth
+https://youtu.be/h26U-DrQe4M | Top 10 BBC Earth Moments of 2024 - BBC Earth
+https://youtu.be/c7or0y2towI | Dogs Protect Herd From Wolves Caught in Night Vision - BBC Earth
+https://youtu.be/WZzJgGHmAB4 | Even Giant Dinosaurs Have a Soft Spot - Walking with Dinosaurs - BBC Earth
+https://youtu.be/fQHxqWDNcgw | 10 Animal Behaviours Filmed for the First Time Ever - BBC Earth
+https://youtu.be/v7iLJnNod-M | T.rex Ambush - Walking with Dinosaurs - BBC Earth
+https://youtu.be/qnCPjiRg_0s | City Where People Live Alongside Deer - Asia - BBC Earth
+https://youtu.be/pgUIm6NVwh4 | Top 10 Wolf Moments - BBC Earth
+https://youtu.be/9fm3N-EFvo0 | The World of Bears - Giants of the Wild - BBC Earth
+https://youtu.be/yrreLJD1hP4 | 30 Minutes of Dramatic Yellowstone Moments - BBC Earth
+https://youtu.be/feg3tYeOOME | Top 10 Cheetah Moments - BBC Earth
+https://youtu.be/Px_jxDciF1M | Baby Goats do Parkour to Escape a Leopard - Animal Babies - BBC Earth
+https://youtu.be/VWqXSFgvKkY | The Colossal Coconut Crab - South Pacific - BBC Earth
+https://youtu.be/yMZy9ZZpwxw | Bartering Monkeys Block Bridge Crossing - Hidden India - BBC Earth
+https://youtu.be/elCIWoa_2vM | A Race Against Time - Narrated by David Attenborough - Africa - BBC Earth
+https://youtu.be/TQFXaoT8QWo | No One Has Ever Seen Tigers Do This Before - Tiger Island - BBC Earth
+https://youtu.be/erWsDXNeDW0 | Iconic Dinosaur Moments from Walking With Dinosaurs (1999) - BBC Earth
+https://youtu.be/-aklu9_skFc | The Amazing Wildlife of Africa in Stunning 4K - BBC Earth
+https://youtu.be/y-B0rnzWecM | Nature's Most Destructive Swarm - 20 Years of Planet Earth - BBC Earth
+https://youtu.be/yRSuQSym7aY | Surprisingly Clever Cows & Mischievous Goats - Secret Life of Farm Animals - BBC Earth
+https://youtu.be/gCJs0wV5C7Q | Amazing Orca Moments - BBC Earth
+https://youtu.be/h9oBeOS-32I | Lion Cubs Cross Croc-Infested Waters - Kingdom - BBC Earth
+
+[Puzzles & Ideas]
+https://youtu.be/x6DUOokXZAo | What causes dandruff, and how do you get rid of it? - Thomas L. Dawson
+https://youtu.be/0dYk99S98Jc | A brief history of toilets - Francis de los Reyes
+https://youtu.be/li1kO3hg4iE | Why do we have crooked teeth when our ancestors didn’t? - G. Richard Scott
+https://youtu.be/jdrNjHPYKz4 | Why do cats have vertical pupils? - Emma Bryce
+https://youtu.be/o1z2DfFZBS4 | How does heart transplant surgery work? - Roni Shanoada
+https://youtu.be/EKgEj5asL3o | What is MSG, and is it actually bad for you? - Sarah E. Tracy
+https://youtu.be/I4pQbo5MQOs | The paradox at the heart of mathematics: Gödel's Incompleteness Theorem - Marcus du Sautoy
+https://youtu.be/ByCTeTI3SDg | The Norse myth that inspired “The Lord of the Rings” - Iseult Gillespie
+https://youtu.be/0l5ftgEQUjM | Can you solve the giant spider riddle? - Dan Finkel
+https://youtu.be/FsMWbVrjucg | Why do we, like, hesitate when we, um, speak? - Lorenzo García-Amaya
+https://youtu.be/7K3KdgDcdYc | How did ancient civilizations make ice cream? - Vivian Jiang
+https://youtu.be/x-qsWTPul9Y | Why do so many cultures have dragon legends? - Timothy J. Burbery
+https://youtu.be/p4VHMsIuPmk | How do airplanes actually fly? - Raymond Adkins
+https://youtu.be/zAxfrI8zHU4 | The tragic myth of the Sun God's son - Iseult Gillespie
+https://youtu.be/ogE1nzLawJ0 | The myth of Zeus' test - Iseult Gillespie
+https://youtu.be/F5sZQ4Xutgk | Can you solve the birthday cake riddle? - Marie Brodsky
+https://youtu.be/aQibQlpNIfw | The myth of the moon goddess - Cynthia Fay Davis
+https://youtu.be/LxM9PhcY_90 | The woman who stared at the Sun - Alex Gendler
+https://youtu.be/q-ApAdEOm5s | The best way to apologize (according to science)
+https://youtu.be/Xu-QfE_1ksk | The science of laughter - Sasha Winkler
+https://youtu.be/TGxKkBC6L2k | How do oysters make pearls? - Rob Ulrich
+https://youtu.be/-lLkBoYv5FU | Can you solve the fantasy election riddle? - Dennis E. Shasha
+https://youtu.be/a6pqpINjdRQ | Can you solve the private eye riddle? - Henri Picciotto
+https://youtu.be/c5N8hRyHYB0 | The myth of Narcissus and Echo - Iseult Gillespie
+https://youtu.be/fSaHVHTqDY0 | These animals are also plants … wait, what? - Luka Seamus Wright
+https://youtu.be/s5CLtBaRIwY | Can you solve the fortress riddle? - Henri Picciotto
+https://youtu.be/iNgJCYPdmdQ | Can you solve the rogue submarine riddle? - Alex Rosenthal
+https://youtu.be/fLu080UX25o | How does extreme heat affect your body? - Carolyn Beans
+https://youtu.be/5EsICTVo2dM | Why do we eat popcorn at the movies? - Andrew Smith
+https://youtu.be/yxsoE3jO8HM | Why do you want to squeeze cute things? - Joshua Paul Dale
+https://youtu.be/j43wzuciAkk | A year in the life of one of Earth's weirdest animals - Gilad Bino
+https://youtu.be/xg5y6Ao7VE4 | How do you know what's true? - Sheila Marie Orfano
+https://youtu.be/xy9nj94xvKA | How do wind turbines work? - Rebecca J. Barthelmie and Sara C. Pryor
+https://youtu.be/128fp0rqfbE | The “myth” of the boiling frog
+https://youtu.be/4HZCPTiyAVY | What is earwax — and should you get rid of it? - Henry C. Ou
+https://youtu.be/jMA7pWIFmIg | A riddle of ice and fire dragons - Henri Picciotto
+https://youtu.be/SEDabz-hyKo | Can you solve the Big Bang riddle? - James Tanton
+https://youtu.be/yRwoReHd7XU | What is the rarest color in nature? - Victoria Hwang
+https://youtu.be/BDprlH1sK_Y | The myth of Pegasus and the chimera - Iseult Gillespie
+https://youtu.be/jdOjB0j329g | Why don’t we get our drinking water from the ocean? - Manish Kumar
+https://youtu.be/qsc3YZ2S924 | Can you solve the alien pyramid riddle? - Henri Picciotto
+https://youtu.be/pq9ECmry8bc | How do you know you’re not dreaming? - Daniel Gregory
+https://youtu.be/xMcOUyyk9Hk | The dungeon master's riddle - Alex Rosenthal
+https://youtu.be/o4MpBV4F3qs | Can you solve the human cannonball riddle? - Alex Rosenthal
+https://youtu.be/QjVqIW281Qo | Which animal has the best eyesight? - Thomas W. Cronin
+https://youtu.be/6nWba9Ii5Lo | The myth of Anansi, the trickster spider - Emily Zobel Marshall
+https://youtu.be/Ya9S6PyC1Sg | Can you solve the time traveling car riddle? - Dan Finkel
+https://youtu.be/IwYut9qF-jM | Why does hitting your funny bone feel so horrible? - Cella Wright
+https://youtu.be/1siE5_Q9vs0 | How much would it cost to buy the ocean? - Astrid J. Hsu
+https://youtu.be/O7O-3NeXm9g | Can you solve the magical maze riddle? - Alex Rosenthal
+https://youtu.be/hYo64qPEGw8 | Can you solve the trickster god riddle? - Alex Rosenthal
+https://youtu.be/0yCJMt9Mx9c | How does artificial intelligence learn? - Briana Brownell
+https://youtu.be/Wb0UgdRFj2A | Lady Meng Jiang: The legend of the woman who outwitted an evil emperor - Juwen Zhang
+https://youtu.be/aa2Fmr7sKIA | Can you solve the basketball riddle? - Dan Katz
+https://youtu.be/asbbhyHBSKU | Can you solve the riddle of Pandora’s box? - Alex Rosenthal
+https://youtu.be/7ZCTazqNYMo | What are truffles, and why are they so expensive? - Carolyn Beans
+https://youtu.be/X7xOEez75B0 | The man who lost his sense of touch - Antonio Cataldo
+
+[Human Body]
+https://youtu.be/Lnn8hPE9Hl0 | Science for kids - Body Parts - Unluckiest Kid Compilation! - Experiments for kids - Operation Ouch
+https://youtu.be/FRsuzrYSXII | Science for kids - BREAKING BONES - Experiments for kids - Operation Ouch
+https://youtu.be/5nHe_-fMKpU | What Exactly Is Travel Sickness? 🤢 ✈️ #Summer - Science For Kids - @OperationOuch​
+https://youtu.be/Kp8zvXLiNcw | A Horse Stepped on My Hand! - Operation Ouch - Science for Kids
+https://youtu.be/l1BQg8LkJ4c | Science for Kids - Nurse Training - Operation Ouch
+https://youtu.be/j-qIvS0LzEQ | Science for Kids - I Swallowed A Hair Clip - Operation Ouch
+https://youtu.be/skMDz60HRs0 | Why They Had to Cut Into My Arms - Operation Ouch - Science for Kids
+https://youtu.be/UJaAi6rW000 | What Is the Strongest MUSCLE in Your Body? 💪 - Science for Kids - @OperationOuch
+https://youtu.be/iI1VrUecYdQ | My Scoliosis Journey! 💪 Amelia's Story - Science for Kids - Operation Ouch
+https://youtu.be/CRfvCCKFsHk | Science for kids - Bad Burns - Experiments for kids - Operation Ouch
+https://youtu.be/CZYqa9rOkDQ | Autism Awareness Month - Autism Simulator - Operation Ouch - Science for Kids
+https://youtu.be/JPJBgmPVPNc | Splashy Swimming First Aid! 🏊‍♂️ - Science for Kids - Operation Ouch
+https://youtu.be/FWOlF0ObIdU | Operation Ouch - The Eardrum - Biology for Kids
+https://youtu.be/lNFXLGwZaVI | I Scraped My Jaw! - Operation Ouch - Science for Kids
+https://youtu.be/0-X6_4YyJeA | Science for kids - Body Parts - BROKEN BONES - Experiments for kids - Operation Ouch
+https://youtu.be/CNxNIsQ_SzY | Science for kids - First Aid Training - Body Parts - Experiments for kids - Operation Ouch
+https://youtu.be/vQ_du5X_oxM | Twins & Quadruplets - Biology for Kids - Science for kids - Experiments for kids - Operation Ouch
+https://youtu.be/vm_O4toB7JU | A Day in a Life of Hospital Regulars - Ouch Patients - Operation Ouch - Science for Kids
+https://youtu.be/nyhSHIf0r04 | Operation Ouch - First Aid Training - Science for Kids
+https://youtu.be/cuGRHKlUUjk | Science for kids - Body Parts - Joints & Skeletal System - Experiments for kids - Operation Ouch
+https://youtu.be/AX34MoaLmzE | Operation Ouch - Digestion - Biology for Kids
+https://youtu.be/3cGoCr7-6Bs | Operation Ouch - Travel Sickness - Science for Kids
+https://youtu.be/L4z-p6ejGew | Happy Father's Day! 👨‍👧 - Dr. Chris's Daughter - Operation Ouch
+https://youtu.be/n5OcdbBqVSA | Operation Ouch - How Babies Grow - Body Facts
+https://youtu.be/GFAbgaHg26U | Operation Ouch - Alarming Allergies - Immune System
+https://youtu.be/oThLBo28Af4 | I Dislocated my Jaw! - Science for Kids - Operation Ouch
+https://youtu.be/3waf0Es9IdU | What's In My Ear? 👂 - A and E - Science for Kids - Operation Ouch
+https://youtu.be/s3QHC3uvzF0 | Holly's Cerebral Palsy Story! 🦽 - Ouch Patients - Science for Kids - Operation Ouch
+https://youtu.be/1yAjx0IAHqs | Operation Ouch - Diarrhoea - Biology Lessons for Kids
+https://youtu.be/Ag0Y_7zPDxc | Maisie's Coeliac Disease Story! 🍞 - Ouch Patients - Science for Kids - Operation Ouch
+https://youtu.be/lFv3ic9qQBs | My Prosthetic Leg! 🦿Rio's Story - Science for Kids - Operation Ouch
+https://youtu.be/oS-5CTLOjxA | I Lost My Front Tooth - Operation Ouch - Science for Kids
+https://youtu.be/Bn8czDqPUvY | Operation Ouch - What are Kidneys? - Biology for Kids
+https://youtu.be/6xIZCZhjADo | Science for kids - Body Parts - Dr Chris' Best Bits - Experiments for kids - Operation Ouch
+https://youtu.be/LY3ElurOlco | Science for kids - Body Parts - SPRAINS - Experiments for kids - Operation Ouch
+https://youtu.be/9zk22mL0_RQ | #ValentinesDay Special! ❤️ - All About The Heart! - Science for Kids - Operation Ouch
+https://youtu.be/rUVMok4Qp-Y | Operation Ouch - The Diaphragm - Science for Kids
+https://youtu.be/AXIkvzvyw04 | Science for kids - Ouch Patients - The Life Of A Regular Patient - Operation Ouch
+https://youtu.be/dF42K_L9Dq4 | Science for Kids - Accident & Emergency - Unlucky Kids - Operation Ouch
+https://youtu.be/0Qr6H_-eJ_E | Science for kids - Body Parts - SKELETONS - Operation Ouch - Experiments for kids
+https://youtu.be/_Kmk4RBi_V4 | Operation Ouch - Fantastic Fingers - Skeletal System
+https://youtu.be/8IDlWTAS9nk | Science for kids - Body Parts - That's Amazing Part 1 - Experiments for kids - Operation Ouch
+https://youtu.be/jtcdkL3TGDg | Why Some People are Flexible - Operation Ouch
+https://youtu.be/_yZaaBXeedc | Operation Ouch - Studying Sleep - Endocrine System
+https://youtu.be/E7xxtcV2uQ8 | Science for Kids - Pencil Inside My Ear! - Operation Ouch
+https://youtu.be/wZ4iD4-JC90 | There's A Coin Stuck Up My Nose - Clip - Science For Kids - Operation Ouch
+https://youtu.be/mYee1Rr42R4 | Science for Kids - Ankle Shaped Like a Balloon - Operation Ouch
+https://youtu.be/dPqncc0Uf2M | Meet The Ouch Patients! 👋 - Science for Kids - Operation Ouch
+https://youtu.be/iM-p2TQgDYs | How Long Can You Stay Underwater? - Operation Ouch - Science for Kids
+https://youtu.be/ikQLa5aohAQ | Get Ready For The Science Summer Special ☀️ - Compilation - Science For Kids - @OperationOuch​
+
+[Space]
+https://youtu.be/4czjS9h4Fpg | Perseverance Rover’s Descent and Touchdown on Mars (Official NASA Video)
+https://youtu.be/Ke6XX8FHOHM | Artemis II to the Moon: Launch to Splashdown (NASA Mission Animation)
+https://youtu.be/CC7OJ7gFLvE | Juno Flies Past the Moon Ganymede and Jupiter, With Music by Vangelis
+https://youtu.be/7_SNFrTr_oo | NASA's Final Space Shuttle Launch 10th Anniversary Replay
+https://youtu.be/IGuHErKAiHs | NASA 2024: Onward and Upward
+https://youtu.be/_eeZQw9PBc0 | Artemis II Launches Astronauts to the Moon (Official NASA Recap)
+https://youtu.be/wKwoBudYIiI | Artemis I: We Are Ready
+https://youtu.be/1C_zuHf6lP4 | Highlights: First Images from the James Webb Space Telescope (Official NASA Video)
+https://youtu.be/bmC-FwibsZg | Why the Moon?
+https://youtu.be/s3gt0mGwke8 | Artemis I: We Are Capable
+https://youtu.be/IfRqrrBbT-Y | Artemis II Moon Mission Complete!
+https://youtu.be/1Mqsd0ru_pc | Apollo 15: "Never Been on a Ride like this Before"
+https://youtu.be/yfmG9qmZn6Y | Space-to-Space Call: NASA's Artemis II Astronauts and the International Space Station
+https://youtu.be/iWrTGAReUdE | Do Aliens Exist? We Asked a NASA Scientist
+https://youtu.be/KjBisqblTLQ | NASA in 2023: A Look Ahead
+https://youtu.be/lPyl6d2FJGw | Artemis II: Meet the Astronauts Who will Fly Around the Moon (Official NASA Video)
+https://youtu.be/vaB7eZ5jNn4 | Our Perseverance Rover Takes up Residence on Mars on This Week @NASA – February 20, 2021
+https://youtu.be/OsIhTw0CK8U | Artemis: We Are Focused
+https://youtu.be/nmBbcNTUkOg | Step Inside the International Space Station (POV Tour)
+https://youtu.be/-YNZiasRG0Q | Farther and Faster: NASA's Journey to the Moon with Artemis
+https://youtu.be/5b3n-u_0QAI | Planetary Defenders: This Is Not an Exercise
+https://youtu.be/Gc_XtRnVLQ8 | Artemis I Path to the Pad: The Rocket
+https://youtu.be/mn7WMowM1xY | Launch of NASA's Artemis II: Moon Rocket Camera Views
+https://youtu.be/EQEPrJjk1pM | Priming NASA's Artemis I for Launch to the Moon
+https://youtu.be/pZp5-TFTlIY | Paul Rudd Explores the Quantum Realm with NASA
+https://youtu.be/PPQ29WRT-rU | NASA 2025: To the Moon, Mars, and Beyond
+https://youtu.be/b__IE2vtInQ | Perseverance Sends More Sounds From Mars on This Week @NASA – March 12, 2021
+https://youtu.be/GgmRAV8HNKE | Artemis I: NASA’s Plans to Travel Beyond the Moon
+https://youtu.be/J04YN9azln8 | What Is the Habitable Zone?
+https://youtu.be/MVt2139voxk | For Earth, With Love: Artemis II
+https://youtu.be/HskXf74S5xg | The Shuttle's Last Flight - An End. A New Beginning.
+https://youtu.be/jrDv0OdMt5s | NASA’s Artemis I Moon Mission: Launch to Splashdown Highlights
+https://youtu.be/8DQeFmWUyd8 | Our Planet, Our Home┃ An Earth Day Perspective
+https://youtu.be/2WODej84jxg | Success and Preparation
+https://youtu.be/yae96AxH7V0 | Artemis I Path to the Pad: Launch and Recovery
+https://youtu.be/idL-_uWJC00 | Ready for the Webb Space Telescope’s First Full-Color Images on This Week @NASA – July 8, 2022
+https://youtu.be/Rf-nOV9LCRM | NASA's Return to Venus
+
+[Math]
+https://youtu.be/4KHCuXN2F3I | The Elliptical Pool Table - Numberphile
+https://youtu.be/MXJ-zpJeY3E | The World's Best Mathematician (*) - Terence Tao on Numberphile
+https://youtu.be/uCsD3ZGzMgE | The Josephus Problem - Numberphile
+https://youtu.be/pezlnN4X52g | A Sudoku Secret to Blow Your Mind - Numberphile
+https://youtu.be/2s4TqVAbfz4 | Perfect Shapes in Higher Dimensions - Numberphile
+https://youtu.be/AuA2EAgAegE | e (Euler's Number) - Numberphile
+https://youtu.be/rudzYPHuewc | Winning at Rock Paper Scissors - Numberphile
+https://youtu.be/WYijIV5JrKg | The Opposite of Infinity - Numberphile
+https://youtu.be/sj8Sg8qnjOg | The Golden Ratio (why it is so irrational) - Numberphile
+https://youtu.be/Y30VF3cSIYQ | The Legend of Question Six - Numberphile
+https://youtu.be/5Mf0JpTI_gg | Three Gears are Possible - Numberphile
+https://youtu.be/gjVDqfUhXOY | Billionaire Mathematician - Numberphile
+https://youtu.be/-ruC5A9EzzE | The 10,958 Problem - Numberphile
+https://youtu.be/xhj5er1k6GQ | The Illumination Problem - Numberphile
+https://youtu.be/Km024eldY1A | How many chess games are possible? - Numberphile
+https://youtu.be/AAsICMPwGPY | Klein Bottles - Numberphile
+https://youtu.be/FFftmWSzgmk | What's so special about the Mandelbrot Set? - Numberphile
+https://youtu.be/X3l0fPHZja8 | The Daddy of Big Numbers (Rayo's Number) - Numberphile
+https://youtu.be/kaMKInkV7Vs | Equally sharing a cake between three people - Numberphile
+https://youtu.be/_qvp9a1x2UM | The Useless Number - Numberphile
+https://youtu.be/O4ndIDcDSGc | Gödel's Incompleteness Theorem - Numberphile
+https://youtu.be/3WHBlPvK3Ek | A Game for the Elliptical Pool Table - Numberphile
+https://youtu.be/0r3cEKZiLmg | Mile of Pi - Numberphile
+https://youtu.be/WLCwMRJBhuI | The Clever Way to Count Tanks - Numberphile
+https://youtu.be/QvvkJT8myeI | The Shortest Ever Papers - Numberphile
+https://youtu.be/2JM2oImb9Qg | 5040 and other Anti-Prime Numbers - Numberphile
+https://youtu.be/Wim9WJeDTHQ | What's special about 277777788888899? - Numberphile
+https://youtu.be/_s5RFgd59ao | The 'Everything' Formula - Numberphile
+https://youtu.be/AxJubaijQbI | The Best (and Worst) Ways to Shuffle Cards - Numberphile
+https://youtu.be/KboGyIilP6k | How to always win at Dots and Boxes - Numberphile
+https://youtu.be/DmfxIhmGPP4 | The Reciprocals of Primes - Numberphile
+https://youtu.be/dfhiVaJj9UY | How to Fill a Klein Bottle - Numberphile
+https://youtu.be/6_yU9eJ0NxA | Darts in Higher Dimensions (with 3blue1brown) - Numberphile
+https://youtu.be/3P6DWAwwViU | The Enormous TREE(3) - Numberphile
+https://youtu.be/4k1jegU4Wb4 | The mystery of 0.577 - Numberphile
+https://youtu.be/-k3mVnRlQLU | The man with 1,000 Klein Bottles UNDER his house - Numberphile
+https://youtu.be/l4bmZ1gRqCc | 58 and other Confusing Numbers - Numberphile
+https://youtu.be/n7GYYerlQWs | 5-Sided Square - Numberphile
+https://youtu.be/5kC5k5QBqcc | The Problems with Secret Santa - Numberphile
+https://youtu.be/UDQjn_-pDSs | Why 7 is Weird - Numberphile
+https://youtu.be/HdU_rf7eMTI | Math Antics - Long Division with 2-Digit Divisors
+https://youtu.be/qmfXyR7Z6Lk | Math Antics - Multiplying Fractions
+https://youtu.be/KGMf314LUc0 | Math Antics - Basic Division
+https://youtu.be/NybHckSEQBI | Algebra Basics: What Is Algebra? - Math Antics
+https://youtu.be/LGqBQrUYua4 | Math Antics - Long Division
+https://youtu.be/JeVSmq1Nrpw | Math Antics - What Are Percentages?
+https://youtu.be/5juto2ze8Lg | Math Antics - Adding and Subtracting Fractions
+https://youtu.be/dAgfnK528RA | Math Antics - Order Of Operations
+https://youtu.be/AtBUQH8Tkqc | Math Antics - Simplifying Fractions
+https://youtu.be/xCdxURXMdFY | Math Antics - Area
+https://youtu.be/RVYwunbpMHA | Math Antics - Multi-Digit Multiplication Pt 2
+https://youtu.be/do_IbHId2Os | Math Antics - Convert any Fraction to a Decimal
+https://youtu.be/rR95Cbcjzus | Math Antics - Finding A Percent Of A Number
+https://youtu.be/qJwecTgce6c | Math Antics - Volume
+https://youtu.be/O-cawByg2aA | Math Antics - Circles, Circumference And Area
+https://youtu.be/pynfj2bYRms | Math Antics - Adding Mixed Numbers
+https://youtu.be/B1HEzNTGeZ4 | Math Antics - Mean, Median and Mode
+https://youtu.be/LDIiYKYvvdA | Algebra Basics: Solving 2-Step Equations - Math Antics
+https://youtu.be/kwh4SD1ToFc | Math Antics - Decimal Arithmetic
+https://youtu.be/DGKwdHMiqCg | Math Antics - Angle Basics
+https://youtu.be/l3XzepN03KQ | Algebra Basics: Solving Basic Equations Part 1 - Math Antics
+https://youtu.be/4lkq3DgvmJo | Math Antics - Dividing Fractions
+https://youtu.be/N-Y0Kvcnw8g | Math Antics - Common Denominator ECD
+https://youtu.be/ffLLmV4mZwU | Algebra Basics: What Are Polynomials? - Math Antics
+https://youtu.be/cC0fZ_lkFpQ | Math Antics - Circles, What Is PI?
+https://youtu.be/Y6M89-6106I | Math Antics - Multi-Digit Subtraction
+https://youtu.be/RQ2nYUBVvqI | Math Antics - Ratios And Rates
+https://youtu.be/FJ5qLWP3Fqo | Math Antics - Multi-Digit Multiplication Pt 1
+https://youtu.be/pZEmFSP3Z0I | Math Antics - Common Denominator LCD
+https://youtu.be/KzfWUEJjG18 | Math Antics - Basic Probability
+
+[History & Lessons]
+https://youtu.be/rGMecZ_aERo | Division for Kids - Classic Homeschool Pop Lesson
+https://youtu.be/p33BYf1NDAE | Fractions for Kids - Classic Homeschool Pop Lesson
+https://youtu.be/d8y8kc317EE | Planets of our Solar System for Kids
+https://youtu.be/eW2dRLyoyds | Multiplication for Kids - Classic Homeschool Pop Lesson
+https://youtu.be/18amLZ9vfG8 | Plant Parts and Functions for Kids
+https://youtu.be/c-qxrCRfcS4 | Veterans Day Facts for Kids
+https://youtu.be/hmBI8JNzPTk | 3rd Grade Math Compilation
+https://youtu.be/qllIq284u20 | Martin Luther King Jr. for Kids - Civil Rights Leader and Activist
+https://youtu.be/jsTB7gSfDPI | Constitution for Kids - What It Is and Why It Matters
+https://youtu.be/8cz_IB65pZM | Area for Kids - Full Lesson Video - Homeschool Pop Math
+https://youtu.be/YrT5jcnu8NA | Continents of the World for Kids - Geography for Kids
+https://youtu.be/vQSECrMIygg | The Sun for Kids - Solar System Science
+https://youtu.be/sytZGGs5sRs | Ruby Bridges for Kids - Civil Rights Hero
+https://youtu.be/ZLDUrPaLQWE | Push and Pull for Kids - Forces in Science
+https://youtu.be/ty2Za-O9h6w | Rocks for Kids - Igneous, Sedimentary, & Metamorphic Rocks
+https://youtu.be/PZtT9SLOzYU | Insects for Kids
+https://youtu.be/lBYmOuajdC8 | Ancient Egypt for Kids
+https://youtu.be/wefswCPT7B4 | Earth Day for Kids - Earth Day History & Activities
+https://youtu.be/8Qwugoey0dQ | Rounding Numbers for Kids - Place Value & Rounding
+https://youtu.be/2X9f2waOKU8 | George Washington for Kids - First President of the United States
+https://youtu.be/TKAhQ-9BQnw | Multiplication for Kids – Full Math Lesson - Homeschool Pop
+https://youtu.be/SNF8b7KKJ2I | Ecosystems for Kids - Plants, Animals, & Their Environment
+https://youtu.be/s-PPjXREXm8 | Multiplication Lesson for Children
+https://youtu.be/MTSlKifo4js | Perimeter for Kids - Math Lesson Video
+https://youtu.be/J15nbHRpSiQ | Long Division for Kids - Step-by-Step Math Lesson
+https://youtu.be/Ie2WRraxdPs | Phases of the Moon for Kids - Science for Elementary Students
+https://youtu.be/jyDztv_ObCw | Thanksgiving for Kids
+https://youtu.be/7dSyMG8OJcY | The Bill of Rights for Kids - U.S. Constitution Amendments
+https://youtu.be/tClxdOsC_JY | Ancient Rome for Kids - Roman History
+https://youtu.be/0ryXqoXPkbo | Black History Month for Kids - Learning About Black History
+https://youtu.be/ay416AyoqRU | Top 10 Natural Disasters for Kids
+https://youtu.be/c9Gx1-xRXuM | Earthworms for Kids - Learn all about these slimy animals
+https://youtu.be/rLdx-6MDskA | Venomous Snakes for Kids - Learn fun facts about venomous snake species
+https://youtu.be/ycAnNy5cbKo | Alligators and Crocodiles for Kids - Learn about these powerful predators
+https://youtu.be/5MnZWamBUCE | Carnivorous Plants for Kids - Learn about sundews, Venus flytraps, and more
+https://youtu.be/w5dK6gJwKKw | Sharks for Kids - Learn all about these big fish!
+https://youtu.be/xWTWdLvA1P0 | Dolphins for Kids - Learn all about this super smart animal
+https://youtu.be/7jGYy_gltzg | Gorillas for Kids - Learn all about these gentle giants!
+https://youtu.be/_ZpGPT6uWRw | Turtles for Kids - Learn all about these water-loving reptiles
+https://youtu.be/0OP_51Bgepk | Hippos for Kids - Learn all about hippopotamuses
+https://youtu.be/a2ilmR8kg5E | Spiders for Kids - Learn all about these amazing arachnids!
+https://youtu.be/jlLpZ9S2slQ | Earthquakes for Kids STEM - Learn why earthquakes happen and how to measure them
+https://youtu.be/mDRZA-Q9aiM | Pangea for Kids - Learn all about the supercontinent of long ago!
+https://youtu.be/3b2rCNfkzBU | What Is a Volcano? for Kids - Learn all about these unique landforms
+https://youtu.be/J8aYreaXkHo | Butterflies for Kids - Learn about the diet, habitat, and behaviors of butterflies
+https://youtu.be/9VO0cQyg5dE | Whales for Kids - Learn all about toothed and baleen whales
+https://youtu.be/j47xY0UDNI0 | Bats for Kids - Learn cool facts about bats
+https://youtu.be/t95q8vxkoeg | Squid for Kids - Learn all about these inky sea creatures
+https://youtu.be/j4yuzWuMLGQ | Floods for Kids - Learn about the three types of floods
+https://youtu.be/9tZJDcfiatM | Bison of the West for Kids - Learn all about these special mammals
+https://youtu.be/5Cb7kc1eED4 | Types of Landforms - Learn about many different natural features of the earth
+https://youtu.be/UOraxP2BPok | Statue of Liberty Facts for Kids - Learn all about this famous national monument
+https://youtu.be/Aj17Xsjt4sc | Owls for Kids - Learn fun facts about these cool birds!
+https://youtu.be/0iRbD5rM5qc | Financial Literacy for Kids - Learn the basics of finance and budgeting
+https://youtu.be/z20WyucV9hk | Frogs for Kids - Learn all about these slimy amphibians
+https://youtu.be/sXtGEU5FgpA | Bees and Wasps for Kids - Learn all about these interesting insects
+https://youtu.be/1pvAZWcr27c | Pythons for Kids - Learn all about these giant serpents!
+https://youtu.be/JcXKbUIebrU | What Is AI? - Learn all about artificial intelligence
+https://youtu.be/rXrg5-H1GIk | Komodo Dragons for Kids - Learn all about these apex predators!
+https://youtu.be/gDzFlDCjOcE | Who Was Queen Elizabeth II? - Learn all about the longest-serving monarch of England
+https://youtu.be/7m2UegGXYoY | Octopuses for Kids - Learn all about these eight-armed brainiacs!
+https://youtu.be/aRcXutXvfmM | Financial Literacy—Needs and Wants - Learn about needs, wants, and opportunity costs
+https://youtu.be/UVc0bpDl-z4 | Who Is Ruby Bridges? - Learn all about this incredible woman and her extraordinary courage
+https://youtu.be/lVDSvGz4iJs | What Is a Rainbow? - Rainbows for Kids - Learn how and why rainbows form
+https://youtu.be/mxEhLZ8tW3E | Leonardo da Vinci for Kids - Learn all about one of the most famous artists of all time
+https://youtu.be/0VY9bn0DzXY | Cobras for Kids - Learn all about these fascinating reptiles!
+https://youtu.be/XxK_hxZz9YQ | All about North America for Kids - Learn about the countries of the North American Continent
+https://youtu.be/Qd6nLM2QlWw | Exploring Our Solar System: Planets and Space for Kids - FreeSchool
+https://youtu.be/tfWMwG6aYzQ | All About Sharks for Children: Animal Videos for Kids - FreeSchool
+https://youtu.be/0iYx5q5CudI | All About Hippos for Kids: Hippopotamus for Children - FreeSchool
+https://youtu.be/fey2JshCNng | Top 10 Fastest Animals in the World: Fastest Runners in the Animal Kingdom - FreeSchool
+https://youtu.be/f4ZHdzl6ZWg | Phases of the Moon: Astronomy and Space for Kids - FreeSchool
+https://youtu.be/kWxnadQI5Qw | Zebras for Kids: Learn all About Zebras - FreeSchool
+https://youtu.be/J2BKd5e15Jc | Exploring the Coral Reef: Learn about Oceans for Kids - FreeSchool
+https://youtu.be/O8qilxaBR20 | All About Penguins for Kids: Penguins of the World for Children - FreeSchool
+https://youtu.be/_kA-_aro3lI | Exploring the Arctic for Kids: Arctic Animals and Climates for Children - FreeSchool
+https://youtu.be/LpzwxDqVDtc | Elephants for Children: Learn All About Elephants - FreeSchool
+https://youtu.be/wclY8F-UoTE | 3 States of Matter for Kids (Solid, Liquid, Gas): Science for Children - FreeSchool
+https://youtu.be/BsqKTJtK_vw | Exploring Landforms and Bodies of Water for Kids - FreeSchool
+https://youtu.be/-r6tZGMep0U | All About Frogs for Kids - Facts About Frogs and Toads for Children: FreeSchool
+https://youtu.be/BOHFt15eVD4 | All About Snakes for Kids: Learn about Snakes for Children - FreeSchool
+https://youtu.be/jEQaRY4YpVo | Tigers for Kids: Learn All About Tigers - FreeSchool
+https://youtu.be/IDhapt7nw4A | The Planet Earth: Astronomy and Space for Kids - FreeSchool
+https://youtu.be/bNYXweQ81vI | Giraffes for Kids: Learn about Giraffes - FreeSchool
+https://youtu.be/jF0Id-hH9y4 | All About Birds for Children: Animal Learning for Kids - FreeSchool
+https://youtu.be/mRidGna-V4E | Animal Classification for Children: Classifying Vertebrates and Invertebrates for Kids - FreeSchool
+https://youtu.be/9FVoTMOorXA | All About Bats for Kids: Animal Videos for Children - FreeSchool
+https://youtu.be/VkW54j82e9U | All About the Sun for Kids: Astronomy and Space for Children
+https://youtu.be/TYklMREHD-s | All About Rhinos for Kids: Rhinoceros for Children - FreeSchool
+https://youtu.be/m0XgSrdYQRY | All About Owls for Kids: Backyard Bird Series - FreeSchool
+https://youtu.be/rKQfJFAHW8Q | All About Insects for Children: Bees, Butterflies, Ladybugs, Ants and Flies for Kids - FreeSchool
+https://youtu.be/45F2kH144zY | All About Dolphins for Kids: Dolphins for Children - FreeSchool
+https://youtu.be/W_Of9DJWsEM | Cheetahs for Kids: Learn All About Cheetahs - FreeSchool
+https://youtu.be/pG8X0vOvi7Q | Dr. Martin Luther King, Jr: Biography for Children, American History for Kids - FreeSchool
+https://youtu.be/V863xR0Y2qk | All About Volcanoes for Children: Introduction to Volcanoes for Kids - FreeSchool
+https://youtu.be/EGK1KkLjdQY | 3 Types of Rocks and the Rock Cycle: Igneous, Sedimentary, Metamorphic - FreeSchool
+https://youtu.be/x49BtB5dOwg | Physical and Chemical Changes: Chemistry for Kids - FreeSchool
+https://youtu.be/VNxx8jVEm3I | All About Pandas for Kids - FreeSchool
+https://youtu.be/fTjYG1Tyaos | Biography of Abraham Lincoln for Kids: Meet the American President for Kids - FreeSchool
+https://youtu.be/usHRc7G0gVo | The Statue of Liberty for Kids: Famous World Landmarks for Children - FreeSchool
+https://youtu.be/qv8TANh8djI | Vincent van Gogh for Children: Biography for Kids - FreeSchool
+https://youtu.be/OGiEkHZZrIs | Guide to Dwarf Planets: Ceres, Pluto, Eris, Haumea and Makemake for Kids - FreeSchool
+https://youtu.be/fKmpld1PoPQ | Big Ben for Kids: Famous World Landmarks for Children - FreeSchool
+https://youtu.be/qAJ8IF4HI20 | The Steps of the Scientific Method for Kids - Science for Children: FreeSchool
+https://youtu.be/hLq2datPo5M | Food Chains for Kids: Food Webs, the Circle of Life, and the Flow of Energy - FreeSchool
+https://youtu.be/YFzktJNmnPU | Intro to Symmetry: All About Symmetry for Kids - FreeSchool

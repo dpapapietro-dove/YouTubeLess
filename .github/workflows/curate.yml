@@ -19,6 +19,8 @@ jobs:
       - run: pip install --quiet yt-dlp
       - run: python curation/curate.py
       - run: cat curation/report.md >> "$GITHUB_STEP_SUMMARY"
+      - name: Print list
+        run: cat curation/curated.txt
       - uses: actions/upload-artifact@v4
         with:
           name: curated

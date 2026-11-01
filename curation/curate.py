@@ -20,7 +20,9 @@ ydl = YoutubeDL({"extract_flat": "in_playlist", "quiet": True, "skip_download": 
 def norm(s):
     return re.sub(r"[^a-z0-9]", "", (s or "").lower())
 
-groups, report, seen = {}, [], set()
+blocked = {l.strip() for l in (here / "blocked.txt").read_text(encoding="utf-8").splitlines()
+           if l.strip() and not l.startswith("#")}
+groups, report, seen = {}, [], set(blocked)
 total = 0
 for ch in cfg["channels"]:
     url = f"https://www.youtube.com/{ch['handle']}/videos"
