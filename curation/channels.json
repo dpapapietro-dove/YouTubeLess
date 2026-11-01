@@ -4,38 +4,174 @@
   "max_seconds": 2400,
   "exclude": "minecraft|fortnite|roblox|among us|gaming|gameplay|let'?s play|video ?game|xbox|playstation|nintendo|prank|horror|scary|creepy|gore|murder|kill(ed|ing|s)?\\b|suicide|drug|alcohol|beer|wine|vodka|sex|naked|nude|bikini|dating|kiss|giveaway|sponsor|#shorts|live ?stream|livestream|q ?& ?a|podcast|merch|trailer|announcement|teaser|bloopers?",
   "channels": [
-    { "handle": "@MarkRober", "name": "Mark Rober", "group": "Engineering & Inventions", "max": 80 },
-    { "handle": "@CrunchLabs", "name": "CrunchLabs", "group": "Engineering & Inventions", "max": 60 },
-    { "handle": "@PracticalEngineeringChannel", "name": "Practical Engineering", "group": "Engineering & Inventions", "max": 45 },
-    { "handle": "@smartereveryday", "name": "SmarterEveryDay", "group": "Engineering & Inventions", "max": 50, "exclude": "gun|rifle|bullet|shoot|missile|bomb|weapon" },
-    { "handle": "@TomScottGo", "name": "Tom Scott", "group": "Engineering & Inventions", "max": 30, "exclude": "death|die|dead|crash|disaster|war" },
-
-    { "handle": "@veritasium", "name": "Veritasium", "group": "Science", "max": 45, "exclude": "death|die|dead|deadliest|nuclear bomb|atomic bomb|weapon|war|virus|disease|parasite" },
-    { "handle": "@SteveMould", "name": "Steve Mould", "group": "Science", "max": 45 },
-    { "handle": "@TheActionLab", "name": "The Action Lab", "group": "Science", "max": 50, "exclude": "dangerous|deadly|toxic|explod|fire" },
-    { "handle": "@crashcoursekids", "name": "Crash Course Kids", "group": "Science", "max": 50 },
-    { "handle": "@scishowkids", "name": "SciShow Kids", "group": "Science", "max": 30 },
-    { "handle": "@NightHawkInLight", "name": "NightHawkInLight", "group": "Science", "max": 25, "exclude": "fire|flame|explod|burn|gun|knife" },
-    { "handle": "@physicsgirl", "name": "Physics Girl", "group": "Science", "max": 30 },
-    { "handle": "@MinuteEarth", "name": "MinuteEarth", "group": "Earth & Nature", "max": 50, "exclude": "poop|pee|sex|mating|death|die" },
-    { "handle": "@minutephysics", "name": "minutephysics", "group": "Science", "max": 30 },
-    { "handle": "@kurzgesagt", "name": "Kurzgesagt – In a Nutshell", "group": "Science", "max": 40, "exclude": "death|die|dead|dying|end of|extinct|war|bomb|nuclear|kill|disease|virus|bacteria|immune|cancer|addiction|loneliness|meaning|depress|suicide|apocalypse|existential|worst|horrible|terrifying|egoistic|fear" },
-    { "handle": "@TEDEd", "name": "TED-Ed", "group": "Puzzles & Ideas", "max": 80, "include": "riddle|puzzle|how does|how do|why do|why does|what is|what are|invent|science|math|history of|myth|the man who|the woman who|engineer|animal|planet|ocean|ancient", "exclude": "death|die|dead|dying|war|bomb|nuclear|kill|disease|virus|plague|pandemic|cancer|addiction|drug|alcohol|sex|love|dating|attraction|depress|suicide|torture|slavery|genocide|massacre|execution|poison|venom|parasite|zombie|demon|hell|devil|curse|ghost|witch|murder|crime|prison" },
-
-    { "handle": "@OperationOuch", "name": "Operation Ouch", "group": "Human Body", "max": 50, "exclude": "poo|wee|vomit|blood|gross|disgust" },
-
-    { "handle": "@KQEDDeepLook", "name": "Deep Look", "group": "Earth & Nature", "max": 50, "exclude": "parasite|kill|eat(s|ing)? (its|their)|dead|death|blood" },
-    { "handle": "@NatGeoKids", "name": "Nat Geo Kids", "group": "Earth & Nature", "max": 40 },
-    { "handle": "@bbcearth", "name": "BBC Earth", "group": "Earth & Nature", "max": 40, "exclude": "kill|attack|hunt|prey|predator|eaten|blood|death|dead|dies|brutal|deadly|fight|vs\\.?|mating|sex" },
-
-    { "handle": "@NASA", "name": "NASA", "group": "Space", "max": 40, "exclude": "news conference|briefing|budget|town hall|hearing|update|media|press|live|coverage|launch broadcast|countdown" },
-
-    { "handle": "@numberphile", "name": "Numberphile", "group": "Math", "max": 40 },
-    { "handle": "@mathantics", "name": "Math Antics", "group": "Math", "max": 30 },
-
-    { "handle": "@HomeschoolPop", "name": "Homeschool Pop", "group": "History", "max": 50 },
-    { "handle": "@LearnBright", "name": "Learn Bright", "group": "History", "max": 40 },
-    { "handle": "@FreeSchool", "name": "Free School", "group": "History", "max": 40 },
-    { "handle": "@SimpleHistory", "name": "Simple History", "group": "History", "max": 30, "exclude": "death|die|dead|deadliest|kill|blood|brutal|torture|execution|massacre|genocide|worst|horrible|gruesome|bomb|nuclear|holocaust|slave|plague" }
+    {
+      "handle": "@MarkRober",
+      "name": "Mark Rober",
+      "group": "Engineering & Inventions",
+      "max": 80
+    },
+    {
+      "handle": "@CrunchLabs",
+      "name": "CrunchLabs",
+      "group": "Engineering & Inventions",
+      "max": 60
+    },
+    {
+      "handle": "@PracticalEngineeringChannel",
+      "name": "Practical Engineering",
+      "group": "Engineering & Inventions",
+      "max": 45
+    },
+    {
+      "handle": "@smartereveryday",
+      "name": "SmarterEveryDay",
+      "group": "Engineering & Inventions",
+      "max": 50,
+      "exclude": "gun|rifle|bullet|shoot|missile|bomb|weapon"
+    },
+    {
+      "handle": "@TomScottGo",
+      "name": "Tom Scott",
+      "group": "Engineering & Inventions",
+      "max": 30,
+      "exclude": "death|die|dead|crash|disaster|war"
+    },
+    {
+      "handle": "@veritasium",
+      "name": "Veritasium",
+      "group": "Science",
+      "max": 45,
+      "exclude": "death|die|dead|deadliest|nuclear bomb|atomic bomb|weapon|war|virus|disease|parasite"
+    },
+    {
+      "handle": "@SteveMould",
+      "name": "Steve Mould",
+      "group": "Science",
+      "max": 45
+    },
+    {
+      "handle": "@TheActionLab",
+      "name": "The Action Lab",
+      "group": "Science",
+      "max": 50,
+      "exclude": "dangerous|deadly|toxic|explod|fire"
+    },
+    {
+      "handle": "@crashcoursekids",
+      "name": "Crash Course Kids",
+      "group": "Science",
+      "max": 50
+    },
+    {
+      "handle": "@scishowkids",
+      "name": "SciShow Kids",
+      "group": "Science",
+      "max": 30
+    },
+    {
+      "handle": "@NightHawkInLight",
+      "name": "NightHawkInLight",
+      "group": "Science",
+      "max": 25,
+      "exclude": "fire|flame|explod|burn|gun|knife"
+    },
+    {
+      "handle": "@physicsgirl",
+      "name": "Physics Girl",
+      "group": "Science",
+      "max": 30
+    },
+    {
+      "handle": "@MinuteEarth",
+      "name": "MinuteEarth",
+      "group": "Earth & Nature",
+      "max": 50,
+      "exclude": "poop|pee|sex|mating|death|die"
+    },
+    {
+      "handle": "@minutephysics",
+      "name": "minutephysics",
+      "group": "Science",
+      "max": 30
+    },
+    {
+      "handle": "@kurzgesagt",
+      "name": "Kurzgesagt – In a Nutshell",
+      "group": "Science",
+      "max": 40,
+      "exclude": "death|die|dead|dying|end of|extinct|war|bomb|nuclear|kill|disease|virus|bacteria|immune|cancer|addiction|loneliness|meaning|depress|suicide|apocalypse|existential|worst|horrible|terrifying|egoistic|fear"
+    },
+    {
+      "handle": "@TEDEd",
+      "name": "TED-Ed",
+      "group": "Puzzles & Ideas",
+      "max": 80,
+      "include": "riddle|puzzle|how does|how do|why do|why does|what is|what are|invent|science|math|history of|myth|the man who|the woman who|engineer|animal|planet|ocean|ancient",
+      "exclude": "death|die|dead|dying|war|bomb|nuclear|kill|disease|virus|plague|pandemic|cancer|addiction|drug|alcohol|sex|love|dating|attraction|depress|suicide|torture|slavery|genocide|massacre|execution|poison|venom|parasite|zombie|demon|hell|devil|curse|ghost|witch|murder|crime|prison"
+    },
+    {
+      "handle": "@OperationOuch",
+      "name": "Operation Ouch",
+      "group": "Human Body",
+      "max": 50,
+      "exclude": "poo|wee|vomit|blood|gross|disgust"
+    },
+    {
+      "handle": "@KQEDDeepLook",
+      "name": "Deep Look",
+      "group": "Earth & Nature",
+      "max": 50,
+      "exclude": "parasite|kill|eat(s|ing)? (its|their)|dead|death|blood"
+    },
+    {
+      "handle": "@NatGeoKids",
+      "name": "Nat Geo Kids",
+      "group": "Earth & Nature",
+      "max": 40
+    },
+    {
+      "handle": "@bbcearth",
+      "name": "BBC Earth",
+      "group": "Earth & Nature",
+      "max": 40,
+      "exclude": "kill|attack|hunt|prey|predator|eaten|blood|death|dead|dies|brutal|deadly|fight|vs\\.?|mating|sex"
+    },
+    {
+      "handle": "@NASA",
+      "name": "NASA",
+      "group": "Space",
+      "max": 40,
+      "exclude": "news conference|briefing|budget|town hall|hearing|update|media|press|live|coverage|launch broadcast|countdown"
+    },
+    {
+      "handle": "@numberphile",
+      "name": "Numberphile",
+      "group": "Math",
+      "max": 40
+    },
+    {
+      "handle": "@mathantics",
+      "name": "Math Antics",
+      "group": "Math",
+      "max": 30
+    },
+    {
+      "handle": "@HomeschoolPop",
+      "name": "Homeschool Pop",
+      "group": "History & Lessons",
+      "max": 50
+    },
+    {
+      "handle": "@LearnBright",
+      "name": "Learn Bright",
+      "group": "History & Lessons",
+      "max": 40
+    },
+    {
+      "handle": "@FreeSchool",
+      "name": "Free School",
+      "group": "History & Lessons",
+      "max": 40
+    }
   ]
 }

@@ -28,6 +28,13 @@ Dev never edits code; Claude makes every change. Dev may edit `videos.txt` on gi
 - `openVideo` refuses any id not in the allowlist, including ids in the URL hash.
 - Chromebook: Family Link "approved sites only" with the Pages domain and youtube-nocookie.com.
 
+## Curated list
+- videos.txt holds ~950 hand-reviewed videos from trusted channels (curation/channels.json), made by the
+  manual "Curate" workflow (curation/curate.py, yt-dlp). Dev's taste: smart kid (7), CrunchLabs/Mark Rober
+  level, nothing babyish, no gamers, no politics ("not liberal leaning"), no weapons/gore/scams/dating.
+- curation/blocked.txt lists IDs Claude rejected on review; curate.py never picks them again. Review every
+  title of a new curate run before swapping it into videos.txt.
+
 ## Gotchas
 - CSS has `[hidden]{display:none!important}` because `.cover` sets display:flex.
 - `site/videos.json` and `site/facts.json` are generated, not committed.
