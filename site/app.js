@@ -3,7 +3,7 @@
   'use strict';
 
   var $ = function (id) { return document.getElementById(id); };
-  var picker = $('picker'), grid = $('grid'), tabs = $('tabs'), empty = $('empty');
+  var picker = $('picker'), grid = $('grid'), empty = $('empty');
   var playerView = $('player-view'), stage = $('stage'), shield = $('shield');
   var cover = $('cover'), coverText = $('cover-text');
   var coverPlay = $('cover-play'), coverBack = $('cover-back');
@@ -12,7 +12,6 @@
 
   var data = { siteName: 'My Videos', categories: [] };
   var allowed = {};          // id -> video, the only ids we will ever play
-  var activeTab = 0;         // 0 = All
   var player = null, apiReady = null, current = null;
   var facts = [];            // loaded from facts.json (built from facts.txt)
   var started = false;       // has the real video been started yet?
@@ -39,19 +38,155 @@
     return e;
   }
 
-  // ---------- picker ----------
+  // ---------- picker: a rotating line-up of 10 ----------
+  // All videos sit in one long queue, mixed across groups. The home screen shows
+  // SHOW_COUNT of them. A shown video stays until he watches it; a watched video
+  // goes to the back of the queue, so everything else gets shown before it again.
+  var SHOW_COUNT = 10;
+  var LINEUP_KEY = 'ytl-lineup', HISTORY_KEY = 'ytl-history';
+  var lineup = { queue: [], shown: [] };
+  var history_ = {};         // id -> { t, g, views, secs, dur, far, first, last }
+  var groupOf = {};          // id -> group name
+
+  function readJSON(k, dflt) {
+    try { var v = JSON.parse(localStorage.getItem(k)); return v && typeof v === 'object' ? v : dflt; }
+    catch (e) { return dflt; }
+  }
+  function writeJSON(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} }
+
+  function shuffle(a) {
+    for (var i = a.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)); var t = a[i]; a[i] = a[j]; a[j] = t; }
+    return a;
+  }
+  // Round-robin across groups so any run of the queue has a bit of everything.
+  function mixed(ids) {
+    var byGroup = {}, order = [];
+    ids.forEach(function (id) {
+      var g = groupOf[id];
+      if (!byGroup[g]) { byGroup[g] = []; order.push(g); }
+      byGroup[g].push(id);
+    });
+    order.forEach(function (g) { shuffle(byGroup[g]); });
+    shuffle(order);
+    var out = [], more = true;
+    for (var r = 0; more; r++) {
+      more = false;
+      order.forEach(function (g) { if (r < byGroup[g].length) { out.push(byGroup[g][r]); more = true; } });
+    }
+    return out;
+  }
+
+  function syncLineup() {
+    lineup = readJSON(LINEUP_KEY, { queue: [], shown: [] });
+    history_ = readJSON(HISTORY_KEY, {});
+    var queue = (lineup.queue || []).filter(function (id) { return allowed[id]; });
+    var inQueue = {};
+    queue.forEach(function (id) { inQueue[id] = true; });
+    // Videos added to the list since last time go in front of anything already watched.
+    var fresh = mixed(Object.keys(allowed).filter(function (id) { return !inQueue[id]; }));
+    if (fresh.length) {
+      var at = queue.length;
+      for (var i = 0; i < queue.length; i++) { if (history_[queue[i]]) { at = i; break; } }
+      queue = queue.slice(0, at).concat(fresh, queue.slice(at));
+    }
+    var shown = (lineup.shown || []).filter(function (id) { return allowed[id]; });
+    var isShown = {};
+    shown.forEach(function (id) { isShown[id] = true; });
+    // Fill empty spots from the front of the queue, preferring groups not on screen yet.
+    function fill(preferNew) {
+      for (var i = 0; i < queue.length && shown.length < SHOW_COUNT; i++) {
+        var id = queue[i];
+        if (isShown[id]) continue;
+        if (preferNew && shown.some(function (s) { return groupOf[s] === groupOf[id]; })) continue;
+        shown.push(id); isShown[id] = true;
+      }
+    }
+    fill(true); fill(false);
+    // Remember when each group first appeared, so the 14-day clock has a fair start.
+    var seen = lineup.seen || {};
+    data.categories.forEach(function (c) { if (!seen[c.name]) seen[c.name] = Date.now(); });
+    var must = lineup.must && allowed[lineup.must.id] ? lineup.must : null;
+    lineup = { queue: queue, shown: shown, seen: seen, must: must };
+    pickRequired();
+    writeJSON(LINEUP_KEY, lineup);
+  }
+
+  // ---------- the 14-day rule ----------
+  // If no video from a group has been watched all the way through for 14 days, home shows
+  // just one video from that group until he watches it in full. Full = reached the end with
+  // at least 90% of it actually played (so jumping to the end does not count).
+  var OVERDUE_MS = 14 * 24 * 3600 * 1000, FULL_SHARE = 0.9;
+  function lastFull(group) {
+    var t = lineup.seen[group] || Date.now();
+    Object.keys(history_).forEach(function (id) {
+      var h = history_[id];
+      if ((groupOf[id] || h.g) === group && h.fullAt && h.fullAt > t) t = h.fullAt;
+    });
+    return t;
+  }
+  function pickRequired() {
+    if (lineup.must) { writeJSON(LINEUP_KEY, lineup); return; }
+    var worst = null, worstT = Date.now() - OVERDUE_MS;
+    data.categories.forEach(function (c) {
+      var t = lastFull(c.name);
+      if (t < worstT) { worst = c.name; worstT = t; }
+    });
+    if (worst) {
+      // Next video of that group in the queue (one already on screen is fine too).
+      for (var i = 0; i < lineup.queue.length; i++) {
+        if (groupOf[lineup.queue[i]] === worst) { lineup.must = { id: lineup.queue[i], group: worst }; break; }
+      }
+    }
+    writeJSON(LINEUP_KEY, lineup);
+  }
+  function finishedInFull(id) {
+    var h = history_[id];
+    if (!h) return;
+    h.done = (h.done || 0) + 1;
+    if (h.dur && h.viewSecs >= h.dur * FULL_SHARE) {
+      h.full = (h.full || 0) + 1;
+      h.fullAt = Date.now();
+      if (lineup.must && lineup.must.id === id) { lineup.must = null; pickRequired(); }
+    }
+    writeJSON(HISTORY_KEY, history_);
+  }
+
+  // He started watching: take it off the screen and send it to the back of the queue.
+  function markWatched(id) {
+    lineup.shown = lineup.shown.filter(function (s) { return s !== id; });
+    lineup.queue = lineup.queue.filter(function (s) { return s !== id; }).concat([id]);
+    writeJSON(LINEUP_KEY, lineup);
+    var h = history_[id] || { views: 0, secs: 0, far: 0, first: Date.now() };
+    h.t = allowed[id].title; h.g = groupOf[id];
+    h.views += 1; h.last = Date.now(); h.viewSecs = 0;
+    history_[id] = h;
+    writeJSON(HISTORY_KEY, history_);
+  }
+  var unsaved = 0;
+  function addWatchTime(id, secs, pos, dur) {
+    var h = history_[id];
+    if (!h) return;
+    h.secs = Math.round(((h.secs || 0) + secs) * 10) / 10;
+    h.viewSecs = (h.viewSecs || 0) + secs;   // this viewing only
+    if (pos > (h.far || 0)) h.far = Math.round(pos);
+    if (dur) h.dur = Math.round(dur);
+    unsaved += secs;
+    if (unsaved >= 5) { unsaved = 0; writeJSON(HISTORY_KEY, history_); }
+  }
+
   function load() {
     return fetch('videos.json', { cache: 'no-store' })
       .then(function (r) { return r.json(); })
       .then(function (d) {
         data = d || data;
         data.categories = data.categories || [];
-        allowed = {};
-        data.categories.forEach(function (c) { (c.videos || []).forEach(function (v) { allowed[v.id] = v; }); });
+        allowed = {}; groupOf = {};
+        data.categories.forEach(function (c) {
+          (c.videos || []).forEach(function (v) { allowed[v.id] = v; groupOf[v.id] = c.name; });
+        });
         document.title = data.siteName;
         $('site-name').textContent = data.siteName;
-        if (activeTab > data.categories.length) activeTab = 0;
-        renderTabs();
+        syncLineup();
         renderGrid();
       })
       .catch(function () {
@@ -61,33 +196,13 @@
       });
   }
 
-  // With a long list, skip the "All" tab and open on the first group, so the page stays quick.
-  function showAll() {
-    var n = 0;
-    data.categories.forEach(function (c) { n += (c.videos || []).length; });
-    return n <= 150;
-  }
-
-  function renderTabs() {
-    if (!showAll() && activeTab === 0 && data.categories.length) activeTab = 1;
-    tabs.innerHTML = '';
-    if (data.categories.length < 2) return;
-    var names = (showAll() ? ['All'] : ['']).concat(data.categories.map(function (c) { return c.name; }));
-    names.forEach(function (name, i) {
-      if (!name) return;
-      var b = el('button', 'tab', name);
-      b.setAttribute('aria-pressed', i === activeTab ? 'true' : 'false');
-      b.addEventListener('click', function () { activeTab = i; renderTabs(); renderGrid(); });
-      tabs.appendChild(b);
-    });
-  }
-
   function renderGrid() {
     grid.innerHTML = '';
-    var list = [];
-    if (!showAll() && activeTab === 0 && data.categories.length) activeTab = 1;
-    if (activeTab === 0) data.categories.forEach(function (c) { list = list.concat(c.videos || []); });
-    else list = data.categories[activeTab - 1].videos || [];
+    var must = lineup.must;
+    $('must-note').hidden = !must;
+    grid.classList.toggle('single', !!must);
+    if (must) $('must-note').textContent = 'Time for some ' + must.group + '! Watch this whole video, then you can pick from everything again.';
+    var list = (must ? [must.id] : lineup.shown).map(function (id) { return allowed[id]; });
     empty.hidden = list.length > 0;
     if (!list.length) empty.textContent = 'No videos yet. Ask a grown-up to add some!';
     list.forEach(function (v) {
@@ -95,7 +210,6 @@
       var img = el('img');
       img.src = thumb(v.id);
       img.alt = '';
-      img.loading = 'lazy';
       img.draggable = false;
       img.onerror = function () { img.style.visibility = 'hidden'; };
       card.appendChild(img);
@@ -143,6 +257,13 @@
         },
         onStateChange: onState,
         onError: function () {
+          // If the required video won't play, swap in another from the same group.
+          if (current && lineup.must && lineup.must.id === current.id) {
+            var bad = current.id;
+            lineup.queue = lineup.queue.filter(function (q) { return q !== bad; }).concat([bad]);
+            lineup.must = null;
+            pickRequired();
+          }
           showCover("Oops! This video can't play here.", false);
         }
       }
@@ -152,6 +273,7 @@
   // ---------- player view ----------
   function openVideo(id, push) {
     if (!allowed[id]) return;   // never play anything that is not on the list
+    if (lineup.must && lineup.must.id !== id) return;   // the required video comes first
     current = allowed[id];
     if (push) history.pushState({ v: id }, '', '#v=' + id);
     picker.hidden = true;
@@ -188,6 +310,7 @@
     current = null;
     clearTimeout(fallbackTimer);
     stopTicker();
+    writeJSON(HISTORY_KEY, history_);
     if (document.fullscreenElement) document.exitFullscreen().catch(function () {});
     playerView.hidden = true;
     picker.hidden = false;
@@ -239,9 +362,14 @@
     stage.classList.remove('idle');
   }
 
+  function beginWatching() {
+    started = true;
+    if (current) markWatched(current.id);
+  }
+
   function continueToVideo() {
     if (!player || !player.playVideo) return;
-    started = true;
+    beginWatching();
     clearTimeout(fallbackTimer);
     showCover('Starting…', false);
     if (wantSound) player.unMute();   // the button press lets the browser play sound
@@ -266,7 +394,7 @@
       // After an ad (skipped or finished) the video just starts: one tap is enough.
       // With no ad, hold it on the fact screen until he presses Continue.
       if (!started && (adSeen || Date.now() - loadStart > AD_GUESS_MS)) {
-        started = true;
+        beginWatching();
         clearTimeout(fallbackTimer);
       }
       if (!started) {
@@ -287,6 +415,7 @@
       showCover('Paused', true);
     } else if (e.data === S.ENDED) {
       btnPlay.textContent = '▶';
+      if (started && current) finishedInFull(current.id);   // he reached the very end
       coverPlay.textContent = '↻ Watch again';
       showCover('All done! 🎉', true);   // hides YouTube's end screen
     } else if (e.data === S.UNSTARTED) {
@@ -318,6 +447,9 @@
       var d = player.getDuration() || 0, t = player.getCurrentTime() || 0;
       timeNow.textContent = fmt(t);
       if (d) { timeTotal.textContent = fmt(d); seek.value = Math.round((t / d) * 1000); }
+      if (started && current && player.getPlayerState && player.getPlayerState() === YT.PlayerState.PLAYING) {
+        addWatchTime(current.id, 0.25, t, d);
+      }
     }, 250);
   }
   function stopTicker() { if (ticker) clearInterval(ticker); ticker = null; }
