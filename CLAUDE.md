@@ -30,6 +30,10 @@ Dev never edits code; Claude makes every change. Dev may edit `videos.txt` on gi
 - Mid-roll ads: YouTube may keep reporting PLAYING, so the ticker treats "clock stuck >1.5 s while
   playing/buffering" or "getDuration differs from the video's own length" as an ad: mute, cover, open the
   Skip corner (controls hidden). It lifts when the clock moves again at the right length. No watch time counts.
+  Also an ad if getVideoData().video_id differs from the video. Real-world (2026-11-02): mid-rolls still got
+  through undetected, so the controls have a yellow "Ad ⏭" button: mutes, covers, opens the Skip corner, and
+  only "Back to my video" lifts it. Each press POSTs an "AD BUTTON" row (player state/time/length/video id)
+  to the watch log sheet; read those rows to improve automatic detection. Log lines end with ad counts.
 - Full screen is applied to our `#stage` (not the iframe) so the shield stays in place.
 - `openVideo` refuses any id not in the allowlist, including ids in the URL hash.
 - Chromebook: Family Link "approved sites only" with the Pages domain, youtube-nocookie.com AND www.youtube-nocookie.com

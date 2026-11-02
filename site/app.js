@@ -21,7 +21,7 @@
   var quizTimer = null;
   // Ads in the middle of a video: YouTube may keep saying PLAYING, so we watch for the video's
   // clock stopping, or its length changing (the ad's length), and cover + mute until it moves on.
-  var midAd = false, lastT = -1, stillSince = 0, contentDur = 0, MIDAD_STILL_MS = 1500;
+  var midAd = false, adByHand = false, adCount = 0, adTaps = 0, lastT = -1, stillSince = 0, contentDur = 0, MIDAD_STILL_MS = 1500;
   var fallbackTimer = null;
   var wantSound = true;      // the Sound button; ads are always silenced regardless
   var ticker = null, idleTimer = null, seeking = false;
@@ -288,7 +288,7 @@
     started = false;
     quizDone = false;
     videoReady = false;
-    midAd = false; lastT = -1; stillSince = 0; contentDur = 0;
+    midAd = false; adByHand = false; adCount = 0; adTaps = 0; lastT = -1; stillSince = 0; contentDur = 0;
     viewFact = nextFact();
     clearTimeout(quizTimer);
     quizRead(false);
@@ -446,13 +446,28 @@
       h.g, h.t, v.id,
       'watched ' + fmt(h.viewSecs) + ' of ' + fmt(h.dur || 0),
       'furthest ' + fmt(h.far || 0),
-      v.finished ? 'finished' : 'not finished'
+      v.finished ? 'finished' : 'not finished',
+      'ads: ' + adCount + ' found, ' + adTaps + ' Ad button'
     ].join(' | ');
     var body = new URLSearchParams();
     body.set(LOG_FIELD, line);
     var ok = false;
     try { ok = navigator.sendBeacon && navigator.sendBeacon(LOG_FORM, body); } catch (e) {}
     if (!ok) { try { fetch(LOG_FORM, { method: 'POST', mode: 'no-cors', body: body, keepalive: true }); } catch (e) {} }
+  }
+
+  // When he presses the Ad button, note what YouTube's player reports, so Claude can
+  // read it in the sheet and teach the site to spot these ads by itself.
+  function sendDiag() {
+    if (!LOG_FORM || !player || !current) return;
+    var vd = {}, st = '?', t = 0, d = 0;
+    try { vd = player.getVideoData() || {}; st = player.getPlayerState(); t = player.getCurrentTime(); d = player.getDuration(); } catch (e) {}
+    var line = ['AD BUTTON', current.id, 'state ' + st, 'time ' + (+t).toFixed(1), 'length ' + (+d).toFixed(1),
+      'own length ' + (+contentDur).toFixed(1), 'player video ' + (vd.video_id || '-'), 'player title ' + (vd.title || '-')].join(' | ');
+    var body = new URLSearchParams();
+    body.set(LOG_FIELD, line);
+    try { if (navigator.sendBeacon(LOG_FORM, body)) return; } catch (e) {}
+    try { fetch(LOG_FORM, { method: 'POST', mode: 'no-cors', body: body, keepalive: true }); } catch (e) {}
   }
 
   function continueToVideo() {
@@ -526,6 +541,7 @@
     if (!player || !player.getPlayerState) return;
     if (!started) { if (!coverPlay.hidden) continueToVideo(); return; }
     var st = player.getPlayerState();
+    if (midAd) { endMidAd(); if (st !== YT.PlayerState.PLAYING) player.playVideo(); return; }
     if (st === YT.PlayerState.PLAYING || st === YT.PlayerState.BUFFERING) player.pauseVideo();
     else if (st === YT.PlayerState.ENDED) { player.seekTo(0, true); player.playVideo(); }
     else player.playVideo();
@@ -546,23 +562,34 @@
         var moved = Math.abs(t - lastT) > 0.05;
         if (!contentDur && d && moved && !midAd) contentDur = d;
         var otherLength = contentDur && d && Math.abs(d - contentDur) > 1;
+        // a client-side ad loads its own video into the player
+        var vd = player.getVideoData ? player.getVideoData() : null;
+        if (vd && vd.video_id && vd.video_id !== current.id) otherLength = true;
         if (running && !moved) { if (!stillSince) stillSince = Date.now(); }
         else stillSince = 0;
         if (!midAd && running && (otherLength || (stillSince && Date.now() - stillSince > MIDAD_STILL_MS))) startMidAd();
-        else if (midAd && moved && !otherLength && st === P.PLAYING) endMidAd();
+        else if (midAd && !adByHand && moved && !otherLength && st === P.PLAYING) endMidAd();
         if (st === P.PLAYING && moved && !midAd) addWatchTime(current.id, 0.25, t, contentDur || d);
         lastT = t;
       }
     }, 250);
   }
-  function startMidAd() {
+  // byHand: he pressed the "Ad" button (YouTube doesn't always tell us an ad is on).
+  // Then only "Back to my video" lifts the cover, since the clock can't be trusted.
+  function startMidAd(byHand) {
+    if (byHand) { adTaps++; sendDiag(); } else adCount++;
     midAd = true;
+    adByHand = !!byHand;
     player.mute();
-    showCover('Your video will be right back…', false);
-    setAdWindow(true);   // he can still tap Skip in the corner
+    showCover(byHand ? 'Ad time! It\'s muted.' : 'Your video will be right back…', false);
+    coverBack.hidden = true;   // Home is in the top bar; keeps the Skip corner clear
+    coverPlay.textContent = '▶ Back to my video';
+    coverPlay.hidden = false;
+    setAdWindow(true);   // he can tap Skip in the corner
   }
   function endMidAd() {
     midAd = false;
+    adByHand = false;
     stillSince = 0;
     if (wantSound) player.unMute();
     hideCover();
@@ -589,6 +616,7 @@
   stage.addEventListener('mousemove', wakeControls);
   stage.addEventListener('touchstart', wakeControls, { passive: true });
   btnPlay.addEventListener('click', togglePlay);
+  $('btn-ad').addEventListener('click', function () { if (started && !midAd) startMidAd(true); });
   coverPlay.addEventListener('click', togglePlay);
   btnBack.addEventListener('click', function () { closeVideo(false); });
   $('home-btn').addEventListener('click', function () { closeVideo(false); });
