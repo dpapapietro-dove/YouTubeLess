@@ -139,6 +139,9 @@ button { font: inherit; cursor: pointer; }
   width: 52px; height: 52px; border-radius: 50%; font-size: 24px; line-height: 1;
   display: inline-flex; align-items: center; justify-content: center;
 }
+.ad-btn { width: auto; padding: 0 16px; border-radius: 26px; font-size: 18px; font-weight: 700;
+  background: #ffd60a; color: #000; }
+.ad-btn:hover { background: #ffe45c; }
 .ctl:hover { background: rgba(255,255,255,.32); }
 .time { font-variant-numeric: tabular-nums; font-size: 16px; min-width: 44px; text-align: center; }
 #seek { flex: 1; accent-color: var(--accent); height: 28px; cursor: pointer; }
