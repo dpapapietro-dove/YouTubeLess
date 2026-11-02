@@ -21,7 +21,7 @@
   var quizTimer = null;
   // Ads in the middle of a video: YouTube may keep saying PLAYING, so we watch for the video's
   // clock stopping, or its length changing (the ad's length), and cover + mute until it moves on.
-  var midAd = false, adByHand = false, adCount = 0, adTaps = 0, lastT = -1, stillSince = 0, contentDur = 0, MIDAD_STILL_MS = 1500;
+  var midAd = false, adByHand = false, resumeAt = 0, ourSeekUntil = 0, backTimer = null, adCount = 0, adTaps = 0, lastT = -1, stillSince = 0, contentDur = 0, MIDAD_STILL_MS = 1500;
   var fallbackTimer = null;
   var wantSound = true;      // the Sound button; ads are always silenced regardless
   var ticker = null, idleTimer = null, seeking = false;
@@ -288,7 +288,7 @@
     started = false;
     quizDone = false;
     videoReady = false;
-    midAd = false; adByHand = false; adCount = 0; adTaps = 0; lastT = -1; stillSince = 0; contentDur = 0;
+    midAd = false; adByHand = false; resumeAt = 0; ourSeekUntil = 0; adCount = 0; adTaps = 0; lastT = -1; stillSince = 0; contentDur = 0;
     viewFact = nextFact();
     clearTimeout(quizTimer);
     quizRead(false);
@@ -458,12 +458,12 @@
 
   // When he presses the Ad button, note what YouTube's player reports, so Claude can
   // read it in the sheet and teach the site to spot these ads by itself.
-  function sendDiag() {
+  function sendDiag(kind) {
     if (!LOG_FORM || !player || !current) return;
     var vd = {}, st = '?', t = 0, d = 0;
     try { vd = player.getVideoData() || {}; st = player.getPlayerState(); t = player.getCurrentTime(); d = player.getDuration(); } catch (e) {}
-    var line = ['AD BUTTON', current.id, 'state ' + st, 'time ' + (+t).toFixed(1), 'length ' + (+d).toFixed(1),
-      'own length ' + (+contentDur).toFixed(1), 'player video ' + (vd.video_id || '-'), 'player title ' + (vd.title || '-')].join(' | ');
+    var line = [kind, current.id, 'state ' + st, 'time ' + (+t).toFixed(1), 'length ' + (+d).toFixed(1),
+      'own length ' + (+contentDur).toFixed(1), 'before ' + (+lastT).toFixed(1), 'player video ' + (vd.video_id || '-'), 'player title ' + (vd.title || '-')].join(' | ');
     var body = new URLSearchParams();
     body.set(LOG_FIELD, line);
     try { if (navigator.sendBeacon(LOG_FORM, body)) return; } catch (e) {}
@@ -543,7 +543,7 @@
     var st = player.getPlayerState();
     if (midAd) { endMidAd(); if (st !== YT.PlayerState.PLAYING) player.playVideo(); return; }
     if (st === YT.PlayerState.PLAYING || st === YT.PlayerState.BUFFERING) player.pauseVideo();
-    else if (st === YT.PlayerState.ENDED) { player.seekTo(0, true); player.playVideo(); }
+    else if (st === YT.PlayerState.ENDED) { ourSeekUntil = Date.now() + 2500; player.seekTo(0, true); player.playVideo(); }
     else player.playVideo();
   }
 
@@ -567,29 +567,45 @@
         if (vd && vd.video_id && vd.video_id !== current.id) otherLength = true;
         if (running && !moved) { if (!stillSince) stillSince = Date.now(); }
         else stillSince = 0;
-        if (!midAd && running && (otherLength || (stillSince && Date.now() - stillSince > MIDAD_STILL_MS))) startMidAd();
-        else if (midAd && !adByHand && moved && !otherLength && st === P.PLAYING) endMidAd();
+        // Mid-video ads stitched into the stream (seen in the sheet, 2026-11-02): YouTube still
+        // says PLAYING with the video's own id and length, but the clock jumps back to the ad's
+        // own 0:00, then jumps forward to where the video was when the ad ends or is skipped.
+        // A jump back from under a minute is a pre-video ad ending, not a new ad.
+        var ours = Date.now() < ourSeekUntil;
+        var jumpBack = !ours && lastT >= 0 && t < lastT - 2;
+        var jumpAhead = !ours && lastT >= 0 && t > lastT + 2;
+        if (!midAd && jumpBack && lastT >= 60) { resumeAt = lastT; startMidAd(); }
+        else if (midAd && jumpAhead && (!resumeAt || t >= resumeAt - 5)) endMidAd();
+        else if (!midAd && running && (otherLength || (stillSince && Date.now() - stillSince > MIDAD_STILL_MS))) startMidAd();
+        else if (midAd && !adByHand && !resumeAt && moved && !otherLength && st === P.PLAYING) endMidAd();
         if (st === P.PLAYING && moved && !midAd) addWatchTime(current.id, 0.25, t, contentDur || d);
         lastT = t;
       }
     }, 250);
   }
   // byHand: he pressed the "Ad" button (YouTube doesn't always tell us an ad is on).
-  // Then only "Back to my video" lifts the cover, since the clock can't be trusted.
+  // The cover lifts by itself when the clock jumps back to his video (after Skip or
+  // when the ad ends); "Back to my video" is the fallback.
   function startMidAd(byHand) {
-    if (byHand) { adTaps++; sendDiag(); } else adCount++;
+    if (byHand) adTaps++; else adCount++;
+    sendDiag(byHand ? 'AD BUTTON' : 'AD FOUND');
     midAd = true;
     adByHand = !!byHand;
     player.mute();
     showCover(byHand ? 'Ad time! It\'s muted.' : 'Your video will be right back…', false);
     coverBack.hidden = true;   // Home is in the top bar; keeps the Skip corner clear
     coverPlay.textContent = '▶ Back to my video';
-    coverPlay.hidden = false;
+    // found by itself: only Skip should be needed, so the fallback waits a while
+    coverPlay.hidden = !byHand;
+    clearTimeout(backTimer);
+    if (!byHand) backTimer = setTimeout(function () { if (midAd) coverPlay.hidden = false; }, 40000);
     setAdWindow(true);   // he can tap Skip in the corner
   }
   function endMidAd() {
     midAd = false;
     adByHand = false;
+    resumeAt = 0;
+    clearTimeout(backTimer);
     stillSince = 0;
     if (wantSound) player.unMute();
     hideCover();
@@ -630,6 +646,7 @@
   });
   seek.addEventListener('input', function () { seeking = true; });
   seek.addEventListener('change', function () {
+    ourSeekUntil = Date.now() + 2500;
     if (player && player.getDuration) player.seekTo((seek.value / 1000) * player.getDuration(), true);
     seeking = false;
   });
